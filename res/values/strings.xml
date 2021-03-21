@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Phrase Builder</string>
+
+    <!-- ================================================== -->
+    <string name="phrase">Phrase</string>
+    <string name="keywords">Keywords</string>
+    <string name="labels">Labels</string>
+    <string name="notes">Notes</string>
+    <string name="mastery">Mastery</string>
+    <string name="mastered">Mastered</string>
+    <string name="learning">Learning</string>
+    <string name="language">Language</string>
+    <string name="test_type">Test Type</string>
+    <string name="phrases">Phrases</string>
+    <string name="fill_in_the_blank">Fill in the blank</string>
+    <string name="select_keywords">Select keywords</string>
+    <string name="apply_this_label">Apply this label?</string>
+    <string name="keywords_unavailable">Keywords unavailable</string>
+    <string name="no_language">No language</string>
+    <string name="phrase_search_hint">keywords/label</string>
+    <string name="phrase_notes_hint">context/description</string>
+
+    <!-- ================================================== -->
+    <string name="mastery_all">(All)</string>
+    <string name="mastery_mastered">Mastered</string>
+    <string name="mastery_learning">Learning</string>
+    <string name="test_type_mixing_type">Mixing types</string>
+    <string name="test_type_multiple_choice">Multiple choice</string>
+    <string name="test_type_fill_in">Fill in the blank</string>
+
+    <!-- ================================================== -->
+    <string name="button_start_test">Start Test</string>
+
+    <!-- ================================================== -->
+    <string name="desc_show_keyword">Show keywords</string>
+    <string name="desc_mastered">Mastered</string>
+    <string name="desc_learning">Learning</string>
+    <string name="desc_delete">Delete</string>
+    <string name="desc_test_phrases">Test phrases</string>
+    <string name="desc_restore">Restore</string>
+    <string name="desc_delete_forever">Delete forever</string>
+
+    <!-- ================================================== -->
+    <string name="message_no_labels">No labels</string>
+    <string name="message_no_languages">No languages</string>
+    <string name="message_no_phrases">No phrases</string>
+    <string name="message_no_matched_phrases_found">No matched phrases found.</string>
+    <string name="message_why_keyword_unavailable">Not enough phrases to generate testing keywords.</string>
+    <string name="message_saved_phrase_successfully">Phrase saved successfully.</string>
+    <string name="message_deleted_phrase_successfully">Phrase deleted successfully.</string>
+    <string name="message_saved_label_successfully">Label saved successfully.</string>
+    <string name="message_deleted_label_successfully">Label deleted successfully.</string>
+    <string name="message_saved_language_successfully">Language saved successfully.</string>
+    <string name="message_deleted_language_successfully">Language deleted successfully.</string>
+    <string name="message_restored_language_successfully">Language restored successfully.</string>
+    <string name="message_restored_label_successfully">Label restored successfully.</string>
+    <string name="message_deleted_forever_phrase_successfully">Phrase successfully deleted forever.</string>
+    <string name="message_restored_phrase_successfully">Phrase restored successfully.</string>
+    <string name="message_empty_trash_successfully">Empty trash successfully.</string>
+	<string name="message_last_quest_showed">Your last question!</string>
+
+    <!-- ================================================== -->
+    <string name="message_free_version_feature_phrases">You have reached the maximum number of active phrases allowed per language (%d phrases). Please upgrade to Premium version!</string>
+
+    <!-- ================================================== -->
+    <string name="message_confirm_delete_phrase">Are you sure you want to delete this phrase \'%s\'?</string>
+    <string name="message_confirm_delete_language">Are you sure you want to delete this language \'%s\' and its phrases?</string>
+    <string name="message_confirm_delete_label">Are you sure you want to delete this label \'%s\'?</string>
+    <string name="message_confirm_delete_forever_phrase">Are you sure you want to delete forever this phrase \'%s\'?</string>
+    <string name="message_confirm_restore_phrase">Are you sure you want to restore this phrase \'%s\'?</string>
+    <string name="message_confirm_empty_trash">Are you sure you want to empty trash?</string>
+
+    <!-- ================================================== -->
+    <string name="title_languages">Languages</string>
+    <string name="title_new_language">New Language</string>
+    <string name="title_edit_language">Edit Language</string>
+    <string name="title_labels">Labels</string>
+    <string name="title_simple_view">Simple View</string>
+    <string name="title_details_view">Details View</string>
+    <string name="title_new_label">New Label</string>
+    <string name="title_edit_label">Edit Label</string>
+    <string name="title_manage_phrases">Search Phrases</string>
+    <string name="title_new_phrase">New Phrase</string>
+    <string name="title_edit_phrase">Edit Phrase</string>
+    <string name="title_delete_phrase">Delete Phrase</string>
+    <string name="title_test_phrases">Test Phrases</string>
+    <string name="title_test_inputs">Test Inputs</string>
+	<string name="title_search_by_label">Search by Label</string>
+
+    <!-- ================================================== -->
+    <string name="message_error_label_exists">This label already exists.</string>
+    <string name="message_error_language_exists">This language already exists.</string>
+    <string name="message_error_keywords_invalid">Keywords must be a part of the phrase.</string>
+
+    <!-- ================================================== -->
+    <string name="feedback_email_subject">[Phrase Builder] Feedback</string>
+    <string name="share_us_text">Phrase Builder - Free app to build your phrases in any languages - %s</string>
+
+    <!-- ================================================== -->
+    <string name="main_menu_manage_phrases">Search Phrases</string>
+    <string name="main_menu_new_phrase">New Phrase</string>
+    <string name="main_menu_test_phrases">Test Phrases</string>
+    <string name="main_menu_manage_trash">Manage Trash</string>
+    <string name="main_menu_languages">Languages</string>
+    <string name="main_menu_labels">Labels</string>
+
+    <!-- ================================================== -->
+    <string name="action_list_learning_phrases">&gt; learning</string>
+    <string name="action_list_mastered_phrases">&gt; mastered</string>
+    <string name="action_list_unlabeled_phrases">&gt; unlabeled</string>
+
+    <!-- ================================================== -->
+    <string name="ftu_title_learning_guide">Learning Workflow</string>
+    <string name="ftu_definitions">Read definitions (Tap please!)</string>
+    <string name="ftu_manage_languages">Manage languages</string>
+    <string name="ftu_manage_labels">Manage categories</string>
+    <string name="ftu_manage_backup">Manage backup settings</string>
+    <string name="ftu_create_phrases">Add your phrases</string>
+    <string name="ftu_test_phrases">Test/practice your phrases</string>
+	<string name="ftu_ask_for_help">Ask for help anytime</string>
+	
+	<!-- ================================================== -->
+	<string name="date_created">Date Created</string>
+	<string name="date_created_all">(All)</string>
+	<string name="date_created_a_day_ago">a day ago</string>
+	<string name="date_created_days_ago">days ago</string>
+	<string name="date_created_a_week_ago">a week ago</string>
+	<string name="date_created_weeks_ago">weeks ago</string>
+</resources>

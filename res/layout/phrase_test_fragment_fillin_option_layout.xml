@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.appslandia.phrasebuilder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.appslandia.core.views.LeoTextView
+            android:id="@+id/phrase_test_fragment_aksing_keyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/fill_in_the_blank"
+            android:textStyle="bold"
+            android:textSize="@dimen/TextSizeSmallX2"
+            app:underlineColor="@color/TestActionDescUnderlineColor" />
+
+        <ImageView
+            android:id="@+id/phrase_test_fragment_showresult_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@+id/phrase_test_fragment_aksing_keyword"
+            android:background="@drawable/libs_bg_view_button"
+            android:contentDescription="@string/desc_show_keyword"
+            android:src="@drawable/ic_btn_show_keyword" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" >
+
+        <EditText
+            android:id="@+id/phrase_test_fragment_keyword_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/phrase_test_fragment_result_icon"
+            android:ems="10"
+            android:inputType="text"
+            android:maxLines="1" >
+        </EditText>
+
+        <ImageView
+            android:id="@+id/phrase_test_fragment_result_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:contentDescription="@string/empty_text"
+            android:src="@drawable/ic_test_wrong" />
+    </RelativeLayout>
+
+</LinearLayout>

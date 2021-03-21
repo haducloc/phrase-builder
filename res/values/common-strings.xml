@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ================================================== -->
+    <string name="button_save">Save</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_remove">Remove</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+    <string name="button_prev">Prev</string>
+    <string name="button_next">Next</string>
+    <string name="button_empty_trash">Empty Trash</string>
+    <string name="button_backup">Backup</string>
+    <string name="button_restore">Restore</string>
+    <string name="button_ok_i_understand">OK, I understand</string>
+
+    <string name="button_rate_now">Rate now</string>
+    <string name="button_rate_later">Later</string>
+    <string name="button_no_thanks">No, thanks</string>
+    <string name="title_rate_us">Rate this app</string>
+    <string name="message_rate_us">If you like this app, please take a moment to rate it. Thank you for your support!</string>
+    
+    <!-- ================================================== -->
+
+    <string name="empty_text"></string>
+    <string name="sample_label">label</string>
+    <string name="sample_text">sample text</string>
+    <string name="sample_text_line1">This is a sample text.</string>
+    <string name="sample_text_line2">This is a sample text. This is a sample text.</string>
+    <string name="sample_text_line3">This is a sample text. This is a sample text. This is a sample text. This is a sample text</string>
+    <string name="sample_date1">11/30/2015</string>
+    <string name="sample_time1">15:00</string>
+    <string name="sample_date2">November 30, 2015</string>
+    <string name="sample_timestamp2"><![CDATA[November 30, 2015 - 15:00 PM]]></string>
+    <string name="sample_time2">15:00 PM</string>
+    <string name="sample_last_updated">2 days ago</string>
+    <string name="sample_number_sm">8</string>
+    <string name="sample_number_md">50</string>
+    <!-- ================================================== -->
+
+    <string name="about_item_version">Version</string>
+    <string name="about_item_rateus">Rate Us</string>
+    <string name="about_item_rateus_desc">Rate for support</string>
+    <string name="about_item_shareus">Share Us</string>
+    <string name="about_item_shareus_desc">Help us grow</string>
+    <string name="about_item_feedback">Feedback</string>
+    <string name="about_item_feedback_desc">Send email to us</string>
+    <string name="about_item_help">Help</string>
+    <string name="about_item_our_products">Our Products</string>
+    <string name="about_item_our_products_desc">What we\'re doing</string>
+	<string name="about_item_dev">Created By</string>
+    <string name="about_item_dev_desc">haducloc13@gmail.com</string>
+    
+    <!-- ================================================== -->
+    <string name="app_item_phrasebuilder">Phrase Builder</string>
+    <string name="app_item_phrasebuilder_desc">Free app to build your phrases in any languages!</string>
+
+    <!-- ================================================== -->
+
+    <string name="title_about_us">About Us</string>
+    <string name="title_help">Help</string>
+    <string name="title_share_us">Share Us</string>
+    <string name="title_set_time">Set Time</string>
+    <string name="title_manage_backup">Manage Backup</string>
+    <string name="title_manage_trash">Manage Trash</string>
+    <string name="title_upgrade_to_premium">Buy Ads Free</string>
+    <string name="title_our_products">Our Products</string>
+
+    <!-- ================================================== -->
+    <string name="main_menu_manage_backup">Manage Backup</string>
+    <string name="main_menu_share_us">Share Us</string>
+    <string name="main_menu_our_products">Our Products</string>
+    <string name="main_menu_about_us">About Us</string>
+
+    <!-- ================================================== -->
+    <string name="message_error_field_required">This field is required.</string>
+    <string name="message_error_advertising">ADVERTISING FAILED</string>
+
+    <!-- ================================================== -->
+    <string name="message_loading">Loading</string>
+    <string name="message_do_you_need_help">Do you need help?</string>
+    <string name="message_gc_requested">GC is requested!</string>
+    <string name="message_press_again_to_exit">Press again to exit!</string>
+    <string name="message_please_wait">please wait &#8230;</string>
+    <string name="message_check_this_out">Hey, Check this out!</string>
+    <string name="message_label_not_found">Not Found</string>
+
+    <!-- ================================================== -->
+    <string name="message_error_iab_service_unavailable">In-app billing service is unavailable on your device.</string>
+    <string name="message_error_iab_initializing_billing">Error occurred while initializing in-app billing (code=%d)</string>
+    <string name="message_error_iab_querying_premium">Error occurred while querying for premium purchase (code=%d)</string>
+    <string name="message_error_iab_initializing_purchase">Error occurred while initializing premium purchase (code=%d)</string>
+    <string name="message_error_iab_purchasing_premium">Error occurred while purchasing premium version (code=%d)</string>
+
+    <!-- ================================================== -->
+    <string name="android_backup_service">Android Backup Service</string>
+    <string name="external_storage_backup">External Storage Backup</string>
+    <string name="backup_request_is_scheduled">Backup request is scheduled</string>
+    <string name="backup_on_every">on every</string>
+    <string name="backup_at_time">at</string>
+
+    <!-- ================================================== -->
+    <string name="message_backup_error_backup_file">Error backup!</string>
+    <string name="message_backup_allow_app_access_storage">Tap here to allow app access storage?</string>
+    <string name="message_backup_next_backup_request_scheduled">Next backup request is scheduled on %s.</string>
+    <string name="message_backup_no_backup_yet">No backup yet!</string>
+    <string name="message_backup_backup_file_successfully">The backup completed successfully.</string>
+    <string name="message_backup_backup_file_failed">The backup did not complete successfully.</string>
+    <string name="message_backup_restore_file_successfully">The restore backup completed successfully.</string>
+    <string name="message_backup_restore_file_failed">The restore backup did not complete successfully.</string>
+    <string name="message_backup_backup_performed_successfully">Backup performed on %s</string>
+    <string name="message_backup_backup_requested_successfully">Backup requested on %s</string>
+    <string name="message_backup_backup_restored_successfully">Backup restored successfully.</string>
+    <string name="message_backup_backup_requested_internal_successfully">Backup requested successfully.</string>
+
+    <!-- ================================================== -->
+    <string name="message_confirm_backup_file">Are you sure you want to backup your app data to %s?</string>
+    <string name="message_confirm_restore_file">Are you sure you want to restore your app data from %s?</string>
+
+    <!-- ================================================== -->
+    <string name="message_input_yes_to_confirm">INPUT YES TO CONFIRM</string>
+    <string name="message_error_yes_confirm_please">Input yes to confirm, please!</string>
+
+    <!-- ================================================== -->
+    <string name="title_overflow_menu">Overflow Menu</string>
+	<string name="placeholder_optional">optional</string>
+</resources>

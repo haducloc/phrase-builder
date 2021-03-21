@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/libs_list_item_panel" >
+
+    <TextView
+        android:id="@+id/phrase_trash_activity_list_item_phrasetext_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/phrase_trash_activity_list_item_restore_button"
+        android:text="@string/sample_text_line2"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.appslandia.core.views.LabelLayout
+        android:id="@+id/phrase_trash_activity_list_item_labellayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/phrase_trash_activity_list_item_phrasetext_textview"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/phrase_trash_activity_list_item_restore_button"
+  		/>
+
+    <TextView
+        android:id="@+id/phrase_trash_activity_list_item_notes_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/phrase_trash_activity_list_item_labellayout"
+        android:layout_marginTop="6dp"
+        android:layout_toLeftOf="@+id/phrase_trash_activity_list_item_restore_button"
+        android:text="@string/sample_text_line2" />
+
+    <ImageView
+        android:id="@+id/phrase_trash_activity_list_item_restore_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/libs_bg_view_button"
+        android:contentDescription="@string/desc_restore"
+        android:src="@drawable/ic_btn_restore" />
+
+    <TextView
+        android:id="@+id/phrase_trash_activity_list_item_date_deleted_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phrase_trash_activity_list_item_notes_textview"
+        android:layout_marginTop="4dp"
+        android:drawableLeft="@drawable/ic_last_updated"
+        android:drawablePadding="6dp"
+        android:drawableStart="@drawable/ic_last_updated"
+        android:text="@string/sample_last_updated"
+        android:textColor="#777777"
+        android:textSize="@dimen/TextSizeMicro" />
+
+    <ImageView
+        android:id="@+id/phrase_trash_activity_list_item_delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/phrase_trash_activity_list_item_date_deleted_textview"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/libs_bg_view_button"
+        android:contentDescription="@string/desc_delete_forever"
+        android:src="@drawable/ic_btn_delete" />
+
+</RelativeLayout>

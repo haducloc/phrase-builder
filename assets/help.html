@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Help Page</title>
+<style type="text/css">
+html {
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 8px;
+	background-color: #F5F5F5;
+}
+
+a {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+.tips {
+	color: #f9edbe;
+}
+
+.hrHeading {
+	margin-top: 0;
+	height: 2px;
+	background-color: #337ab7;
+	border: none;
+}
+
+.tableOfContents {
+	line-height: 1.64em;
+	list-style-type: square;
+}
+
+.listHeader {
+	display: block;
+	padding-bottom: 0.5em;
+}
+
+.heading {
+	margin-bottom: 0;
+	margin-top: 0.8em;
+}
+
+.table {
+	border-collapse: collapse;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 100%;
+}
+
+.table caption {
+	border-left: 1px solid #bbb;
+	border-right: 1px solid #bbb;
+	border-top: 1px solid #bbb;
+	padding: 0.25em;
+	font-weight: bold;
+}
+
+.table>tbody>tr>td {
+	border: 1px solid #bbb;
+	padding: 0.5em 0.4em;
+}
+
+.nestedList {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 1.25em;
+}
+
+.nestedList>li {
+	margin-top: 0.4em;
+}
+
+.nestedList>li:FIRST-CHILD {
+	margin-top: 0;
+}
+</style>
+</head>
+<body>
+	<h4 id="helpIndex" style="margin-bottom: 0; margin-top: 0.5em;">HELP INDEX</h4>
+	<hr class="hrHeading" />
+
+	<ul class="tableOfContents">
+		<li><a href="#firstTimeUsers">First Time Users</a></li>
+		<li><a href="#definitions">Definitions</a></li>
+		<li><a href="#homeScreen">Main Screen <img alt="" src="images/img_home.png" /></a></li>
+		<li><a href="#managePhrases">Search Phrases</a></li>
+		<li><a href="#editPhrase">Edit Phrase</a></li>
+		<li><a href="#testPhrases">Test Phrases</a></li>
+		<li><a href="#manageTrash">Manage Trash</a></li>
+		<li><a href="#manageLanguages">Manage Languages</a></li>
+		<li><a href="#manageLabels">Manage Labels</a></li>
+		<li><a href="#manageBackup">Manage Backup</a></li>
+		<li><a href="#usingTips">Using Tips</a></li>
+	</ul>
+
+	<!-- ******************** First Time Users  ******************** -->
+
+	<h4 id="firstTimeUsers" class="heading">FIRST TIME USERS</h4>
+	<hr class="hrHeading" />
+	<p>
+		<b>Please note that it is very important to understand Phrase Builder Workflow Process:</b>
+	</p>
+	<table class="table">
+		<tr>
+			<td style="text-align: center;">1</td>
+			<td><a href="#definitions">Understand Definitions</a></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">2</td>
+			<td><a href="#manageLanguages">Manage Languages</a></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">3</td>
+			<td><a href="#manageLabels">Manage Labels</a></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">4</td>
+			<td><a href="#manageBackup">Manage Backup Settings</a></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">5</td>
+			<td><a href="#editPhrase">Build Your Phrases</a></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">6</td>
+			<td><a href="#managePhrases">Search Your Phrases</a></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">7</td>
+			<td><a href="#testPhrases">Test Your Phrases</a></td>
+		</tr>
+	</table>
+
+	<!-- ******************** Definitions  ******************** -->
+
+	<a href="#helpIndex"><img alt="" src="images/img_help_home.png"> Help Index</a>
+	<h4 id="definitions" class="heading">DEFINITIONS</h4>
+	<hr class="hrHeading" />
+	<table class="table">
+		<tr id="def_phrase">
+			<td>Phrase</td>
+			<td>Phrase is defined loosely here as a phrase in it's regular sense (a group of words that makes sense), an expression, an idiom, or even a complete sentence.</td>
+		</tr>
+		<tr id="def_keyword">
+			<td>Keywords</td>
+			<td><b>Must be a part of the phrase &amp; should be an important word or a group of words</b>. You will search phrases by keywords. Keywords are also used to build test questions</td>
+		</tr>
+		<tr id="def_labels">
+			<td>Labels</td>
+			<td>Using labels to organize your phrases into categories. You can search phrases by labels.</td>
+		</tr>
+		<tr id="def_notes">
+			<td>Phrase Notes</td>
+			<td>Notes can be using context or description of the phrase.</td>
+		</tr>
+		<tr id="def_mastery">
+			<td>Mastery</td>
+			<td>
+				<ul class="nestedList">
+					<li><b>Learning</b>: Indicates that you are still learning the phrase.</li>
+					<li><b>Mastered</b>: Indicates that you have mastered the phrase.</li>
+				</ul>
+			</td>
+		</tr>
+		<tr id="def_language">
+			<td>Language</td>
+			<td>Phrase language</td>
+		</tr>
+		<tr>
+			<td>See Also</td>
+			<td>
+				<ul class="nestedList">
+					<li><a href="#editPhrase">Edit Phrase</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+
+	<!-- ******************** Main Screen  ******************** -->
+
+	<a href="#helpIndex"><img alt="" src="images/img_help_home.png"> Help Index</a>
+	<h4 id="homeScreen" class="heading">MAIN SCREEN</h4>
+	<hr class="hrHeading" />
+	<table class="table">
+		<caption>User Actions</caption>
+		<tr>
+			<td>Search phrases</td>
+			<td>Select <a href="#managePhrases">[Search Phrases]</a></td>
+		</tr>
+		<tr>
+			<td>Edit phrase</td>
+			<td>Select <a href="#editPhrase">[Edit Phrase]</a></td>
+		</tr>
+		<tr>
+			<td>Test phrases</td>
+			<td>Select <a href="#testPhrases">[Test Phrases]</a></td>
+		</tr>
+		<tr>
+			<td>Manage languages</td>
+			<td>Select <a href="#manageLanguages">[Manage Languages]</a></td>
+		</tr>
+		<tr>
+			<td>Manage labels</td>
+			<td>Select <a href="#manageLabels">[Manage Labels]</a></td>
+		</tr>
+		<tr>
+			<td>Manage Backup</td>
+			<td>Select <a href="#manageBackup">[Manage Backup]</a></td>
+		</tr>
+	</table>
+
+	<!-- ******************** Search phrases  ******************** -->
+
+	<a href="#helpIndex"><img alt="" src="images/img_help_home.png"> Help Index</a>
+	<h4 id="managePhrases" class="heading">SEARCH PHRASES</h4>
+	<hr class="hrHeading" />
+
+	<table class="table">
+		<caption>Screen Fields</caption>
+		<tr>
+			<td>Language</td>
+			<td>Select a language to search it's phrases (Dropdown at the top-left corner of the screen)</td>
+		</tr>
+		<tr>
+			<td>Search Query</td>
+			<td>Keywords/label</td>
+		</tr>
+		<tr>
+			<td>Phrase List View</td>
+			<td>List of phrases that matched the search input</td>
+		</tr>
+	</table>
+	<table class="table">
+		<caption>User Actions</caption>
+		<tr>
+			<td>New Phrase</td>
+			<td>Select <a href="#editPhrase"><img alt="" src="images/img_menu_new.png" /></a> icon
+			</td>
+		</tr>
+		<tr>
+			<td>Update Phrase</td>
+			<td>Select a phrase item</td>
+		</tr>
+		<tr>
+			<td>Delete Phrase</td>
+			<td>Select <img alt="" src="images/img_move_bin.png" /> icon (phrase will be moved to the trash)
+			</td>
+		</tr>
+		<tr>
+			<td>Change Mastery</td>
+			<td>
+				<ul class="nestedList">
+					<li><img alt="" src="images/img_phrase_mastered.png" /> Mastered phrase</li>
+					<li><img alt="" src="images/img_phrase_learning.png" /> Still learning phrase</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>Search Phrase</td>
+			<td>Select <img alt="" src="images/img_btn_search.png" /> icon
+			</td>
+		</tr>
+		<tr>
+			<td>Search by Label</td>
+			<td>Input label or Select label <img alt="" src="images/img_search_label.png" /> icon
+			</td>
+		</tr>
+		<tr>
+			<td>Open Label Popup</td>
+			<td>Select <img alt="" src="images/img_search_opts.png" /> to open label popup
+			</td>
+		</tr>
+		<tr>
+			<td>Test Phrases</td>
+			<td>Select <a href="#testPhrases"><img alt="" src="images/img_menu_test.png" /></a> icon
+			</td>
+		</tr>
+		<tr>
+			<td>See Also</td>
+			<td>
+				<ul class="nestedList">
+					<li><a href="#editPhrase">Edit Phrase</a></li>
+					<li><a href="#usingTips">Using Tips</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+
+	<!-- ******************** Edit phrase  ******************** -->
+
+	<a href="#helpIndex"><img alt="" src="images/img_help_home.png"> Help Index</a>
+	<h4 id="editPhrase" class="heading">EDIT PHRASE</h4>
+	<hr class="hrHeading" />
+
+	<table class="table">
+		<caption>Screen Fields</caption>
+		<tr>
+			<td><a href="#def_phrase">Phrase text</a></td>
+			<td>Phrase is defined loosely here as a phrase in it's regular sense (a group of words that makes sense), an expression, an idiom, or even a complete sentence.</td>
+		</tr>
+		<tr>
+			<td><a href="#def_keyword">Keywords</a></td>
+			<td>Must be a part of the phrase.</td>
+		</tr>
+		<tr>
+			<td><a href="#def_labels">Labels</a></td>
+			<td>Labels that applied to the phrase.</td>
+		</tr>
+		<tr>
+			<td><a href="#def_notes">Notes</a></td>
+			<td>Phrase context/description.</td>
+		</tr>
+		<tr>
+			<td><a href="#def_mastery">Mastery</a></td>
+			<td><ul class="nestedList">
+					<li>Learning</li>
+					<li>Mastered</li>
+				</ul></td>
+		</tr>
+		<tr>
+			<td><a href="#def_language">Language</a></td>
+			<td>Phrase language</td>
+		</tr>
+	</table>
+
+	<table class="table">
+		<caption>User Actions</caption>
+		<tr>
+			<td>Save Phrase</td>
+			<td>Select [Save] button</td>
+		</tr>
+		<tr>
+			<td>Delete Phrase</td>
+			<td>Select <img alt="" src="images/img_menu_move_bin.png" /> icon (phrase will be moved to the trash)
+			</td>
+		</tr>
+		<tr>
+			<td>Cancel Edit</td>
+			<td>Select [Cancel] button</td>
+		</tr>
+		<tr>
+			<td>Remove Label</td>
+			<td>Select <img alt="" src="images/img_unapply_label.png" /> icon
+			</td>
+		</tr>
+		<tr>
+			<td>Create New Label</td>
+			<td>Select <img alt="" src="images/img_menu_new_label.png" /> icon
+			</td>
+		</tr>
+		<tr>
+			<td>See Also</td>
+			<td>
+				<ul class="nestedList">
+					<li><a href="#definitions">Definitions</a></li>
+					<li><a href="#usingTips">Using Tips</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+
+	<!-- ******************** Test phrases (Inputs)  ******************** -->
+
+	<a href="#helpIndex"><img alt="" src="images/img_help_home.png"> Help Index</a>
+	<h4 id="testPhrases" class="heading">TEST PHRASES (INPUTS)</h4>
+	<hr class="hrHeading" />
+
+	<table class="table">
+		<caption>Screen Fields</caption>
+		<tr>
+			<td>Labels</td>
+			<td>Labels to test</td>
+		</tr>
+		<tr>
+			<td>Mastery</td>
+			<td>
+				<ul class="nestedList">
+					<li>[All] - Test both learning &amp; mastered phrases</li>
+					<li>[Learning]</li>
+					<li>[Mastered]</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>Test Type</td>
+			<td>
+				<ul class="nestedList">
+					<li>[Mixing types] - Mixing [Multiple choice] &amp; [Fill in the blank]</li>
+					<li>[Multiple choice]</li>
+					<li>[Fill in the blank]</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>Language</td>
+			<td>Language to test it's phrases</td>
+		</tr>
+		<tr>
+			<td>See Also</td>
+			<td>
+				<ul class="nestedList">
+					<li><a href="#testPhrases_multiplechoice">Multiple choice test</a></li>
+					<li><a href="#testPhrases_fillin">Fill in the blank test</a></li>
+					<li><a href="#usingTips">Using Tips</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+
+	<!-- ******************** Multiple choice test  ******************** -->
+
+	<a href="#helpIndex"><img alt="" src="images/img_help_home.png"> Help Index</a>
+	<h4 id="testPhrases_multiplechoice" class="heading">MULTIPLE CHOICE TEST</h4>
+	<hr class="hrHeading" />
+
+	<table class="table">
+		<caption>Screen Fields</caption>
+		<tr>
+			<td>Test Index</td>
+			<td>Test question index</td>
+		</tr>
+		<tr>
+			<td>Test Phrase</td>
+			<td>Test phrase with the keywords removed</td>
+		</tr>
+		<tr>
+			<td>Labels</td>
+			<td>Labels that applied to the phrase</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Phrase notes</td>
+		</tr>
+		<tr>
+			<td>Keywords Test Options</td>
+			<td>4 keywords test options</td>
+		</tr>
+	</table>
+
+	<table class="table">
+		<caption>User Actions</caption>
+		<tr>
+			<td>Test Question</td>
+			<td>Select keywords to fill in the blank</td>
+		</tr>
+		<tr>
+			<td>Next/Prev</td>
+			<td>Navigate test questions</td>
+		</tr>
+		<tr>
+			<td>On/Off Sound</td>
+			<td>
+				<ul class="nestedList">
+					<li><img alt="" src="images/img_sound_on.png" /> Sound on</li>
+					<li><img alt="" src="images/img_sound_off.png" /> Sound off</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>Change Mastery</td>
+			<td>
+				<ul class="nestedList">
+					<li><img alt="" src="images/img_phrase_mastered.png" /> Mastered phrase</li>
+					<li><img alt="" src="images/img_phrase_learning.png" /> Still learning phrase</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>See Also</td>
+			<td>
+				<ul class="nestedList">
+					<li><a href="#testPhrases_fillin">Fill in the blank test</a></li>
+					<li><a href="#testPhrases">Test Inputs</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+
+	<!-- ******************** Fill in the blank test  ******************** -->
+
+	<a href="#helpIndex"><img alt="" src="images/img_help_home.png"> Help Index</a>
+	<h4 id="testPhrases_fillin" class="heading">FILL IN THE BLANK TEST</h4>
+	<hr class="hrHeading" />
+
+	<table class="table">
+		<caption>Screen Fields</caption>
+		<tr>
+			<td>Test Index</td>
+			<td>Test question index</td>
+		</tr>
+		<tr>
+			<td>Test Phrase</td>
+			<td>Test phrase with the keywords removed</td>
+		</tr>
+		<tr>
+			<td>Labels</td>
+			<td>Labels that applied to the phrase</td>
+		</tr>
+		<tr>
+			<td>Notes</td>
+			<td>Phrase notes</td>
+		</tr>
+		<tr>
+			<td>Keywords Input</td>
+			<td>Fill in the missing keywords</td>
+		</tr>
+	</table>
+
+	<table class="table">
+		<caption>User Actions</caption>
+		<tr>
+			<td>Test Question</td>
+			<td>Input the right keywords in the blank</td>
+		</tr>
+		<tr>
+			<td>Show Keywords</td>
+			<td>Select <img alt="" src="images/img_show_keyword.png" /> to unveil keywords
+			</td>
+		</tr>
+		<tr>
+			<td>Next/Prev</td>
+			<td>Navigate test questions</td>
+		</tr>
+		<tr>
+			<td>On/Off Sound</td>
+			<td>
+				<ul class="nestedList">
+					<li><img alt="" src="images/img_sound_on.png" /> Sound on</li>
+					<li><img alt="" src="images/img_sound_off.png" /> Sound off</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>Change Mastery</td>
+			<td>
+				<ul class="nestedList">
+					<li><img alt="" src="images/img_phrase_mastered.png" /> Mastered phrase</li>
+					<li><img alt="" src="images/img_phrase_learning.png" /> Still learning phrase</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>See Also</td>
+			<td>
+				<ul class="nestedList">
+					<li><a href="#testPhrases_multiplechoice">Multiple choice test</a></li>
+					<li><a href="#testPhrases">Test Inputs</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+
+	<!-- ******************** Manage trash  ******************** -->
+
+	<a href="#helpIndex"><img alt="" src="images/img_help_home.png"> Help Index</a>
+	<h4 id="manageTrash" class="heading">MANAGE TRASH</h4>
+	<hr class="hrHeading" />
+	<table class="table">
+		<caption>Screen Fields</caption>
+		<tr>
+			<td>Language</td>
+			<td>Select a language to manage it's phrase trash</td>
+		</tr>
+		<tr>
+			<td>Phrase List View</td>
+			<td>List of phrases that marked as deleted</td>
+		</tr>
+	</table>
+
+	<table class="table">
+		<caption>User Actions</caption>
+		<tr>
+			<td>Restore Phrase</td>
+			<td>Select <img alt="" src="images/img_btn_restore.png" /> icon
+			</td>
+		</tr>
+		<tr>
+			<td>Delete Forever Phrase</td>
+			<td>Select <img alt="" src="images/img_btn_delete.png" /> icon
+			</td>
+		</tr>
+		<tr>
+			<td>Empty Trash</td>
+			<td>Select [Empty trash] button</td>
+		</tr>
+		<tr>
+			<td>See Also</td>
+			<td>
+				<ul class="nestedList">
+					<li><a href="#managePhrases">Search Phrases</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+
+	<!-- ******************** Manage Languages  ******************** -->
+
+	<a href="#helpIndex"><img alt="" src="images/img_help_home.png"> Help Index</a>
+	<h4 id="manageLanguages" class="heading">MANAGE LANGUAGES</h4>
+	<hr class="hrHeading" />
+
+	<table class="table">
+		<caption>Screen Fields</caption>
+		<tr>
+			<td>Language List View</td>
+			<td>List of languages</td>
+		</tr>
+	</table>
+
+	<table class="table">
+		<caption>User Actions</caption>
+		<tr>
+			<td>New Language</td>
+			<td>Select <img alt="" src="images/img_menu_new.png" /> icon
+			</td>
+		</tr>
+		<tr>
+			<td>Edit Language</td>
+			<td>Select a language list item</td>
+		</tr>
+		<tr>
+			<td>Delete Language</td>
+			<td>Select <img alt="" src="images/img_btn_delete.png" /> icon ( permanently delete )
+			</td>
+		</tr>
+		<tr>
+			<td>Test Phrases</td>
+			<td>Select <img alt="" src="images/img_btn_test.png" /> to test phrases that belong to the language
+			</td>
+		</tr>
+		<tr>
+			<td>See Also</td>
+			<td>
+				<ul class="nestedList">
+					<li><a href="#manageLabels">Manage Labels</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+
+	<!-- ******************** Manage Labels  ******************** -->
+
+	<a href="#helpIndex"><img alt="" src="images/img_help_home.png"> Help Index</a>
+	<h4 id="manageLabels" class="heading">MANAGE LABELS</h4>
+	<hr class="hrHeading" />
+	<table class="table">
+		<caption>Screen Fields</caption>
+		<tr>
+			<td>Label List View</td>
+			<td>List of labels</td>
+		</tr>
+		<tr>
+			<td>Language</td>
+			<td></td>
+		</tr>
+	</table>
+
+	<table class="table">
+		<caption>User Actions</caption>
+		<tr>
+			<td>New Label</td>
+			<td>Select <img alt="" src="images/img_menu_new.png" /> icon
+			</td>
+		</tr>
+		<tr>
+			<td>Edit Label</td>
+			<td>Select a label list item</td>
+		</tr>
+		<tr>
+			<td>Delete Label</td>
+			<td>Select <img alt="" src="images/img_btn_delete.png" /> icon  ( permanently delete ). This action does not delete phrases that applied by the label.
+			</td>
+		</tr>
+		<tr>
+			<td>Test Phrases</td>
+			<td>Select <img alt="" src="images/img_btn_test.png" /> to test phrases that applied by the label
+			</td>
+		</tr>
+		<tr>
+			<td>See Also</td>
+			<td>
+				<ul class="nestedList">
+					<li><a href="#manageLanguages">Manage Languages</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+
+	<!-- ******************** Manage Backup  ******************** -->
+
+	<a href="#helpIndex"><img alt="" src="images/img_help_home.png"> Help Index</a>
+	<h4 id="manageBackup" class="heading">MANAGE BACKUP</h4>
+	<hr class="hrHeading" />
+	<p style="font-weight: bold;">Phrase Builder supports two options of data backup/restore:</p>
+	<ul>
+		<li>Android Backup Service</li>
+		<li>External Storage Backup</li>
+	</ul>
+	<table class="table">
+		<caption>Android Backup Service VS External Storage Backup</caption>
+		<tr>
+			<td>Your backup data is on <b>Google Server</b></td>
+			<td>Your backup data is on <b>local storage</b> (SD card or Internal Storage)
+			</td>
+		</tr>
+		<tr>
+			<td>Backup is requested <b>automatically (weekly)</b></td>
+			<td>You have to <b>manually</b> perform your backup
+			</td>
+		</tr>
+		<tr>
+			<td><b>Backup delayed</b> - You don't know when Android perform backup for your app data</td>
+			<td><b>Instant backup</b> - You can backup your app data anytime.</td>
+		</tr>
+	</table>
+	<table class="table">
+		<caption>Android Backup Service</caption>
+		<tr>
+			<td colspan="2">
+				<ul class="nestedList">
+					<li>Please make sure <b>Back up my data</b> &amp; <b>Automatic restore</b> are enabled on your phone (Settings &gt; Backup &amp; reset). A backup request does not result in an backup immediately performed. Instead, Android will wait until an
+						appropriate time to perform the backup.
+					</li>
+					<li style="color: #9F6000;">Phrase Builder will notify you whenever a backup is requested or a backup is performed. You will see a notification message in your device notification area.</li>
+					<li style="color: #9F6000;">If you NEVER see a backup performed notification message, either Android Backup Service is NOT available on your device or it DOESN'T work properly. In this case, please use External Storage Backup!</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>Backup day</td>
+			<td><span class="listHeader">The day that Android will request a backup</span>
+				<ul class="nestedList">
+					<li>Sunday</li>
+					<li>Monday</li>
+					<li>Tuesday</li>
+					<li>Wednesday</li>
+					<li>Thursday</li>
+					<li>Friday</li>
+					<li>Saturday</li>
+				</ul></td>
+		</tr>
+		<tr>
+			<td>Backup time</td>
+			<td>The time that Android will request a backup</td>
+		</tr>
+		<tr>
+			<td>Last backup timestamp</td>
+			<td>Last backup timestamp if any</td>
+		</tr>
+		<tr style="color: #9F6000;">
+			<td>Warning!!!</td>
+			<td>Please make sure that there is a cloud backup before resetting your device.</td>
+		</tr>
+	</table>
+	<table class="table">
+		<caption>External Storage Backup</caption>
+		<tr>
+			<td>Backup location</td>
+			<td><b>Always backup your app data to a fixed location: External Storage root directory / phrase_builder_data.bak</b></td>
+		</tr>
+		<tr>
+			<td>Last backup timestamp</td>
+			<td>Last backup timestamp if any</td>
+		</tr>
+		<tr>
+			<td>Backup button</td>
+			<td>Perform a backup. <b>Please note that the backup will override any existing backup!</b></td>
+		</tr>
+		<tr>
+			<td>Restore button</td>
+			<td>Perform a restore. <b>Please note that the restore will override any existing app data!</b></td>
+		</tr>
+		<tr style="color: #9F6000;">
+			<td>Warning!!!</td>
+			<td>Please make sure that you have a copy of phrase_builder_data.bak in your computer/usb, etc. before resetting your device.</td>
+		</tr>
+	</table>
+
+	<!-- ******************** Using Tips  ******************** -->
+
+	<a href="#helpIndex"><img alt="" src="images/img_help_home.png"> Help Index</a>
+	<h4 id="usingTips" class="heading">USING TIPS</h4>
+	<hr class="hrHeading" />
+
+	<table class="table">
+		<tr>
+			<td>Search Phrases</td>
+			<td><span class="listHeader">Keywords/Label Input</span>
+				<ul class="nestedList">
+					<li>No accent marks required</li>
+					<li>No minus '-' required</li>
+					<li>Example 1: <b>nha hang</b> is identical to <b>nhà hàng</b></li>
+					<li>Example 2: <b>nha hang</b> is identical to <b>nha-hang</b></li>
+				</ul></td>
+		</tr>
+		<tr>
+			<td>Input Labels</td>
+			<td><span class="listHeader">Label Input</span>
+				<ul class="nestedList">
+					<li>No accent marks required</li>
+					<li>No minus '-' required</li>
+					<li>Example 1: <b>khach san</b> is identical to <b>khách sạn</b></li>
+					<li>Example 2: <b>khach san</b> is identical to <b>khach-san</b></li>
+				</ul></td>
+		</tr>
+	</table>
+
+	<a href="#helpIndex"><img alt="" src="images/img_help_home.png"> Help Index</a>
+	<br/>
+	<br/>
+</body>
+</html>

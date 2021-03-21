@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/phrase_test_inputs_fragment_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/phrase_test_inputs_fragment_inputs_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="12dp" >
+
+                <com.appslandia.core.views.LeoTextView
+                    android:id="@+id/phrase_test_inputs_fragment_language_textview"
+                    style="@style/EditLabelStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/language" />
+
+                <Spinner
+                    android:id="@+id/phrase_test_inputs_fragment_language_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phrase_test_inputs_fragment_language_textview"
+                    android:layout_marginTop="5dp"
+                    tools:listitem="@android:layout/simple_spinner_item" />
+
+                <com.appslandia.core.views.LeoTextView
+                    android:id="@+id/phrase_test_inputs_fragment_labels_textview"
+                    style="@style/EditLabelStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phrase_test_inputs_fragment_language_spinner"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/labels" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/phrase_test_inputs_fragment_label_edittext"
+                    style="@style/EditTextStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phrase_test_inputs_fragment_labels_textview"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:maxLines="1" />
+
+                <com.appslandia.core.views.LabelEditLayout
+                    android:id="@+id/phrase_test_inputs_fragment_label_editlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phrase_test_inputs_fragment_label_edittext"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingTop="5dp" />
+
+                <com.appslandia.core.views.LeoTextView
+                    android:id="@+id/phrase_test_inputs_fragment_mastery_textview"
+                    style="@style/EditLabelStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phrase_test_inputs_fragment_label_editlayout"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/mastery" />
+
+                <Spinner
+                    android:id="@+id/phrase_test_inputs_fragment_mastery_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phrase_test_inputs_fragment_mastery_textview"
+                    android:layout_marginTop="5dp"
+                    tools:listitem="@android:layout/simple_spinner_item" />
+
+                <com.appslandia.core.views.LeoTextView
+                    android:id="@+id/phrase_test_inputs_fragment_date_created_textview"
+                    style="@style/EditLabelStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phrase_test_inputs_fragment_mastery_spinner"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/date_created" />
+                
+                <Spinner
+                    android:id="@+id/phrase_test_inputs_fragment_date_created_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phrase_test_inputs_fragment_date_created_textview"
+                    android:layout_marginTop="5dp"
+                    tools:listitem="@android:layout/simple_spinner_item" />
+                            
+                <com.appslandia.core.views.LeoTextView
+                    android:id="@+id/phrase_test_inputs_fragment_testtype_textview"
+                    style="@style/EditLabelStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phrase_test_inputs_fragment_date_created_spinner"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/test_type" />
+
+                <Spinner
+                    android:id="@+id/phrase_test_inputs_fragment_testtype_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/phrase_test_inputs_fragment_testtype_textview"
+                    android:layout_marginTop="5dp"
+                    tools:listitem="@android:layout/simple_spinner_item" />
+            </RelativeLayout>
+
+            <LinearLayout
+                style="?android:attr/buttonBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phrase_test_inputs_fragment_inputs_layout"
+                android:background="@drawable/libs_button_bar"
+                android:dividerPadding="0dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/phrase_test_inputs_fragment_cancel_button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/button_cancel" />
+
+                <Button
+                    android:id="@+id/phrase_test_inputs_fragment_starttest_button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/button_start_test" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/libs_first_time_users_dialog_header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp" >
+
+        <com.appslandia.core.views.LeoTextView
+            android:id="@+id/libs_first_time_users_dialog_ft_users_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ftu_title_learning_guide"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.appslandia.core.views.LeoListView
+        android:id="@+id/libs_first_time_users_dialog_reviews_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/libs_first_time_users_dialog_button_bar"
+        android:layout_below="@+id/libs_first_time_users_dialog_header_layout"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+
+    <LinearLayout
+        android:id="@+id/libs_first_time_users_dialog_button_bar"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/libs_button_bar"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/libs_first_time_users_ok_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_ok_i_understand" />
+    </LinearLayout>
+
+</RelativeLayout>

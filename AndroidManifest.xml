@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appslandia.phrasebuilder"
+    android:versionCode="2017007777"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <!-- Backup -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    
+    <application
+        android:name=".ApplicationImpl"
+        android:allowBackup="true"
+        android:backupAgent=".BackupAgentImpl"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Backup -->
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAIIXbtmpTDIG9CH1jVE8mvcenai3hGMHWVRcnqVQ" />
+
+        <!-- Backup -->
+        <receiver android:name=".BackupRequestReceiver" />
+        <receiver android:name=".BootCompletedListener" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <!-- MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- PhraseListActivity -->
+        <activity
+            android:name=".PhraseListActivity"
+            android:exported="false"
+            android:label="@string/title_manage_phrases"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- PhraseEditActivity -->
+        <activity
+            android:name=".PhraseEditActivity"
+            android:exported="false"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- LanguageListActivity -->
+        <activity
+            android:name=".LanguageListActivity"
+            android:exported="false"
+            android:label="@string/title_languages" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- LabelListActivity -->
+        <activity
+            android:name=".LabelListActivity"
+            android:exported="false"
+            android:label="@string/title_labels" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- PhraseTrashActivity -->
+        <activity
+            android:name=".PhraseTrashActivity"
+            android:exported="false"
+            android:label="@string/title_manage_trash" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- BackupSettingsActivity -->
+        <activity
+            android:name=".ManageBackupActivity"
+            android:exported="false"
+            android:label="@string/title_manage_backup"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- PhraseTestSettingsActivity -->
+        <activity
+            android:name=".PhraseTestInputsActivity"
+            android:exported="false"
+            android:label="@string/title_test_inputs"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- PhraseTestActivity -->
+        <activity
+            android:name=".PhraseTestActivity"
+            android:exported="false"
+            android:label="@string/title_test_phrases"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- HelpActivity -->
+        <activity
+            android:name=".HelpActivityImpl"
+            android:exported="false"
+            android:label="@string/title_help" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- AboutActivityImpl -->
+        <activity
+            android:name=".AboutActivityImpl"
+            android:exported="false"
+            android:label="@string/title_about_us" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- AppListActivityImpl -->
+        <activity
+            android:name=".AppListActivityImpl"
+            android:exported="false"
+            android:label="@string/title_our_products" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

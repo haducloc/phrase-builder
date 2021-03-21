@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/label_list_activity_language_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp" >
+
+        <ImageView
+            android:id="@+id/label_list_activity_simpleview_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/libs_bg_view_selected"
+            android:contentDescription="@string/empty_text"
+            android:src="@drawable/ic_btn_simple_view" />
+
+        <ImageView
+            android:id="@+id/label_list_activity_detailsview_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@+id/label_list_activity_simpleview_button"
+            android:background="@drawable/libs_bg_view_button"
+            android:contentDescription="@string/empty_text"
+            android:src="@drawable/ic_btn_details_view" />
+
+        <com.appslandia.core.views.LeoSpinner
+            android:id="@+id/label_list_activity_language_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            tools:listitem="@android:layout/simple_spinner_item" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/label_list_activity_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/label_list_activity_language_layout"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="6dp" 
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/com.appslandia.phrasebuilder"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/phrase_list_fragment_search_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/phrase_list_fragment_search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/libs_bg_view_button"
+            android:contentDescription="@string/empty_text"
+            android:src="@drawable/ic_btn_search" />
+
+        <com.appslandia.core.views.LeoEditTextAction
+            android:id="@+id/phrase_list_fragment_search_query_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/bg_phrase_search_box"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:hint="@string/phrase_search_hint"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:lines="1"
+            android:textColorHint="@color/EditTextHintColor"
+            app:leftIcon="@drawable/ic_search_overflow"
+            app:rightIcon="@drawable/ic_clear_edittext" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/phrase_list_fragment_listview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1.0"
+        layout="@layout/libs_list_fragment" />
+
+    <TextView
+        android:id="@+id/phrase_list_fragment_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/message_loading" />
+
+</LinearLayout>

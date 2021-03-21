@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/libs_list_item_panel" >
+
+    <RelativeLayout
+        android:id="@+id/language_list_activity_list_item_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/language_list_activity_list_item_language_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/language_list_activity_list_item_test_button"
+            android:gravity="center_horizontal"
+            android:text="@string/sample_text"
+            android:textSize="@dimen/TextSizeMediumX2" />
+
+        <ImageView
+            android:id="@+id/language_list_activity_list_item_test_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/libs_bg_view_button"
+            android:contentDescription="@string/desc_test_phrases"
+            android:src="@drawable/ic_btn_test" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/language_list_activity_list_item_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/language_list_activity_list_item_layout1"
+        android:layout_marginTop="8dp" >
+
+        <TableLayout
+            android:id="@+id/language_list_activity_list_item_phraseinfo_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/language_list_activity_list_item_delete_button"
+            >
+
+            <TableRow
+                android:id="@+id/language_list_activity_list_item_th_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/language_list_activity_list_item_phrases_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:gravity="center_horizontal"
+                    android:text="@string/phrases"
+                    android:textSize="@dimen/TextSizeMicroX1" />
+
+                <TextView
+                    android:id="@+id/language_list_activity_list_item_mastered_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:gravity="center_horizontal"
+                    android:text="@string/mastered"
+                    android:textSize="@dimen/TextSizeMicroX1" />
+
+                <TextView
+                    android:id="@+id/language_list_activity_list_item_learning_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:gravity="center_horizontal"
+                    android:text="@string/learning"
+                    android:textSize="@dimen/TextSizeMicroX1" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/language_list_activity_list_item_tr_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp" >
+
+                <TextView
+                    android:id="@+id/language_list_activity_list_item_phrases_qty_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:gravity="center_horizontal"
+                    android:text="@string/sample_number_md"
+                    android:textSize="@dimen/TextSizeMicroX1" />
+
+                <TextView
+                    android:id="@+id/language_list_activity_list_item_mastered_qty_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:gravity="center_horizontal"
+                    android:text="@string/sample_number_md"
+                    android:textSize="@dimen/TextSizeMicroX1" />
+
+                <TextView
+                    android:id="@+id/language_list_activity_list_item_learning_qty_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:gravity="center_horizontal"
+                    android:text="@string/sample_number_md"
+                    android:textSize="@dimen/TextSizeMicroX1" />
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/language_list_activity_list_item_delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/language_list_activity_list_item_phraseinfo_layout"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/libs_bg_view_button"
+            android:contentDescription="@string/desc_delete"
+            android:src="@drawable/ic_btn_delete" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.appslandia.phrasebuilder.PhraseListActivity" >
+
+    <item
+        android:id="@+id/action_list_learning"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_list_learning_phrases"/>
+    <item
+        android:id="@+id/action_list_mastered"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_list_mastered_phrases"/>
+    <item
+        android:id="@+id/action_list_unlabeled"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_list_unlabeled_phrases"/>
+
+</menu>

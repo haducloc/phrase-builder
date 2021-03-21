@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/phrase_edit_fragment_form_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/phrase_edit_fragment_button_bar"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="12dp" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp" >
+
+            <com.appslandia.core.views.LeoTextView
+                android:id="@+id/phrase_edit_fragment_phrasetext_textview"
+                style="@style/EditLabelStyle_Required"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/phrase" />
+
+            <com.appslandia.core.views.LeoEditTextVal
+                android:id="@+id/phrase_edit_fragment_phrasetext_edittext"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phrase_edit_fragment_phrasetext_textview"
+                android:ems="10"
+                android:inputType="textMultiLine|textCapSentences"
+                android:maxLines="3" />
+
+            <com.appslandia.core.views.LeoTextView
+                android:id="@+id/phrase_edit_fragment_keyword_textview"
+                style="@style/EditLabelStyle_Required"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phrase_edit_fragment_phrasetext_edittext"
+                android:layout_marginTop="4dp"
+                android:text="@string/keywords" />
+
+            <com.appslandia.core.views.LeoEditTextVal
+                android:id="@+id/phrase_edit_fragment_keyword_edittext"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phrase_edit_fragment_keyword_textview"
+                android:ems="10"
+                android:inputType="text"
+                android:maxLines="1" />
+
+            <com.appslandia.core.views.LeoTextView
+                android:id="@+id/phrase_edit_fragment_notes_textview"
+                style="@style/EditLabelStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phrase_edit_fragment_keyword_edittext"
+                android:layout_marginTop="4dp"
+                android:textStyle="bold"
+                android:text="@string/notes" />
+
+            <EditText
+                android:id="@+id/phrase_edit_fragment_notes_edittext"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phrase_edit_fragment_notes_textview"
+                android:ems="10"
+                android:hint="@string/phrase_notes_hint"
+                android:inputType="textMultiLine|textCapSentences"
+                android:maxLines="3"
+                android:textColorHint="@color/EditTextHintColor" />
+
+          	<com.appslandia.core.views.LeoTextView
+                android:id="@+id/phrase_edit_fragment_labels_textview"
+                style="@style/EditLabelStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phrase_edit_fragment_notes_edittext"
+                android:layout_marginTop="6dp"
+                android:text="@string/labels" />
+
+            <AutoCompleteTextView
+                android:id="@+id/phrase_edit_fragment_labels_edittext"
+                style="@style/EditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phrase_edit_fragment_labels_textview"
+                android:ems="10"
+                android:inputType="text"
+                android:maxLines="1" />
+
+            <com.appslandia.core.views.LabelEditLayout
+                android:id="@+id/phrase_edit_fragment_labels_editlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phrase_edit_fragment_labels_edittext"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="4dp" />
+            
+            <com.appslandia.core.views.LeoTextView
+                android:id="@+id/phrase_edit_fragment_mastery_textview"
+                style="@style/EditLabelStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phrase_edit_fragment_labels_editlayout"
+                android:layout_marginTop="4dp"
+                android:text="@string/mastery" />
+
+            <RadioGroup
+                android:id="@+id/phrase_edit_fragment_mastery_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phrase_edit_fragment_mastery_textview"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/phrase_edit_fragment_learning_radiobutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/learning" />
+
+                <RadioButton
+                    android:id="@+id/phrase_edit_fragment_mastered_radiobutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="@string/mastered" />
+            </RadioGroup>
+
+            <com.appslandia.core.views.LeoTextView
+                android:id="@+id/phrase_edit_fragment_language_textview"
+                style="@style/EditLabelStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phrase_edit_fragment_mastery_radiogroup"
+                android:layout_marginTop="6dp"
+                android:text="@string/language" />
+
+            <com.appslandia.core.views.LeoSpinner
+                android:id="@+id/phrase_edit_fragment_language_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phrase_edit_fragment_language_textview"
+                android:layout_marginTop="4dp"
+                tools:listitem="@android:layout/simple_spinner_item" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/phrase_edit_fragment_button_bar"
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/libs_button_bar"
+        android:dividerPadding="0dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/phrase_edit_fragment_cancel_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_cancel" />
+
+        <Button
+            android:id="@+id/phrase_edit_fragment_save_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_save" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="12dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/main_menu_manage_phrases_panel"
+                    style="@style/MainMenu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/ic_main_menu_manage_phrases"
+                    android:text="@string/main_menu_manage_phrases"
+				/>
+
+                <TextView
+                    android:id="@+id/main_menu_new_phrase_panel"
+                    style="@style/MainMenu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/ic_main_menu_new_phrase"
+                    android:text="@string/main_menu_new_phrase" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/main_menu_test_phrases_panel"
+                    style="@style/MainMenu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/ic_main_menu_test_phrases"
+                    android:text="@string/main_menu_test_phrases"
+				/>
+
+                <TextView
+                    android:id="@+id/main_menu_manage_trash_panel"
+                    style="@style/MainMenu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/ic_main_menu_manage_trash"
+                    android:text="@string/main_menu_manage_trash" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/main_menu_languages_panel"
+                    style="@style/MainMenu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/ic_main_menu_languages"
+                    android:text="@string/main_menu_languages" />
+
+                <TextView
+                    android:id="@+id/main_menu_labels_panel"
+                    style="@style/MainMenu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/ic_main_menu_labels"
+                    android:text="@string/main_menu_labels" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/main_menu_manage_backup_panel"
+                    style="@style/MainMenu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/ic_main_menu_manage_backup"
+                    android:text="@string/main_menu_manage_backup" />
+
+                <TextView
+                    android:id="@+id/main_menu_share_us_panel"
+                    style="@style/MainMenu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/ic_main_menu_share_us"
+                    android:text="@string/main_menu_share_us" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/main_menu_our_products_panel"
+                    style="@style/MainMenu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/ic_main_menu_our_products"
+                    android:text="@string/main_menu_our_products" />
+
+                <TextView
+                    android:id="@+id/main_menu_about_us_panel"
+                    style="@style/MainMenu"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="0.5"
+                    android:drawableTop="@drawable/ic_main_menu_about_us"
+                    android:text="@string/main_menu_about_us" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

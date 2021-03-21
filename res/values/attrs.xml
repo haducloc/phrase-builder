@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ActionBarTitleColor">#ffffff</color>
+    <color name="ActionBarBackgroundColor">#d44535</color>
+
+    <color name="TestActionDescUnderlineColor">#606060</color>
+    
+    <color name="ActivityListBackgroundColor">#EEEEEE</color>
+    <color name="ActivityEditBackgroundColor">#F5F5F5</color>
+    
+    <dimen name="MainMenu_PaddingTopBottom">9dp</dimen>
+    <dimen name="MainMenu_FontSize">13sp</dimen>
+    
+</resources>

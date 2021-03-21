@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/libs_list_item_panel" >
+
+    <TextView
+        android:id="@+id/label_list_activity_list_item_label_textview"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/label_list_activity_list_item_btn_layout"
+        android:text="@string/sample_label" />
+
+    <LinearLayout
+        android:id="@+id/label_list_activity_list_item_btn_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@+id/label_list_activity_list_item_test_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/libs_bg_view_button"
+            android:contentDescription="@string/desc_test_phrases"
+            android:src="@drawable/ic_btn_test" />
+
+        <ImageView
+            android:id="@+id/label_list_activity_list_item_delete_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/libs_bg_view_button"
+            android:contentDescription="@string/desc_delete"
+            android:src="@drawable/ic_btn_delete" />
+    </LinearLayout>
+
+</RelativeLayout>

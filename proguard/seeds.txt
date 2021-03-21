@@ -1,0 +1,742 @@
+android.support.annotation.Keep
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.media.MediaBrowserCompat$MediaItem: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.MediaDescriptionCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.MediaMetadataCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.RatingCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompat$QueueItem: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompat$ResultReceiverWrapper: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.MediaSessionCompat$Token: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.ParcelableVolumeInfo: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.PlaybackStateCompat: android.os.Parcelable$Creator CREATOR
+android.support.v4.media.session.PlaybackStateCompat$CustomAction: android.os.Parcelable$Creator CREATOR
+android.support.v4.os.ResultReceiver: android.os.Parcelable$Creator CREATOR
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout: void setDrawerElevation(float)
+android.support.v4.widget.DrawerLayout: float getDrawerElevation()
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout: void setStatusBarBackground(android.graphics.drawable.Drawable)
+android.support.v4.widget.DrawerLayout: android.graphics.drawable.Drawable getStatusBarBackgroundDrawable()
+android.support.v4.widget.DrawerLayout: void setStatusBarBackground(int)
+android.support.v4.widget.DrawerLayout: void setStatusBarBackgroundColor(int)
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.NestedScrollView: void setNestedScrollingEnabled(boolean)
+android.support.v4.widget.NestedScrollView: int getNestedScrollAxes()
+android.support.v4.widget.NestedScrollView: float getTopFadingEdgeStrength()
+android.support.v4.widget.NestedScrollView: float getBottomFadingEdgeStrength()
+android.support.v4.widget.NestedScrollView: int getMaxScrollAmount()
+android.support.v4.widget.NestedScrollView: void setOnScrollChangeListener(android.support.v4.widget.NestedScrollView$OnScrollChangeListener)
+android.support.v4.widget.NestedScrollView: void setFillViewport(boolean)
+android.support.v4.widget.NestedScrollView: void setSmoothScrollingEnabled(boolean)
+android.support.v4.widget.NestedScrollView: float getVerticalScrollFactorCompat()
+android.support.v4.widget.NestedScrollView: int getScrollRange()
+android.support.v4.widget.NestedScrollView$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableLeft(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableRight(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceLeft(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceRight(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SwipeRefreshLayout: void setColorViewAlpha(int)
+android.support.v4.widget.SwipeRefreshLayout: void setSize(int)
+android.support.v4.widget.SwipeRefreshLayout: void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener)
+android.support.v4.widget.SwipeRefreshLayout: void setRefreshing(boolean)
+android.support.v4.widget.SwipeRefreshLayout: void setAnimationProgress(float)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressBackgroundColor(int)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressBackgroundColorSchemeResource(int)
+android.support.v4.widget.SwipeRefreshLayout: void setProgressBackgroundColorSchemeColor(int)
+android.support.v4.widget.SwipeRefreshLayout: void setColorScheme(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setColorSchemeResources(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setColorSchemeColors(int[])
+android.support.v4.widget.SwipeRefreshLayout: void setDistanceToTriggerSync(int)
+android.support.v4.widget.SwipeRefreshLayout: int getProgressCircleDiameter()
+android.support.v4.widget.SwipeRefreshLayout: int getNestedScrollAxes()
+android.support.v4.widget.SwipeRefreshLayout: void setNestedScrollingEnabled(boolean)
+com.appslandia.core.adapters.AboutItem: android.os.Parcelable$Creator CREATOR
+com.appslandia.core.adapters.AppItem: android.os.Parcelable$Creator CREATOR
+com.appslandia.core.adapters.LabelItem: android.os.Parcelable$Creator CREATOR
+com.appslandia.core.adapters.SimpleItem: android.os.Parcelable$Creator CREATOR
+com.appslandia.core.utils.WeekDate: android.os.Parcelable$Creator CREATOR
+com.appslandia.core.views.AboutActivity: AboutActivity()
+com.appslandia.core.views.ActivityImpl: ActivityImpl()
+com.appslandia.core.views.AppListActivity: AppListActivity()
+com.appslandia.core.views.HelpActivity: HelpActivity()
+com.appslandia.core.views.LabelEditLayout
+com.appslandia.core.views.LabelEditLayout: LabelEditLayout(android.content.Context)
+com.appslandia.core.views.LabelEditLayout: LabelEditLayout(android.content.Context,android.util.AttributeSet)
+com.appslandia.core.views.LabelEditLayout: LabelEditLayout(android.content.Context,android.util.AttributeSet,int)
+com.appslandia.core.views.LabelEditLayout: void setLabelEditText(android.widget.AutoCompleteTextView)
+com.appslandia.core.views.LabelEditLayout: java.util.List getLabelList()
+com.appslandia.core.views.LabelEditLayout: void setLabelList(java.util.List)
+com.appslandia.core.views.LabelEditLayout: void setLayoutSizer(com.appslandia.core.views.LayoutSizer)
+com.appslandia.core.views.LabelLayout
+com.appslandia.core.views.LabelLayout: LabelLayout(android.content.Context)
+com.appslandia.core.views.LabelLayout: LabelLayout(android.content.Context,android.util.AttributeSet)
+com.appslandia.core.views.LabelLayout: LabelLayout(android.content.Context,android.util.AttributeSet,int)
+com.appslandia.core.views.LabelLayout: void setLabelList(java.util.List)
+com.appslandia.core.views.LabelLayout: void setLayoutSizer(com.appslandia.core.views.LayoutSizer)
+com.appslandia.core.views.LabelLayout: void setOnLabelClickListener(android.view.View$OnClickListener)
+com.appslandia.core.views.LeoEditTextAction
+com.appslandia.core.views.LeoEditTextAction: LeoEditTextAction(android.content.Context,android.util.AttributeSet)
+com.appslandia.core.views.LeoEditTextAction: LeoEditTextAction(android.content.Context,android.util.AttributeSet,int)
+com.appslandia.core.views.LeoEditTextAction: void setCompoundIcons(android.graphics.drawable.Drawable[])
+com.appslandia.core.views.LeoEditTextAction: void setOnTouchListener(android.view.View$OnTouchListener)
+com.appslandia.core.views.LeoEditTextAction: void setOnTextViewActionListener(com.appslandia.core.views.OnTextViewActionListener)
+com.appslandia.core.views.LeoEditTextVal
+com.appslandia.core.views.LeoEditTextVal: LeoEditTextVal(android.content.Context)
+com.appslandia.core.views.LeoEditTextVal: LeoEditTextVal(android.content.Context,android.util.AttributeSet)
+com.appslandia.core.views.LeoEditTextVal: LeoEditTextVal(android.content.Context,android.util.AttributeSet,int)
+com.appslandia.core.views.LeoEditTextVal: void setTempTextWatcher(android.text.TextWatcher)
+com.appslandia.core.views.LeoEditTextVal: java.lang.Runnable getAttachTextWatcherRunnable()
+com.appslandia.core.views.LeoEditTextView: LeoEditTextView(android.content.Context)
+com.appslandia.core.views.LeoEditTextView: LeoEditTextView(android.content.Context,android.util.AttributeSet)
+com.appslandia.core.views.LeoEditTextView: LeoEditTextView(android.content.Context,android.util.AttributeSet,int)
+com.appslandia.core.views.LeoEditTextView: int getBackgroudResId()
+com.appslandia.core.views.LeoLabelX
+com.appslandia.core.views.LeoLabelX: LeoLabelX(android.content.Context,android.util.AttributeSet)
+com.appslandia.core.views.LeoLabelX: LeoLabelX(android.content.Context,android.util.AttributeSet,int)
+com.appslandia.core.views.LeoLabelX: void setCompoundIcons(android.graphics.drawable.Drawable[])
+com.appslandia.core.views.LeoLabelX: void setOnTouchListener(android.view.View$OnTouchListener)
+com.appslandia.core.views.LeoLabelX: void setOnCloseClickedListener(com.appslandia.core.views.LeoLabelX$OnCloseClickedListener)
+com.appslandia.core.views.LeoListView
+com.appslandia.core.views.LeoListView: LeoListView(android.content.Context)
+com.appslandia.core.views.LeoListView: LeoListView(android.content.Context,android.util.AttributeSet)
+com.appslandia.core.views.LeoListView: LeoListView(android.content.Context,android.util.AttributeSet,int)
+com.appslandia.core.views.LeoListView: void setLoadingView(android.view.View)
+com.appslandia.core.views.LeoListView: void setLoading(boolean)
+com.appslandia.core.views.LeoSpinner
+com.appslandia.core.views.LeoSpinner: LeoSpinner(android.content.Context)
+com.appslandia.core.views.LeoSpinner: LeoSpinner(android.content.Context,int)
+com.appslandia.core.views.LeoSpinner: LeoSpinner(android.content.Context,android.util.AttributeSet)
+com.appslandia.core.views.LeoSpinner: LeoSpinner(android.content.Context,android.util.AttributeSet,int)
+com.appslandia.core.views.LeoSpinner: LeoSpinner(android.content.Context,android.util.AttributeSet,int,int)
+com.appslandia.core.views.LeoTextView
+com.appslandia.core.views.LeoTextView: LeoTextView(android.content.Context)
+com.appslandia.core.views.LeoTextView: LeoTextView(android.content.Context,android.util.AttributeSet)
+com.appslandia.core.views.LeoTextView: LeoTextView(android.content.Context,android.util.AttributeSet,int)
+com.appslandia.core.views.LeoTimeEditor
+com.appslandia.core.views.LeoTimeEditor: LeoTimeEditor(android.content.Context,android.util.AttributeSet)
+com.appslandia.core.views.LeoTimeEditor: LeoTimeEditor(android.content.Context,android.util.AttributeSet,int)
+com.appslandia.core.views.LeoTimeEditor: int getHour()
+com.appslandia.core.views.LeoTimeEditor: int getMinute()
+com.appslandia.core.views.LeoTimeEditor$EditorState: android.os.Parcelable$Creator CREATOR
+com.appslandia.core.views.LeoToggleView
+com.appslandia.core.views.LeoToggleView: LeoToggleView(android.content.Context,android.util.AttributeSet)
+com.appslandia.core.views.LeoToggleView: LeoToggleView(android.content.Context,android.util.AttributeSet,int)
+com.appslandia.core.views.LeoToggleView: void setStateOn(boolean)
+com.appslandia.core.views.LeoToggleView: void setStateOnSrc(int)
+com.appslandia.core.views.LeoToggleView: void setStateOffSrc(int)
+com.appslandia.core.views.LeoToggleView: void setOnClickListener(android.view.View$OnClickListener)
+com.appslandia.core.views.LeoToggleView: void setToggleListener(com.appslandia.core.views.LeoToggleView$OnToggleListener)
+com.appslandia.core.views.ListViewPos: android.os.Parcelable$Creator CREATOR
+com.appslandia.core.views.PressAgainActivity: PressAgainActivity()
+com.appslandia.phrasebuilder.AboutActivityImpl
+com.appslandia.phrasebuilder.AboutActivityImpl: AboutActivityImpl()
+com.appslandia.phrasebuilder.AppListActivityImpl
+com.appslandia.phrasebuilder.AppListActivityImpl: AppListActivityImpl()
+com.appslandia.phrasebuilder.ApplicationImpl
+com.appslandia.phrasebuilder.ApplicationImpl: ApplicationImpl()
+com.appslandia.phrasebuilder.BackupAgentImpl
+com.appslandia.phrasebuilder.BackupAgentImpl: BackupAgentImpl()
+com.appslandia.phrasebuilder.BackupRequestReceiver
+com.appslandia.phrasebuilder.BackupRequestReceiver: BackupRequestReceiver()
+com.appslandia.phrasebuilder.BootCompletedListener
+com.appslandia.phrasebuilder.BootCompletedListener: BootCompletedListener()
+com.appslandia.phrasebuilder.HelpActivityImpl
+com.appslandia.phrasebuilder.HelpActivityImpl: HelpActivityImpl()
+com.appslandia.phrasebuilder.LabelListActivity
+com.appslandia.phrasebuilder.LabelListActivity: LabelListActivity()
+com.appslandia.phrasebuilder.LanguageListActivity
+com.appslandia.phrasebuilder.LanguageListActivity: LanguageListActivity()
+com.appslandia.phrasebuilder.MainActivity
+com.appslandia.phrasebuilder.MainActivity: MainActivity()
+com.appslandia.phrasebuilder.ManageBackupActivity
+com.appslandia.phrasebuilder.ManageBackupActivity: ManageBackupActivity()
+com.appslandia.phrasebuilder.PhraseEditActivity
+com.appslandia.phrasebuilder.PhraseEditActivity: PhraseEditActivity()
+com.appslandia.phrasebuilder.PhraseFillin: android.os.Parcelable$Creator CREATOR
+com.appslandia.phrasebuilder.PhraseListActivity
+com.appslandia.phrasebuilder.PhraseListActivity: PhraseListActivity()
+com.appslandia.phrasebuilder.PhraseMtc: android.os.Parcelable$Creator CREATOR
+com.appslandia.phrasebuilder.PhraseTestActivity
+com.appslandia.phrasebuilder.PhraseTestActivity: PhraseTestActivity()
+com.appslandia.phrasebuilder.PhraseTestInputsActivity
+com.appslandia.phrasebuilder.PhraseTestInputsActivity: PhraseTestInputsActivity()
+com.appslandia.phrasebuilder.PhraseTrashActivity
+com.appslandia.phrasebuilder.PhraseTrashActivity: PhraseTrashActivity()
+com.appslandia.phrasebuilder.R$attr: int hGapDp
+com.appslandia.phrasebuilder.R$attr: int leftIcon
+com.appslandia.phrasebuilder.R$attr: int rightIcon
+com.appslandia.phrasebuilder.R$attr: int stateOffSrc
+com.appslandia.phrasebuilder.R$attr: int stateOnSrc
+com.appslandia.phrasebuilder.R$attr: int underlineColor
+com.appslandia.phrasebuilder.R$attr: int vGapDp
+com.appslandia.phrasebuilder.R$attr: int xIcon
+com.appslandia.phrasebuilder.R$color: int ActionBarBackgroundColor
+com.appslandia.phrasebuilder.R$color: int ActionBarTitleColor
+com.appslandia.phrasebuilder.R$color: int ActivityEditBackgroundColor
+com.appslandia.phrasebuilder.R$color: int ActivityListBackgroundColor
+com.appslandia.phrasebuilder.R$color: int EditTextHintColor
+com.appslandia.phrasebuilder.R$color: int TestActionDescUnderlineColor
+com.appslandia.phrasebuilder.R$dimen: int MainMenu_FontSize
+com.appslandia.phrasebuilder.R$dimen: int MainMenu_PaddingTopBottom
+com.appslandia.phrasebuilder.R$dimen: int TextSizeMediumX2
+com.appslandia.phrasebuilder.R$dimen: int TextSizeMicro
+com.appslandia.phrasebuilder.R$dimen: int TextSizeMicroX1
+com.appslandia.phrasebuilder.R$dimen: int TextSizeSmallX2
+com.appslandia.phrasebuilder.R$drawable: int bg_phrase_search_box
+com.appslandia.phrasebuilder.R$drawable: int ic_app_phrasebuilder
+com.appslandia.phrasebuilder.R$drawable: int ic_btn_delete
+com.appslandia.phrasebuilder.R$drawable: int ic_btn_delete_action
+com.appslandia.phrasebuilder.R$drawable: int ic_btn_details_view
+com.appslandia.phrasebuilder.R$drawable: int ic_btn_phrase_learning
+com.appslandia.phrasebuilder.R$drawable: int ic_btn_phrase_mastered
+com.appslandia.phrasebuilder.R$drawable: int ic_btn_restore
+com.appslandia.phrasebuilder.R$drawable: int ic_btn_search
+com.appslandia.phrasebuilder.R$drawable: int ic_btn_show_keyword
+com.appslandia.phrasebuilder.R$drawable: int ic_btn_simple_view
+com.appslandia.phrasebuilder.R$drawable: int ic_btn_sound_off
+com.appslandia.phrasebuilder.R$drawable: int ic_btn_sound_on
+com.appslandia.phrasebuilder.R$drawable: int ic_btn_test
+com.appslandia.phrasebuilder.R$drawable: int ic_btn_to_bin
+com.appslandia.phrasebuilder.R$drawable: int ic_clear_edittext
+com.appslandia.phrasebuilder.R$drawable: int ic_keyword_unavailable
+com.appslandia.phrasebuilder.R$drawable: int ic_last_timestamp
+com.appslandia.phrasebuilder.R$drawable: int ic_last_updated
+com.appslandia.phrasebuilder.R$drawable: int ic_launcher
+com.appslandia.phrasebuilder.R$drawable: int ic_lib_actionbar_back
+com.appslandia.phrasebuilder.R$drawable: int ic_lib_actionbar_spinner
+com.appslandia.phrasebuilder.R$drawable: int ic_lib_arrow_bullet
+com.appslandia.phrasebuilder.R$drawable: int ic_lib_label_remove
+com.appslandia.phrasebuilder.R$drawable: int ic_lib_loading
+com.appslandia.phrasebuilder.R$drawable: int ic_lib_notification_default
+com.appslandia.phrasebuilder.R$drawable: int ic_lib_readonly_edittext
+com.appslandia.phrasebuilder.R$drawable: int ic_main_menu_about_us
+com.appslandia.phrasebuilder.R$drawable: int ic_main_menu_labels
+com.appslandia.phrasebuilder.R$drawable: int ic_main_menu_languages
+com.appslandia.phrasebuilder.R$drawable: int ic_main_menu_manage_backup
+com.appslandia.phrasebuilder.R$drawable: int ic_main_menu_manage_phrases
+com.appslandia.phrasebuilder.R$drawable: int ic_main_menu_manage_trash
+com.appslandia.phrasebuilder.R$drawable: int ic_main_menu_new_phrase
+com.appslandia.phrasebuilder.R$drawable: int ic_main_menu_our_products
+com.appslandia.phrasebuilder.R$drawable: int ic_main_menu_share_us
+com.appslandia.phrasebuilder.R$drawable: int ic_main_menu_test_phrases
+com.appslandia.phrasebuilder.R$drawable: int ic_menu_add_new
+com.appslandia.phrasebuilder.R$drawable: int ic_menu_new_label
+com.appslandia.phrasebuilder.R$drawable: int ic_menu_overflow
+com.appslandia.phrasebuilder.R$drawable: int ic_menu_premium
+com.appslandia.phrasebuilder.R$drawable: int ic_menu_test
+com.appslandia.phrasebuilder.R$drawable: int ic_menu_to_bin
+com.appslandia.phrasebuilder.R$drawable: int ic_notification_phrasebuilder
+com.appslandia.phrasebuilder.R$drawable: int ic_search_overflow
+com.appslandia.phrasebuilder.R$drawable: int ic_test_correct
+com.appslandia.phrasebuilder.R$drawable: int ic_test_wrong
+com.appslandia.phrasebuilder.R$drawable: int libs_adview_error
+com.appslandia.phrasebuilder.R$drawable: int libs_bg_cycle_borders
+com.appslandia.phrasebuilder.R$drawable: int libs_bg_label
+com.appslandia.phrasebuilder.R$drawable: int libs_bg_label_remove
+com.appslandia.phrasebuilder.R$drawable: int libs_bg_view_button
+com.appslandia.phrasebuilder.R$drawable: int libs_bg_view_selected
+com.appslandia.phrasebuilder.R$drawable: int libs_button_bar
+com.appslandia.phrasebuilder.R$drawable: int libs_list_item_panel
+com.appslandia.phrasebuilder.R$drawable: int libs_list_item_panel_disabled
+com.appslandia.phrasebuilder.R$drawable: int libs_panel
+com.appslandia.phrasebuilder.R$drawable: int libs_show_border
+com.appslandia.phrasebuilder.R$id: int action_delete_phrase
+com.appslandia.phrasebuilder.R$id: int action_help
+com.appslandia.phrasebuilder.R$id: int action_list_learning
+com.appslandia.phrasebuilder.R$id: int action_list_mastered
+com.appslandia.phrasebuilder.R$id: int action_list_unlabeled
+com.appslandia.phrasebuilder.R$id: int action_new_label
+com.appslandia.phrasebuilder.R$id: int action_new_language
+com.appslandia.phrasebuilder.R$id: int action_new_phrase
+com.appslandia.phrasebuilder.R$id: int action_overflow
+com.appslandia.phrasebuilder.R$id: int action_test_phrases
+com.appslandia.phrasebuilder.R$id: int backup_settings_fragment_scrollview
+com.appslandia.phrasebuilder.R$id: int container
+com.appslandia.phrasebuilder.R$id: int help_activity_webview
+com.appslandia.phrasebuilder.R$id: int label_edit_dialog_cancel_button
+com.appslandia.phrasebuilder.R$id: int label_edit_dialog_name_edittext
+com.appslandia.phrasebuilder.R$id: int label_edit_dialog_save_button
+com.appslandia.phrasebuilder.R$id: int label_edit_dialog_tag_label_checkbox
+com.appslandia.phrasebuilder.R$id: int label_list_activity_container
+com.appslandia.phrasebuilder.R$id: int label_list_activity_detailsview_button
+com.appslandia.phrasebuilder.R$id: int label_list_activity_language_layout
+com.appslandia.phrasebuilder.R$id: int label_list_activity_language_spinner
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_btn_layout
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_delete_button
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_label_textview
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_layout1
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_layout2
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_learning_qty_textview
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_learning_textview
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_mastered_qty_textview
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_mastered_textview
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_phraseinfo_layout
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_phrases_qty_textview
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_phrases_textview
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_test_button
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_th_layout
+com.appslandia.phrasebuilder.R$id: int label_list_activity_list_item_tr_layout
+com.appslandia.phrasebuilder.R$id: int label_list_activity_simpleview_button
+com.appslandia.phrasebuilder.R$id: int language_edit_dialog_cancel_button
+com.appslandia.phrasebuilder.R$id: int language_edit_dialog_name_edittext
+com.appslandia.phrasebuilder.R$id: int language_edit_dialog_save_button
+com.appslandia.phrasebuilder.R$id: int language_list_activity_list_item_delete_button
+com.appslandia.phrasebuilder.R$id: int language_list_activity_list_item_language_textview
+com.appslandia.phrasebuilder.R$id: int language_list_activity_list_item_layout1
+com.appslandia.phrasebuilder.R$id: int language_list_activity_list_item_layout2
+com.appslandia.phrasebuilder.R$id: int language_list_activity_list_item_learning_qty_textview
+com.appslandia.phrasebuilder.R$id: int language_list_activity_list_item_learning_textview
+com.appslandia.phrasebuilder.R$id: int language_list_activity_list_item_mastered_qty_textview
+com.appslandia.phrasebuilder.R$id: int language_list_activity_list_item_mastered_textview
+com.appslandia.phrasebuilder.R$id: int language_list_activity_list_item_phraseinfo_layout
+com.appslandia.phrasebuilder.R$id: int language_list_activity_list_item_phrases_qty_textview
+com.appslandia.phrasebuilder.R$id: int language_list_activity_list_item_phrases_textview
+com.appslandia.phrasebuilder.R$id: int language_list_activity_list_item_test_button
+com.appslandia.phrasebuilder.R$id: int language_list_activity_list_item_th_layout
+com.appslandia.phrasebuilder.R$id: int language_list_activity_list_item_tr_layout
+com.appslandia.phrasebuilder.R$id: int libs_first_time_users_dialog_button_bar
+com.appslandia.phrasebuilder.R$id: int libs_first_time_users_dialog_ft_users_textview
+com.appslandia.phrasebuilder.R$id: int libs_first_time_users_dialog_header_layout
+com.appslandia.phrasebuilder.R$id: int libs_first_time_users_dialog_reviews_listview
+com.appslandia.phrasebuilder.R$id: int libs_first_time_users_ok_button
+com.appslandia.phrasebuilder.R$id: int libs_list_fragment_empty_textview
+com.appslandia.phrasebuilder.R$id: int libs_list_fragment_list_container
+com.appslandia.phrasebuilder.R$id: int libs_list_fragment_list_view
+com.appslandia.phrasebuilder.R$id: int libs_list_fragment_progress_container
+com.appslandia.phrasebuilder.R$id: int libs_yes_confirm_dialog_message_textview
+com.appslandia.phrasebuilder.R$id: int libs_yes_confirm_dialog_no_button
+com.appslandia.phrasebuilder.R$id: int libs_yes_confirm_dialog_yes_button
+com.appslandia.phrasebuilder.R$id: int libs_yes_confirm_dialog_yes_edittext
+com.appslandia.phrasebuilder.R$id: int main_menu_about_us_panel
+com.appslandia.phrasebuilder.R$id: int main_menu_labels_panel
+com.appslandia.phrasebuilder.R$id: int main_menu_languages_panel
+com.appslandia.phrasebuilder.R$id: int main_menu_manage_backup_panel
+com.appslandia.phrasebuilder.R$id: int main_menu_manage_phrases_panel
+com.appslandia.phrasebuilder.R$id: int main_menu_manage_trash_panel
+com.appslandia.phrasebuilder.R$id: int main_menu_new_phrase_panel
+com.appslandia.phrasebuilder.R$id: int main_menu_our_products_panel
+com.appslandia.phrasebuilder.R$id: int main_menu_share_us_panel
+com.appslandia.phrasebuilder.R$id: int main_menu_test_phrases_panel
+com.appslandia.phrasebuilder.R$id: int manage_backup_fragment_abs_lastbackup_textview
+com.appslandia.phrasebuilder.R$id: int manage_backup_fragment_abs_textview
+com.appslandia.phrasebuilder.R$id: int manage_backup_fragment_backup_day_spinner
+com.appslandia.phrasebuilder.R$id: int manage_backup_fragment_backup_day_textview
+com.appslandia.phrasebuilder.R$id: int manage_backup_fragment_backup_request_scheduled_textview
+com.appslandia.phrasebuilder.R$id: int manage_backup_fragment_backup_time_edittext
+com.appslandia.phrasebuilder.R$id: int manage_backup_fragment_externalbk_backup_button
+com.appslandia.phrasebuilder.R$id: int manage_backup_fragment_externalbk_lastbackup_textview
+com.appslandia.phrasebuilder.R$id: int manage_backup_fragment_externalbk_location_edittext
+com.appslandia.phrasebuilder.R$id: int manage_backup_fragment_externalbk_restore_button
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_button_bar
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_cancel_button
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_form_scrollview
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_keyword_edittext
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_keyword_textview
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_labels_editlayout
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_labels_edittext
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_labels_textview
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_language_spinner
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_language_textview
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_learning_radiobutton
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_mastered_radiobutton
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_mastery_radiogroup
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_mastery_textview
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_notes_edittext
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_notes_textview
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_phrasetext_edittext
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_phrasetext_textview
+com.appslandia.phrasebuilder.R$id: int phrase_edit_fragment_save_button
+com.appslandia.phrasebuilder.R$id: int phrase_list_activity_list_view_delete_button
+com.appslandia.phrasebuilder.R$id: int phrase_list_activity_list_view_labellayout
+com.appslandia.phrasebuilder.R$id: int phrase_list_activity_list_view_lastupdated_textview
+com.appslandia.phrasebuilder.R$id: int phrase_list_activity_list_view_mastery_button
+com.appslandia.phrasebuilder.R$id: int phrase_list_activity_list_view_notes_textview
+com.appslandia.phrasebuilder.R$id: int phrase_list_activity_list_view_phrasetext_textview
+com.appslandia.phrasebuilder.R$id: int phrase_list_fragment_listview_layout
+com.appslandia.phrasebuilder.R$id: int phrase_list_fragment_loading
+com.appslandia.phrasebuilder.R$id: int phrase_list_fragment_search_button
+com.appslandia.phrasebuilder.R$id: int phrase_list_fragment_search_layout
+com.appslandia.phrasebuilder.R$id: int phrase_list_fragment_search_query_edit
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_aksing_keyword
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_fillin_option_layout
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_keyword_edittext
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_label_flow_layout
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_mastery_toggle_view
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_mtc_option_layout
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_next_button
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_notes_textview
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_option1_layout
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_option1_radiobutton
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_option1_result_imageview
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_option2_layout
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_option2_radiobutton
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_option2_result_imageview
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_option3_layout
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_option3_radiobutton
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_option3_result_imageview
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_option4_layout
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_option4_radiobutton
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_option4_result_imageview
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_option_layout
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_phraseindex_layout
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_phraseindex_textview
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_phraseinfo_layout
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_phrasetext_textview
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_prev_button
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_result_icon
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_scrollview
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_showresult_button
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_sound_toggle_view
+com.appslandia.phrasebuilder.R$id: int phrase_test_fragment_testphrase_textview
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_cancel_button
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_date_created_spinner
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_date_created_textview
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_inputs_layout
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_label_editlayout
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_label_edittext
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_labels_textview
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_language_spinner
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_language_textview
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_mastery_spinner
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_mastery_textview
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_scrollview
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_starttest_button
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_testtype_spinner
+com.appslandia.phrasebuilder.R$id: int phrase_test_inputs_fragment_testtype_textview
+com.appslandia.phrasebuilder.R$id: int phrase_trash_activity_list_item_date_deleted_textview
+com.appslandia.phrasebuilder.R$id: int phrase_trash_activity_list_item_delete_button
+com.appslandia.phrasebuilder.R$id: int phrase_trash_activity_list_item_labellayout
+com.appslandia.phrasebuilder.R$id: int phrase_trash_activity_list_item_notes_textview
+com.appslandia.phrasebuilder.R$id: int phrase_trash_activity_list_item_phrasetext_textview
+com.appslandia.phrasebuilder.R$id: int phrase_trash_activity_list_item_restore_button
+com.appslandia.phrasebuilder.R$id: int phrase_trash_fragment_empty_button
+com.appslandia.phrasebuilder.R$id: int phrase_trash_fragment_language_layout
+com.appslandia.phrasebuilder.R$id: int phrase_trash_fragment_language_spinner
+com.appslandia.phrasebuilder.R$layout: int about_activity
+com.appslandia.phrasebuilder.R$layout: int app_list_activity
+com.appslandia.phrasebuilder.R$layout: int help_activity
+com.appslandia.phrasebuilder.R$layout: int label_edit_dialog
+com.appslandia.phrasebuilder.R$layout: int label_edit_dialog2
+com.appslandia.phrasebuilder.R$layout: int label_list_activity
+com.appslandia.phrasebuilder.R$layout: int label_list_activity_list_item1
+com.appslandia.phrasebuilder.R$layout: int label_list_activity_list_item2
+com.appslandia.phrasebuilder.R$layout: int label_select_dialog
+com.appslandia.phrasebuilder.R$layout: int language_edit_dialog
+com.appslandia.phrasebuilder.R$layout: int language_list_activity
+com.appslandia.phrasebuilder.R$layout: int language_list_activity_list_item
+com.appslandia.phrasebuilder.R$layout: int language_list_fragment
+com.appslandia.phrasebuilder.R$layout: int libs_about_activity_list_item
+com.appslandia.phrasebuilder.R$layout: int libs_adview_error
+com.appslandia.phrasebuilder.R$layout: int libs_app_list_activity_list_item
+com.appslandia.phrasebuilder.R$layout: int libs_dialog_title
+com.appslandia.phrasebuilder.R$layout: int libs_first_time_users_dialog
+com.appslandia.phrasebuilder.R$layout: int libs_first_time_users_list_item
+com.appslandia.phrasebuilder.R$layout: int libs_label
+com.appslandia.phrasebuilder.R$layout: int libs_label_remove
+com.appslandia.phrasebuilder.R$layout: int libs_list_fragment
+com.appslandia.phrasebuilder.R$layout: int libs_loading_progress
+com.appslandia.phrasebuilder.R$layout: int libs_yes_confirm_dialog
+com.appslandia.phrasebuilder.R$layout: int main_activity
+com.appslandia.phrasebuilder.R$layout: int manage_backup_activity
+com.appslandia.phrasebuilder.R$layout: int manage_backup_fragment
+com.appslandia.phrasebuilder.R$layout: int phrase_edit_activity
+com.appslandia.phrasebuilder.R$layout: int phrase_edit_fragment
+com.appslandia.phrasebuilder.R$layout: int phrase_list_activity
+com.appslandia.phrasebuilder.R$layout: int phrase_list_activity_list_item
+com.appslandia.phrasebuilder.R$layout: int phrase_list_fragment
+com.appslandia.phrasebuilder.R$layout: int phrase_test_activity
+com.appslandia.phrasebuilder.R$layout: int phrase_test_fragment_fillin_form
+com.appslandia.phrasebuilder.R$layout: int phrase_test_fragment_fillin_option_layout
+com.appslandia.phrasebuilder.R$layout: int phrase_test_fragment_mtc_form
+com.appslandia.phrasebuilder.R$layout: int phrase_test_fragment_mtc_option_layout
+com.appslandia.phrasebuilder.R$layout: int phrase_test_fragment_phrase_info
+com.appslandia.phrasebuilder.R$layout: int phrase_test_fragment_unspecified_form
+com.appslandia.phrasebuilder.R$layout: int phrase_test_inputs_activity
+com.appslandia.phrasebuilder.R$layout: int phrase_test_inputs_fragment
+com.appslandia.phrasebuilder.R$layout: int phrase_trash_activity
+com.appslandia.phrasebuilder.R$layout: int phrase_trash_activity_list_item
+com.appslandia.phrasebuilder.R$layout: int phrase_trash_fragment
+com.appslandia.phrasebuilder.R$menu: int label_list
+com.appslandia.phrasebuilder.R$menu: int language_list
+com.appslandia.phrasebuilder.R$menu: int main
+com.appslandia.phrasebuilder.R$menu: int manage_backup
+com.appslandia.phrasebuilder.R$menu: int phrase_edit
+com.appslandia.phrasebuilder.R$menu: int phrase_list
+com.appslandia.phrasebuilder.R$menu: int phrase_trash
+com.appslandia.phrasebuilder.R$menu: int search_actions
+com.appslandia.phrasebuilder.R$menu: int test_phrases
+com.appslandia.phrasebuilder.R$menu: int test_settings
+com.appslandia.phrasebuilder.R$raw: int ding
+com.appslandia.phrasebuilder.R$raw: int oops
+com.appslandia.phrasebuilder.R$string: int about_item_dev
+com.appslandia.phrasebuilder.R$string: int about_item_dev_desc
+com.appslandia.phrasebuilder.R$string: int about_item_feedback
+com.appslandia.phrasebuilder.R$string: int about_item_feedback_desc
+com.appslandia.phrasebuilder.R$string: int about_item_help
+com.appslandia.phrasebuilder.R$string: int about_item_our_products
+com.appslandia.phrasebuilder.R$string: int about_item_our_products_desc
+com.appslandia.phrasebuilder.R$string: int about_item_rateus
+com.appslandia.phrasebuilder.R$string: int about_item_rateus_desc
+com.appslandia.phrasebuilder.R$string: int about_item_shareus
+com.appslandia.phrasebuilder.R$string: int about_item_shareus_desc
+com.appslandia.phrasebuilder.R$string: int about_item_version
+com.appslandia.phrasebuilder.R$string: int action_list_learning_phrases
+com.appslandia.phrasebuilder.R$string: int action_list_mastered_phrases
+com.appslandia.phrasebuilder.R$string: int action_list_unlabeled_phrases
+com.appslandia.phrasebuilder.R$string: int android_backup_service
+com.appslandia.phrasebuilder.R$string: int app_item_phrasebuilder
+com.appslandia.phrasebuilder.R$string: int app_item_phrasebuilder_desc
+com.appslandia.phrasebuilder.R$string: int app_name
+com.appslandia.phrasebuilder.R$string: int apply_this_label
+com.appslandia.phrasebuilder.R$string: int backup_at_time
+com.appslandia.phrasebuilder.R$string: int backup_on_every
+com.appslandia.phrasebuilder.R$string: int backup_request_is_scheduled
+com.appslandia.phrasebuilder.R$string: int button_backup
+com.appslandia.phrasebuilder.R$string: int button_cancel
+com.appslandia.phrasebuilder.R$string: int button_delete
+com.appslandia.phrasebuilder.R$string: int button_empty_trash
+com.appslandia.phrasebuilder.R$string: int button_next
+com.appslandia.phrasebuilder.R$string: int button_no
+com.appslandia.phrasebuilder.R$string: int button_no_thanks
+com.appslandia.phrasebuilder.R$string: int button_ok
+com.appslandia.phrasebuilder.R$string: int button_ok_i_understand
+com.appslandia.phrasebuilder.R$string: int button_prev
+com.appslandia.phrasebuilder.R$string: int button_rate_later
+com.appslandia.phrasebuilder.R$string: int button_rate_now
+com.appslandia.phrasebuilder.R$string: int button_remove
+com.appslandia.phrasebuilder.R$string: int button_restore
+com.appslandia.phrasebuilder.R$string: int button_save
+com.appslandia.phrasebuilder.R$string: int button_start_test
+com.appslandia.phrasebuilder.R$string: int button_yes
+com.appslandia.phrasebuilder.R$string: int date_created
+com.appslandia.phrasebuilder.R$string: int date_created_a_day_ago
+com.appslandia.phrasebuilder.R$string: int date_created_a_week_ago
+com.appslandia.phrasebuilder.R$string: int date_created_all
+com.appslandia.phrasebuilder.R$string: int date_created_days_ago
+com.appslandia.phrasebuilder.R$string: int date_created_weeks_ago
+com.appslandia.phrasebuilder.R$string: int desc_delete
+com.appslandia.phrasebuilder.R$string: int desc_delete_forever
+com.appslandia.phrasebuilder.R$string: int desc_learning
+com.appslandia.phrasebuilder.R$string: int desc_mastered
+com.appslandia.phrasebuilder.R$string: int desc_restore
+com.appslandia.phrasebuilder.R$string: int desc_show_keyword
+com.appslandia.phrasebuilder.R$string: int desc_test_phrases
+com.appslandia.phrasebuilder.R$string: int empty_text
+com.appslandia.phrasebuilder.R$string: int external_storage_backup
+com.appslandia.phrasebuilder.R$string: int feedback_email_subject
+com.appslandia.phrasebuilder.R$string: int fill_in_the_blank
+com.appslandia.phrasebuilder.R$string: int ftu_ask_for_help
+com.appslandia.phrasebuilder.R$string: int ftu_create_phrases
+com.appslandia.phrasebuilder.R$string: int ftu_definitions
+com.appslandia.phrasebuilder.R$string: int ftu_manage_backup
+com.appslandia.phrasebuilder.R$string: int ftu_manage_labels
+com.appslandia.phrasebuilder.R$string: int ftu_manage_languages
+com.appslandia.phrasebuilder.R$string: int ftu_test_phrases
+com.appslandia.phrasebuilder.R$string: int ftu_title_learning_guide
+com.appslandia.phrasebuilder.R$string: int keywords
+com.appslandia.phrasebuilder.R$string: int keywords_unavailable
+com.appslandia.phrasebuilder.R$string: int labels
+com.appslandia.phrasebuilder.R$string: int language
+com.appslandia.phrasebuilder.R$string: int learning
+com.appslandia.phrasebuilder.R$string: int main_menu_about_us
+com.appslandia.phrasebuilder.R$string: int main_menu_labels
+com.appslandia.phrasebuilder.R$string: int main_menu_languages
+com.appslandia.phrasebuilder.R$string: int main_menu_manage_backup
+com.appslandia.phrasebuilder.R$string: int main_menu_manage_phrases
+com.appslandia.phrasebuilder.R$string: int main_menu_manage_trash
+com.appslandia.phrasebuilder.R$string: int main_menu_new_phrase
+com.appslandia.phrasebuilder.R$string: int main_menu_our_products
+com.appslandia.phrasebuilder.R$string: int main_menu_share_us
+com.appslandia.phrasebuilder.R$string: int main_menu_test_phrases
+com.appslandia.phrasebuilder.R$string: int mastered
+com.appslandia.phrasebuilder.R$string: int mastery
+com.appslandia.phrasebuilder.R$string: int mastery_all
+com.appslandia.phrasebuilder.R$string: int mastery_learning
+com.appslandia.phrasebuilder.R$string: int mastery_mastered
+com.appslandia.phrasebuilder.R$string: int message_backup_allow_app_access_storage
+com.appslandia.phrasebuilder.R$string: int message_backup_backup_file_failed
+com.appslandia.phrasebuilder.R$string: int message_backup_backup_file_successfully
+com.appslandia.phrasebuilder.R$string: int message_backup_backup_performed_successfully
+com.appslandia.phrasebuilder.R$string: int message_backup_backup_requested_internal_successfully
+com.appslandia.phrasebuilder.R$string: int message_backup_backup_requested_successfully
+com.appslandia.phrasebuilder.R$string: int message_backup_backup_restored_successfully
+com.appslandia.phrasebuilder.R$string: int message_backup_error_backup_file
+com.appslandia.phrasebuilder.R$string: int message_backup_next_backup_request_scheduled
+com.appslandia.phrasebuilder.R$string: int message_backup_no_backup_yet
+com.appslandia.phrasebuilder.R$string: int message_backup_restore_file_failed
+com.appslandia.phrasebuilder.R$string: int message_backup_restore_file_successfully
+com.appslandia.phrasebuilder.R$string: int message_check_this_out
+com.appslandia.phrasebuilder.R$string: int message_confirm_backup_file
+com.appslandia.phrasebuilder.R$string: int message_confirm_delete_forever_phrase
+com.appslandia.phrasebuilder.R$string: int message_confirm_delete_label
+com.appslandia.phrasebuilder.R$string: int message_confirm_delete_language
+com.appslandia.phrasebuilder.R$string: int message_confirm_delete_phrase
+com.appslandia.phrasebuilder.R$string: int message_confirm_empty_trash
+com.appslandia.phrasebuilder.R$string: int message_confirm_restore_file
+com.appslandia.phrasebuilder.R$string: int message_confirm_restore_phrase
+com.appslandia.phrasebuilder.R$string: int message_deleted_forever_phrase_successfully
+com.appslandia.phrasebuilder.R$string: int message_deleted_label_successfully
+com.appslandia.phrasebuilder.R$string: int message_deleted_language_successfully
+com.appslandia.phrasebuilder.R$string: int message_deleted_phrase_successfully
+com.appslandia.phrasebuilder.R$string: int message_do_you_need_help
+com.appslandia.phrasebuilder.R$string: int message_empty_trash_successfully
+com.appslandia.phrasebuilder.R$string: int message_error_advertising
+com.appslandia.phrasebuilder.R$string: int message_error_field_required
+com.appslandia.phrasebuilder.R$string: int message_error_iab_initializing_billing
+com.appslandia.phrasebuilder.R$string: int message_error_iab_initializing_purchase
+com.appslandia.phrasebuilder.R$string: int message_error_iab_purchasing_premium
+com.appslandia.phrasebuilder.R$string: int message_error_iab_querying_premium
+com.appslandia.phrasebuilder.R$string: int message_error_iab_service_unavailable
+com.appslandia.phrasebuilder.R$string: int message_error_keywords_invalid
+com.appslandia.phrasebuilder.R$string: int message_error_label_exists
+com.appslandia.phrasebuilder.R$string: int message_error_language_exists
+com.appslandia.phrasebuilder.R$string: int message_error_yes_confirm_please
+com.appslandia.phrasebuilder.R$string: int message_free_version_feature_phrases
+com.appslandia.phrasebuilder.R$string: int message_gc_requested
+com.appslandia.phrasebuilder.R$string: int message_input_yes_to_confirm
+com.appslandia.phrasebuilder.R$string: int message_label_not_found
+com.appslandia.phrasebuilder.R$string: int message_last_quest_showed
+com.appslandia.phrasebuilder.R$string: int message_loading
+com.appslandia.phrasebuilder.R$string: int message_no_labels
+com.appslandia.phrasebuilder.R$string: int message_no_languages
+com.appslandia.phrasebuilder.R$string: int message_no_matched_phrases_found
+com.appslandia.phrasebuilder.R$string: int message_no_phrases
+com.appslandia.phrasebuilder.R$string: int message_please_wait
+com.appslandia.phrasebuilder.R$string: int message_press_again_to_exit
+com.appslandia.phrasebuilder.R$string: int message_rate_us
+com.appslandia.phrasebuilder.R$string: int message_restored_label_successfully
+com.appslandia.phrasebuilder.R$string: int message_restored_language_successfully
+com.appslandia.phrasebuilder.R$string: int message_restored_phrase_successfully
+com.appslandia.phrasebuilder.R$string: int message_saved_label_successfully
+com.appslandia.phrasebuilder.R$string: int message_saved_language_successfully
+com.appslandia.phrasebuilder.R$string: int message_saved_phrase_successfully
+com.appslandia.phrasebuilder.R$string: int message_why_keyword_unavailable
+com.appslandia.phrasebuilder.R$string: int no_language
+com.appslandia.phrasebuilder.R$string: int notes
+com.appslandia.phrasebuilder.R$string: int phrase
+com.appslandia.phrasebuilder.R$string: int phrase_notes_hint
+com.appslandia.phrasebuilder.R$string: int phrase_search_hint
+com.appslandia.phrasebuilder.R$string: int phrases
+com.appslandia.phrasebuilder.R$string: int placeholder_optional
+com.appslandia.phrasebuilder.R$string: int sample_date1
+com.appslandia.phrasebuilder.R$string: int sample_date2
+com.appslandia.phrasebuilder.R$string: int sample_label
+com.appslandia.phrasebuilder.R$string: int sample_last_updated
+com.appslandia.phrasebuilder.R$string: int sample_number_md
+com.appslandia.phrasebuilder.R$string: int sample_number_sm
+com.appslandia.phrasebuilder.R$string: int sample_text
+com.appslandia.phrasebuilder.R$string: int sample_text_line1
+com.appslandia.phrasebuilder.R$string: int sample_text_line2
+com.appslandia.phrasebuilder.R$string: int sample_text_line3
+com.appslandia.phrasebuilder.R$string: int sample_time1
+com.appslandia.phrasebuilder.R$string: int sample_time2
+com.appslandia.phrasebuilder.R$string: int sample_timestamp2
+com.appslandia.phrasebuilder.R$string: int select_keywords
+com.appslandia.phrasebuilder.R$string: int share_us_text
+com.appslandia.phrasebuilder.R$string: int test_type
+com.appslandia.phrasebuilder.R$string: int test_type_fill_in
+com.appslandia.phrasebuilder.R$string: int test_type_mixing_type
+com.appslandia.phrasebuilder.R$string: int test_type_multiple_choice
+com.appslandia.phrasebuilder.R$string: int title_about_us
+com.appslandia.phrasebuilder.R$string: int title_delete_phrase
+com.appslandia.phrasebuilder.R$string: int title_details_view
+com.appslandia.phrasebuilder.R$string: int title_edit_label
+com.appslandia.phrasebuilder.R$string: int title_edit_language
+com.appslandia.phrasebuilder.R$string: int title_edit_phrase
+com.appslandia.phrasebuilder.R$string: int title_help
+com.appslandia.phrasebuilder.R$string: int title_labels
+com.appslandia.phrasebuilder.R$string: int title_languages
+com.appslandia.phrasebuilder.R$string: int title_manage_backup
+com.appslandia.phrasebuilder.R$string: int title_manage_phrases
+com.appslandia.phrasebuilder.R$string: int title_manage_trash
+com.appslandia.phrasebuilder.R$string: int title_new_label
+com.appslandia.phrasebuilder.R$string: int title_new_language
+com.appslandia.phrasebuilder.R$string: int title_new_phrase
+com.appslandia.phrasebuilder.R$string: int title_our_products
+com.appslandia.phrasebuilder.R$string: int title_overflow_menu
+com.appslandia.phrasebuilder.R$string: int title_rate_us
+com.appslandia.phrasebuilder.R$string: int title_search_by_label
+com.appslandia.phrasebuilder.R$string: int title_set_time
+com.appslandia.phrasebuilder.R$string: int title_share_us
+com.appslandia.phrasebuilder.R$string: int title_simple_view
+com.appslandia.phrasebuilder.R$string: int title_test_inputs
+com.appslandia.phrasebuilder.R$string: int title_test_phrases
+com.appslandia.phrasebuilder.R$string: int title_upgrade_to_premium
+com.appslandia.phrasebuilder.R$style: int ActionBar_PhraseBuilder
+com.appslandia.phrasebuilder.R$style: int ActionBar_Title_PhraseBuilder
+com.appslandia.phrasebuilder.R$style: int ActionButton_Overflow_PhraseBuilder
+com.appslandia.phrasebuilder.R$style: int AppTheme
+com.appslandia.phrasebuilder.R$style: int AutoCompleteTextViewStyle
+com.appslandia.phrasebuilder.R$style: int CheckBoxStyle
+com.appslandia.phrasebuilder.R$style: int EditLabelStyle
+com.appslandia.phrasebuilder.R$style: int EditLabelStyle_Required
+com.appslandia.phrasebuilder.R$style: int EditTextStyle
+com.appslandia.phrasebuilder.R$style: int LastUpdatedStyle_Phrase
+com.appslandia.phrasebuilder.R$style: int MainMenu
+com.appslandia.phrasebuilder.R$style: int RadioButtonStyle
+com.appslandia.phrasebuilder.R$style: int divider
+com.appslandia.phrasebuilder.R$style: int listDivider
+com.appslandia.phrasebuilder.R$styleable: int[] LeoWidgets
+com.appslandia.phrasebuilder.R$styleable: int LeoWidgets_hGapDp
+com.appslandia.phrasebuilder.R$styleable: int LeoWidgets_leftIcon
+com.appslandia.phrasebuilder.R$styleable: int LeoWidgets_rightIcon
+com.appslandia.phrasebuilder.R$styleable: int LeoWidgets_stateOffSrc
+com.appslandia.phrasebuilder.R$styleable: int LeoWidgets_stateOnSrc
+com.appslandia.phrasebuilder.R$styleable: int LeoWidgets_underlineColor
+com.appslandia.phrasebuilder.R$styleable: int LeoWidgets_vGapDp
+com.appslandia.phrasebuilder.R$styleable: int LeoWidgets_xIcon
+com.appslandia.phrasebuilder.entities.Label: android.os.Parcelable$Creator CREATOR
+com.appslandia.phrasebuilder.entities.Language: android.os.Parcelable$Creator CREATOR
+com.appslandia.phrasebuilder.entities.Phrase: android.os.Parcelable$Creator CREATOR

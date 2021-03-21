@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:id="@+id/backup_settings_fragment_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:padding="12dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/manage_backup_fragment_abs_textview"
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:drawableLeft="@drawable/ic_lib_arrow_bullet"
+                android:text="@string/android_backup_service" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp" >
+
+                <TextView
+                    android:id="@+id/manage_backup_fragment_backup_request_scheduled_textview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/backup_request_is_scheduled" />
+
+                <TextView
+                    android:id="@+id/manage_backup_fragment_backup_day_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/manage_backup_fragment_backup_request_scheduled_textview"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/backup_on_every" />
+
+                <com.appslandia.core.views.LeoSpinner
+                    android:id="@+id/manage_backup_fragment_backup_day_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/manage_backup_fragment_backup_day_textview"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/manage_backup_fragment_backup_day_textview"
+                    tools:listitem="@android:layout/simple_spinner_item" />
+
+                <com.appslandia.core.views.LeoTimeEditor
+                    android:id="@+id/manage_backup_fragment_backup_time_edittext"
+                    style="?android:attr/textAppearanceMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/manage_backup_fragment_backup_day_spinner"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_below="@+id/manage_backup_fragment_backup_day_textview"
+                    android:text="@string/sample_time2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/manage_backup_fragment_backup_time_edittext"
+                    android:layout_alignRight="@+id/manage_backup_fragment_backup_day_textview"
+                    android:text="@string/backup_at_time" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/manage_backup_fragment_abs_lastbackup_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:drawableLeft="@drawable/ic_last_timestamp"
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:text="@string/sample_timestamp2" />
+
+            <View
+                style="@style/divider"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="16dp"
+                android:layout_height="2dp" />
+
+            <TextView
+                style="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:drawableLeft="@drawable/ic_lib_arrow_bullet"
+                android:text="@string/external_storage_backup" />
+
+            <EditText
+                android:id="@+id/manage_backup_fragment_externalbk_location_edittext"
+                style="?android:attr/textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:enabled="false"
+                android:text="@string/sample_text"
+                android:textColor="#606060" />
+
+            <TextView
+                android:id="@+id/manage_backup_fragment_externalbk_lastbackup_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:drawableLeft="@drawable/ic_last_timestamp"
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:text="@string/sample_timestamp2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/manage_backup_fragment_externalbk_backup_button"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:minHeight="0dp"
+                    android:text="@string/button_backup" />
+
+                <Button
+                    android:id="@+id/manage_backup_fragment_externalbk_restore_button"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:minHeight="0dp"
+                    android:text="@string/button_restore" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

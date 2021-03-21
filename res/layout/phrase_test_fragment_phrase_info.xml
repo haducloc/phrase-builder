@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.appslandia.phrasebuilder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.appslandia.core.views.LeoToggleView
+            android:id="@+id/phrase_test_fragment_sound_toggle_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/libs_bg_view_button"
+            app:stateOffSrc="@drawable/ic_btn_sound_off"
+            app:stateOnSrc="@drawable/ic_btn_sound_on" />
+
+        <RelativeLayout
+            android:id="@+id/phrase_test_fragment_phraseindex_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/phrase_test_fragment_mastery_toggle_view"
+            android:layout_toRightOf="@+id/phrase_test_fragment_sound_toggle_view"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/phrase_test_fragment_testphrase_textview"
+                style="@android:style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phrase" />
+
+            <TextView
+                android:id="@+id/phrase_test_fragment_phraseindex_textview"
+                style="@android:style/TextAppearance.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/phrase_test_fragment_testphrase_textview"
+                android:text="@string/sample_number_md" />
+        </RelativeLayout>
+
+        <com.appslandia.core.views.LeoToggleView
+            android:id="@+id/phrase_test_fragment_mastery_toggle_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/libs_bg_view_button"
+            app:stateOffSrc="@drawable/ic_btn_phrase_learning"
+            app:stateOnSrc="@drawable/ic_btn_phrase_mastered" />
+    </RelativeLayout>
+
+    <View style="@style/listDivider" />
+
+    <TextView
+        android:id="@+id/phrase_test_fragment_phrasetext_textview"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/sample_text_line2"
+        android:textStyle="bold" />
+
+    <com.appslandia.core.views.LabelLayout
+        android:id="@+id/phrase_test_fragment_label_flow_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/phrase_test_fragment_notes_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/sample_text_line2" />
+
+</LinearLayout>

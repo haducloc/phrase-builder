@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.appslandia.core.views.LeoLabelX xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.appslandia.phrasebuilder"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/libs_bg_label_remove"
+    android:drawablePadding="8dp"
+    android:gravity="center_vertical"
+    android:text="@string/sample_label"
+    android:textColor="#ffffff"
+    android:textSize="@dimen/TextSizeMicro"
+    app:xIcon="@drawable/ic_lib_label_remove" />

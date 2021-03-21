@@ -1,0 +1,37 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ActionBar.PhraseBuilder</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionButton.Overflow.PhraseBuilder</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_lib_actionbar_back</item>
+    </style>
+
+    <style name="ActionBar.PhraseBuilder" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/ActionBarBackgroundColor</item>
+        <item name="android:titleTextStyle">@style/ActionBar.Title.PhraseBuilder</item>
+    </style>
+
+    <style name="ActionButton.Overflow.PhraseBuilder" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_overflow</item>
+    </style>
+
+    <style name="ActionBar.Title.PhraseBuilder" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/ActionBarTitleColor</item>
+    </style>
+
+    <style name="LastUpdatedStyle_Phrase">
+        <item name="android:textColor">#606060</item>
+    </style>
+
+    <style name="MainMenu">        
+        <item name="android:background">@drawable/libs_list_item_panel</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/MainMenu_FontSize</item>
+        <item name="android:paddingBottom">@dimen/MainMenu_PaddingTopBottom</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:paddingTop">@dimen/MainMenu_PaddingTopBottom</item>
+    </style>
+    
+</resources>

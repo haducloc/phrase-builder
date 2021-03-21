@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="TextSizeMicro">12sp</dimen>
+    <dimen name="TextSizeMicroX1">13sp</dimen>
+    <dimen name="TextSizeSmallX2">16sp</dimen>
+    <dimen name="TextSizeMediumX2">20sp</dimen>
+
+    <color name="EditTextHintColor">#808080</color>
+    
+    <declare-styleable name="LeoWidgets">
+        <attr name="underlineColor" format="color" />
+        <attr name="stateOnSrc" format="integer" />
+        <attr name="stateOffSrc" format="integer" />
+        <attr name="hGapDp" format="integer" />
+        <attr name="vGapDp" format="integer" />
+        
+        <attr name="leftIcon" format="integer" />
+        <attr name="rightIcon" format="integer" />
+        <attr name="xIcon" format="integer" />
+        
+    </declare-styleable>
+
+</resources>

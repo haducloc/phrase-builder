@@ -1,0 +1,1822 @@
+android.support.annotation.Keep -> android.support.annotation.Keep:
+com.appslandia.core.adapters.AboutAdapter -> com.appslandia.core.a.a:
+    int resourceId -> a
+    android.view.LayoutInflater inflater -> b
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.appslandia.core.adapters.AboutAdapter$ViewHolder -> com.appslandia.core.a.b:
+    android.widget.TextView nameTextView -> a
+    android.widget.TextView descTextView -> b
+com.appslandia.core.adapters.AboutItem -> com.appslandia.core.a.c:
+    java.lang.String desc -> a
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    int describeContents() -> describeContents
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String toString() -> toString
+com.appslandia.core.adapters.AboutItem$1 -> com.appslandia.core.a.d:
+    com.appslandia.core.adapters.AboutItem createFromParcel(android.os.Parcel) -> a
+    com.appslandia.core.adapters.AboutItem[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+com.appslandia.core.adapters.AppItem -> com.appslandia.core.a.e:
+    int iconResId -> b
+    java.lang.String packageName -> c
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    int describeContents() -> describeContents
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String toString() -> toString
+com.appslandia.core.adapters.AppItem$1 -> com.appslandia.core.a.f:
+    com.appslandia.core.adapters.AppItem createFromParcel(android.os.Parcel) -> a
+    com.appslandia.core.adapters.AppItem[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+com.appslandia.core.adapters.AppListAdapter -> com.appslandia.core.a.g:
+    int resourceId -> a
+    android.view.LayoutInflater inflater -> b
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.appslandia.core.adapters.AppListAdapter$ViewHolder -> com.appslandia.core.a.h:
+    android.widget.ImageView iconView -> a
+    android.widget.TextView nameTextView -> b
+    android.widget.TextView descTextView -> c
+com.appslandia.core.adapters.ArrayAdapterImpl -> com.appslandia.core.a.i:
+    java.util.List mObjects -> c
+    java.lang.Object mLock -> d
+    int mResource -> e
+    int mDropDownResource -> f
+    int mFieldId -> g
+    boolean mNotifyOnChange -> h
+    android.content.Context mContext -> i
+    java.util.ArrayList mOriginalValues -> j
+    com.appslandia.core.adapters.ArrayAdapterImpl$ArrayFilter mFilter -> k
+    android.view.LayoutInflater mInflater -> l
+    int textColor -> m
+    java.util.List mLastObjects -> n
+    void setTextColor(int) -> a
+    boolean checkObjects(java.util.List) -> a
+    boolean setObjects(java.util.List) -> b
+    void notifyDataSetChanged() -> notifyDataSetChanged
+    void init(android.content.Context,int,int,java.util.List) -> a
+    android.content.Context getContext() -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    android.view.View createViewFromResource(int,android.view.View,android.view.ViewGroup,int,int) -> a
+    void setDropDownViewResource(int) -> b
+    android.view.View getDropDownView(int,android.view.View,android.view.ViewGroup) -> getDropDownView
+    android.widget.Filter getFilter() -> getFilter
+com.appslandia.core.adapters.ArrayAdapterImpl$ArrayFilter -> com.appslandia.core.a.j:
+    com.appslandia.core.adapters.ArrayAdapterImpl this$0 -> a
+    java.lang.CharSequence convertResultToString(java.lang.Object) -> convertResultToString
+    android.widget.Filter$FilterResults performFiltering(java.lang.CharSequence) -> performFiltering
+    void publishResults(java.lang.CharSequence,android.widget.Filter$FilterResults) -> publishResults
+com.appslandia.core.adapters.FilterableItem -> com.appslandia.core.a.k:
+    java.lang.String getFilterName() -> a
+com.appslandia.core.adapters.Item -> com.appslandia.core.a.l:
+    int getId() -> b
+    java.lang.String getName() -> c
+com.appslandia.core.adapters.LabelItem -> com.appslandia.core.a.m:
+    java.lang.String s_name -> a
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    int getId() -> b
+    java.lang.String getName() -> c
+    java.lang.String getFilterName() -> a
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    int describeContents() -> describeContents
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String toString() -> toString
+    com.appslandia.core.adapters.LabelItem getLabelNotFound(android.content.Context) -> a
+com.appslandia.core.adapters.LabelItem$1 -> com.appslandia.core.a.n:
+    com.appslandia.core.adapters.LabelItem createFromParcel(android.os.Parcel) -> a
+    com.appslandia.core.adapters.LabelItem[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+com.appslandia.core.adapters.LabelListAdapter -> com.appslandia.core.a.o:
+    java.util.List mObjects -> a
+    java.lang.Object mLock -> b
+    int mResource -> c
+    int mDropDownResource -> d
+    int mFieldId -> e
+    boolean mNotifyOnChange -> f
+    android.content.Context mContext -> g
+    java.util.ArrayList mOriginalValues -> h
+    com.appslandia.core.adapters.LabelListAdapter$ArrayFilter mFilter -> i
+    android.view.LayoutInflater mInflater -> j
+    java.util.List mLastObjects -> k
+    boolean setObjects(java.util.List) -> a
+    void notifyDataSetChanged() -> notifyDataSetChanged
+    void init(android.content.Context,int,int,java.util.List) -> a
+    int getCount() -> getCount
+    com.appslandia.core.adapters.FilterableItem getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    android.view.View createViewFromResource(int,android.view.View,android.view.ViewGroup,int) -> a
+    android.view.View getDropDownView(int,android.view.View,android.view.ViewGroup) -> getDropDownView
+    android.widget.Filter getFilter() -> getFilter
+    java.lang.Object getItem(int) -> getItem
+com.appslandia.core.adapters.LabelListAdapter$ArrayFilter -> com.appslandia.core.a.p:
+    com.appslandia.core.adapters.LabelListAdapter this$0 -> a
+    java.lang.CharSequence convertResultToString(java.lang.Object) -> convertResultToString
+    android.widget.Filter$FilterResults performFiltering(java.lang.CharSequence) -> performFiltering
+    void publishResults(java.lang.CharSequence,android.widget.Filter$FilterResults) -> publishResults
+com.appslandia.core.adapters.SimpleItem -> com.appslandia.core.a.q:
+    int _id -> d
+    java.lang.String name -> e
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    int getId() -> b
+    java.lang.String getName() -> c
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    int describeContents() -> describeContents
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.appslandia.core.adapters.SimpleItem$1 -> com.appslandia.core.a.r:
+    com.appslandia.core.adapters.SimpleItem createFromParcel(android.os.Parcel) -> a
+    com.appslandia.core.adapters.SimpleItem[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+com.appslandia.core.io.DataBackupWriter -> com.appslandia.core.b.a:
+    android.app.backup.BackupDataOutput output -> a
+    void writeEntity(java.lang.String,byte[]) -> a
+    void close() -> close
+com.appslandia.core.io.KeyDataHandler -> com.appslandia.core.b.b:
+    boolean handle(java.lang.String,byte[]) -> a
+com.appslandia.core.io.KeyDataOutput -> com.appslandia.core.b.c:
+    void writeEntity(java.lang.String,byte[]) -> a
+com.appslandia.core.io.KeyDataReader -> com.appslandia.core.b.d:
+    java.io.InputStream is -> a
+    com.appslandia.core.io.KeyDataHandler handler -> b
+    void startRead() -> a
+    void close() -> close
+com.appslandia.core.io.KeyDataWriter -> com.appslandia.core.b.e:
+    java.io.OutputStream os -> a
+    void writeEntity(java.lang.String,byte[]) -> a
+    void close() -> close
+com.appslandia.core.loaders.AsyncLoader -> com.appslandia.core.c.a:
+    java.lang.Object data -> a
+    java.lang.Object loadData() -> a
+    java.lang.Object loadInBackground() -> loadInBackground
+    void release(java.lang.Object) -> a
+    android.content.res.Resources getLoaderResources() -> b
+    void deliverResult(java.lang.Object) -> deliverResult
+    void registerObservers() -> c
+    void unregisterObservers() -> d
+    void onStartLoading() -> onStartLoading
+    void onStopLoading() -> onStopLoading
+    void onCanceled(java.lang.Object) -> onCanceled
+    void onReset() -> onReset
+com.appslandia.core.sqlite.SQLiteUtils -> com.appslandia.core.d.a:
+    void bindBoolean(android.database.sqlite.SQLiteStatement,int,boolean) -> a
+    boolean readBoolean(android.database.Cursor,int) -> a
+com.appslandia.core.utils.ActivityUtils -> com.appslandia.core.e.a:
+    int nextId() -> a
+    void initActionBarUp(android.app.ActionBar) -> a
+    android.content.pm.PackageInfo getPackageInfo(android.content.Context) -> a
+    void navigateToApp(android.app.Activity) -> a
+    void navigateToApp(android.app.Activity,java.lang.String) -> a
+    java.lang.String getGooglePlayUri(java.lang.String) -> a
+    void shareUs(android.app.Activity,android.os.Bundle) -> a
+    void emailUs(android.app.Activity,android.os.Bundle) -> b
+com.appslandia.core.utils.ActivityUtils$ActivityIdSeqHolder -> com.appslandia.core.e.b:
+    java.util.concurrent.atomic.AtomicInteger Instance -> a
+com.appslandia.core.utils.AlarmUtils -> com.appslandia.core.e.c:
+    void createInexactRepeatingBackup(android.content.Context,java.lang.Class,long,long,int) -> a
+    void tryCreateInexactRepeatingBackup(android.content.Context,java.lang.Class,long,long,int) -> b
+com.appslandia.core.utils.ArrayUtils -> com.appslandia.core.e.d:
+    char[] fill(char[],char) -> a
+com.appslandia.core.utils.AssetDescManager -> com.appslandia.core.e.e:
+    java.lang.String TAG -> a
+    android.content.Context context -> b
+    android.util.SparseArray descMap -> c
+    android.content.res.AssetFileDescriptor getAssetDesc(boolean,int,int) -> a
+    android.content.res.AssetFileDescriptor getAssetDesc(int) -> a
+    void close() -> close
+    void tryClose() -> a
+com.appslandia.core.utils.BackupUtils -> com.appslandia.core.e.f:
+    com.appslandia.core.utils.Mutex MUTEX -> a
+    void createInexactRepeatingBackup(android.content.Context,java.lang.Class,long,long) -> a
+    void tryCreateInexactRepeatingBackup(android.content.Context,java.lang.Class,long,long) -> b
+    void notifyBackupRequested(android.content.Context,int,int,java.lang.Class) -> a
+    void notifyBackupPerformed(android.content.Context,int,int,java.lang.Class) -> b
+    void notifyBackupRestored(android.content.Context,int,int,java.lang.Class) -> c
+com.appslandia.core.utils.Bool -> com.appslandia.core.e.g:
+    boolean value -> a
+    boolean getValue() -> a
+    void setValue(boolean) -> a
+com.appslandia.core.utils.CharsetUtils -> com.appslandia.core.e.h:
+    java.nio.charset.Charset UTF_8 -> a
+    byte[] toBytes(java.lang.String) -> a
+    java.lang.String toString(byte[]) -> a
+com.appslandia.core.utils.DataList -> com.appslandia.core.e.i:
+    java.util.concurrent.atomic.AtomicInteger idSeq -> a
+    int id -> b
+    java.util.List objects -> c
+    android.os.Bundle args -> d
+    int getId() -> a
+    java.util.List getObjects() -> b
+    void setObjects(java.util.List) -> a
+    void setArguments(android.os.Bundle) -> a
+    int getInt(java.lang.String) -> a
+    int getInt(java.lang.String,int) -> a
+    java.lang.String getString(java.lang.String) -> b
+    java.lang.String toString() -> toString
+com.appslandia.core.utils.DateUtils -> com.appslandia.core.e.j:
+    java.util.List getWeekDays(java.util.Locale) -> a
+    java.util.Date clearTime(java.util.Date) -> a
+    void clearTime(java.util.Calendar) -> a
+    java.util.Calendar getCalendar(int,int,int) -> a
+    java.lang.CharSequence getRelativeDateString(long) -> a
+    java.lang.String getNotificationTimestamp() -> a
+com.appslandia.core.utils.IndexRandom -> com.appslandia.core.e.k:
+    int n -> a
+    int[] flags -> b
+    int remainingCount -> c
+    void initialize() -> b
+    java.lang.Integer next() -> a
+    boolean hasNext() -> hasNext
+    void remove() -> remove
+    java.lang.Object next() -> next
+com.appslandia.core.utils.MathUtils -> com.appslandia.core.e.l:
+    int pow(int,int) -> a
+    byte[] toByteArray(int) -> a
+    byte[] toByteArray(long) -> a
+    int toInt(byte[]) -> a
+    long toLong(byte[]) -> b
+com.appslandia.core.utils.MediaPlayerUtils -> com.appslandia.core.e.m:
+    void release(android.media.MediaPlayer) -> a
+com.appslandia.core.utils.Mutex -> com.appslandia.core.e.n:
+com.appslandia.core.utils.NotificationUtils -> com.appslandia.core.e.o:
+    void notifyMessage(android.content.Context,int,int,int,java.lang.String,java.lang.Class) -> a
+com.appslandia.core.utils.ObjectUtils -> com.appslandia.core.e.p:
+    java.util.List castToList(java.util.List) -> a
+    java.util.ArrayList castToArrayList(java.util.List) -> b
+com.appslandia.core.utils.Out -> com.appslandia.core.e.q:
+    java.lang.Object value -> a
+    java.lang.Object getValue() -> a
+    void setValue(java.lang.Object) -> a
+    java.lang.String toString() -> toString
+com.appslandia.core.utils.ParcelUtils -> com.appslandia.core.e.r:
+    void writeString(android.os.Parcel,java.lang.String) -> a
+    java.lang.String readString(android.os.Parcel) -> a
+    void writeBool(android.os.Parcel,boolean) -> a
+    boolean readBool(android.os.Parcel) -> b
+com.appslandia.core.utils.PreferenceUtils -> com.appslandia.core.e.s:
+    void savePreference(android.content.Context,java.lang.String,java.lang.String,boolean) -> a
+    void savePreference(android.content.Context,java.lang.String,java.lang.String,int) -> a
+    void savePreference(android.content.Context,java.lang.String,java.lang.String,long) -> a
+    boolean getBoolean(android.content.Context,java.lang.String,java.lang.String,boolean) -> b
+    int getInt(android.content.Context,java.lang.String,java.lang.String,int) -> b
+com.appslandia.core.utils.PressAgainHandler -> com.appslandia.core.e.t:
+    long prevPressTimeMillis -> a
+    int pressDisMs -> b
+    boolean isPressTimeMsRecorded() -> a
+    void recordPressTimeMs(android.app.Activity) -> a
+    boolean canBackPress(android.app.Activity) -> b
+com.appslandia.core.utils.QueryParams -> com.appslandia.core.e.u:
+    java.util.Map entriesMap -> a
+    java.util.Map createEntryMap(int) -> a
+    void put(java.lang.String,java.lang.String) -> a
+    java.lang.String getString(java.lang.String) -> a
+    void parse(java.lang.String) -> b
+    java.lang.String toQueryString() -> a
+    java.lang.String toString() -> toString
+com.appslandia.core.utils.RandomUtils -> com.appslandia.core.e.v:
+    int nextInt(int,int) -> a
+com.appslandia.core.utils.RandomUtils$NumberRandomHolder -> com.appslandia.core.e.w:
+    java.util.Random Instance -> a
+com.appslandia.core.utils.RecordTextBuilder -> com.appslandia.core.e.x:
+    int sequence -> a
+    int recordCount -> b
+    java.lang.StringBuilder builder -> c
+    char recordSep -> d
+    char fieldSep -> e
+    com.appslandia.core.utils.RecordTextBuilder append(java.lang.String) -> a
+    com.appslandia.core.utils.RecordTextBuilder append(boolean) -> a
+    com.appslandia.core.utils.RecordTextBuilder append(int) -> a
+    com.appslandia.core.utils.RecordTextBuilder append(long) -> a
+    com.appslandia.core.utils.RecordTextBuilder appendLast(int) -> b
+    int getSequence() -> a
+    int getRecordCount() -> b
+    boolean isEmpty() -> c
+    void beginRecord() -> d
+    void finishRecord() -> e
+    void reset() -> f
+    java.lang.String toString() -> toString
+com.appslandia.core.utils.RecordTextInterator -> com.appslandia.core.e.y:
+    java.lang.String text -> c
+    char separator -> d
+    int index1 -> a
+    int index2 -> b
+    boolean hasNext() -> hasNext
+    java.lang.String next() -> a
+    void remove() -> remove
+    java.lang.Object next() -> next
+com.appslandia.core.utils.SplitterUtils -> com.appslandia.core.e.z:
+    java.lang.String[] splitAndRemoveEmptyEntries(java.lang.String,char) -> a
+    java.lang.String[] split(java.lang.String,char) -> b
+com.appslandia.core.utils.StringUtils -> com.appslandia.core.e.aa:
+    java.lang.String EMPTY_STRING -> a
+    java.lang.String[] EMPTY_STRINGS -> b
+    java.util.regex.Pattern ACCENT_PATTERN -> c
+    java.lang.String truncate(java.lang.String,int) -> a
+    java.lang.String trimToNull(java.lang.String) -> a
+    java.lang.String toText(java.lang.String,boolean) -> a
+    boolean toText_nextInvalid(char) -> a
+    boolean toText_toSpace(char) -> b
+    java.lang.String toSearchable(java.lang.String) -> b
+    boolean toSearchable_nextInvalid(char) -> c
+    boolean toSearchable_toSpace(char) -> d
+    java.lang.String toLabel(java.lang.String) -> c
+    boolean toLabel_nextInvalid(char) -> e
+    boolean toLabel_toSpace(char) -> f
+    java.lang.String toDisplayLabel(java.lang.String) -> d
+com.appslandia.core.utils.TextBuilder -> com.appslandia.core.e.ab:
+    java.lang.String LINE_BREAK -> a
+    java.lang.StringBuilder sb -> b
+    com.appslandia.core.utils.TextBuilder appendln() -> a
+    com.appslandia.core.utils.TextBuilder append(java.lang.String) -> a
+    com.appslandia.core.utils.TextBuilder appendtab(int) -> a
+    com.appslandia.core.utils.TextBuilder append(java.lang.Object) -> a
+    com.appslandia.core.utils.TextBuilder append(int) -> b
+    java.lang.String toString() -> toString
+com.appslandia.core.utils.ToStringBuilder -> com.appslandia.core.e.ac:
+    int maxRecursivingLevel -> a
+    int identTabs -> b
+    java.lang.String toString(java.lang.Object) -> a
+    java.lang.String toString(java.lang.Object,int) -> a
+    java.lang.String toStringIterable(java.lang.Iterable,int) -> a
+    java.lang.String toStringIterator(java.util.Iterator,int) -> a
+    java.lang.String toStringEnumeration(java.util.Enumeration,int) -> a
+    java.lang.String toStringArray(java.lang.Object,int) -> b
+    java.lang.String toStringMap(java.util.Map,int) -> a
+    java.lang.String toStringBundle(android.os.Bundle,int) -> a
+    java.lang.String toStringFields(java.lang.Object,int) -> c
+com.appslandia.core.utils.ToStringBuilder$Excluded -> com.appslandia.core.e.ad:
+com.appslandia.core.utils.ToStringBuilder$Undetailed -> com.appslandia.core.e.ae:
+com.appslandia.core.utils.URLUtils -> com.appslandia.core.e.af:
+    java.util.BitSet dontNeedEncoding -> a
+    java.lang.String encodeQueryParam(java.lang.String) -> a
+    java.lang.String decodeQueryParam(java.lang.String) -> b
+com.appslandia.core.utils.Validator -> com.appslandia.core.e.ag:
+    void validateRequired(android.widget.EditText,int,com.appslandia.core.utils.Bool) -> a
+com.appslandia.core.utils.ViewUtils -> com.appslandia.core.e.ah:
+    int nextId() -> a
+    boolean setSelectionItemId(android.widget.Spinner,int) -> a
+    int dpToPx(android.util.DisplayMetrics,float) -> a
+    void setTransparentDivider(android.widget.ListView,int) -> a
+    void setDrawableIntrinsicBounds(android.graphics.drawable.Drawable) -> a
+    void hideSoftInput(android.widget.EditText) -> a
+    void showSoftInput(android.widget.EditText) -> b
+com.appslandia.core.utils.ViewUtils$ViewIdSeqHolder -> com.appslandia.core.e.ai:
+    java.util.concurrent.atomic.AtomicInteger Instance -> a
+com.appslandia.core.views.AboutActivity -> com.appslandia.core.views.a:
+    void onCreate(android.os.Bundle) -> onCreate
+    void initActionBar() -> a
+    int getActivityLayoutId() -> b
+    int getContainerViewId() -> c
+    int getListItemResourceId() -> d
+    java.util.List getListItems() -> e
+    void onListItemSelected(com.appslandia.core.adapters.AboutItem) -> a
+    android.widget.BaseAdapter createAdapter() -> f
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.appslandia.core.views.AboutActivity$PlaceholderFragment -> com.appslandia.core.views.b:
+    void onActivityCreated(android.os.Bundle) -> onActivityCreated
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> a
+com.appslandia.core.views.AbstractAlertDialog -> com.appslandia.core.views.c:
+    com.appslandia.core.views.AbstractAlertDialog setMessage(java.lang.String) -> a
+    android.app.Dialog onCreateDialog(android.os.Bundle) -> onCreateDialog
+    void initBuilder(android.app.AlertDialog$Builder,android.os.Bundle) -> a
+com.appslandia.core.views.AbstractListFragment -> com.appslandia.core.views.d:
+    android.os.Handler mHandler -> a
+    java.lang.Runnable mRequestFocus -> i
+    com.appslandia.core.views.OnListItemClickListener mOnClickListener -> j
+    android.widget.BaseAdapter mAdapter -> b
+    android.widget.ListView mList -> c
+    android.widget.TextView mStandardEmptyView -> d
+    android.view.View mProgressContainer -> e
+    android.view.View mListContainer -> f
+    java.lang.CharSequence mEmptyText -> g
+    boolean mListShown -> h
+    int getViewResourceId() -> a
+    void initializeView(android.view.View) -> a
+    com.appslandia.core.views.ListViewPos createListViewPos() -> b
+    void updateListShown(boolean) -> a
+    boolean checkObjects(java.util.List) -> a
+    boolean setObjects(java.util.List) -> b
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    void onViewCreated(android.view.View,android.os.Bundle) -> onViewCreated
+    void onDestroyView() -> onDestroyView
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> a
+    void setListAdapter(android.widget.BaseAdapter) -> a
+    void setEmptyText(java.lang.CharSequence) -> a
+    void setListShown(boolean) -> b
+    void setListShownNoAnimation(boolean) -> c
+    void setListShown(boolean,boolean) -> a
+    void ensureList() -> c
+com.appslandia.core.views.AbstractListFragment$1 -> com.appslandia.core.views.e:
+    com.appslandia.core.views.AbstractListFragment this$0 -> a
+    void run() -> run
+com.appslandia.core.views.AbstractListFragment$2 -> com.appslandia.core.views.f:
+    com.appslandia.core.views.AbstractListFragment this$0 -> a
+    void onSingleClick(android.widget.AdapterView,android.view.View,int,long) -> a
+com.appslandia.core.views.ActionsDialog -> com.appslandia.core.views.g:
+    com.appslandia.core.views.ActionsDialog setNegativeText(java.lang.String) -> b
+    com.appslandia.core.views.ActionsDialog setPositiveText(java.lang.String) -> c
+    com.appslandia.core.views.ActionsDialog$Callbacks getCallbacks() -> a
+    void initBuilder(android.app.AlertDialog$Builder,android.os.Bundle) -> a
+com.appslandia.core.views.ActionsDialog$1 -> com.appslandia.core.views.h:
+    com.appslandia.core.views.ActionsDialog this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.appslandia.core.views.ActionsDialog$2 -> com.appslandia.core.views.i:
+    com.appslandia.core.views.ActionsDialog this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.appslandia.core.views.ActionsDialog$Callbacks -> com.appslandia.core.views.j:
+    void doPositiveClick(com.appslandia.core.views.ActionsDialog) -> a
+    void doNegativeClick(com.appslandia.core.views.ActionsDialog) -> b
+com.appslandia.core.views.ActivityImpl -> com.appslandia.core.views.k:
+    int activityState -> a
+    void onResume() -> onResume
+    void onPause() -> onPause
+    boolean isStateResumed() -> a
+com.appslandia.core.views.AppListActivity -> com.appslandia.core.views.l:
+    android.widget.BaseAdapter createAdapter() -> f
+    void onListItemSelected(com.appslandia.core.adapters.AboutItem) -> a
+com.appslandia.core.views.DialogImpl -> com.appslandia.core.views.m:
+    android.os.Bundle getInputArgs() -> b
+    int getDialogId() -> c
+    com.appslandia.core.views.DialogImpl setDialogId(int) -> a
+    int getIntArgument1() -> d
+    com.appslandia.core.views.DialogImpl setIntArgument1(int) -> b
+    boolean isHostFragment() -> e
+    com.appslandia.core.views.DialogImpl setHostFragment(android.app.Fragment,int) -> a
+    com.appslandia.core.views.DialogImpl setUncancelable() -> f
+    void show(android.app.FragmentManager) -> a
+    void showAllowingStateLoss(android.app.FragmentManager) -> b
+    void show(android.app.FragmentManager,java.lang.String) -> show
+    int show(android.app.FragmentTransaction,java.lang.String) -> show
+    void dismiss() -> dismiss
+    void dismiss(android.app.FragmentManager,java.lang.Class) -> a
+    com.appslandia.core.views.DialogImpl find(android.app.FragmentManager,java.lang.Class) -> b
+com.appslandia.core.views.FirstTimeUsersAdapter -> com.appslandia.core.views.n:
+    int resourceId -> a
+    android.view.LayoutInflater inflater -> b
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.appslandia.core.views.FirstTimeUsersAdapter$ViewHolder -> com.appslandia.core.views.o:
+    android.widget.TextView indexTextView -> a
+    android.widget.TextView descTextView -> b
+com.appslandia.core.views.FirstTimeUsersDialog -> com.appslandia.core.views.p:
+    android.widget.ListView listView -> a
+    com.appslandia.core.views.OnListItemClickListener mOnClickListener -> b
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> a
+    java.util.ArrayList initItems() -> a
+    void onDestroyView() -> onDestroyView
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    android.app.Dialog onCreateDialog(android.os.Bundle) -> onCreateDialog
+com.appslandia.core.views.FirstTimeUsersDialog$1 -> com.appslandia.core.views.q:
+    com.appslandia.core.views.FirstTimeUsersDialog this$0 -> a
+    void onSingleClick(android.widget.AdapterView,android.view.View,int,long) -> a
+com.appslandia.core.views.FirstTimeUsersDialog$2 -> com.appslandia.core.views.r:
+    com.appslandia.core.views.FirstTimeUsersDialog this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.core.views.FirstTimeUsersDialog$Callbacks -> com.appslandia.core.views.s:
+    void onFirstTimeUsersClosed() -> b_
+com.appslandia.core.views.FormDialog -> com.appslandia.core.views.t:
+    void onViewCreated(android.view.View,android.os.Bundle) -> onViewCreated
+    void initTitleView(android.widget.TextView) -> a
+    void initRightAction(android.widget.ImageView) -> a
+    android.app.Dialog onCreateDialog(android.os.Bundle) -> onCreateDialog
+com.appslandia.core.views.HelpActivity -> com.appslandia.core.views.u:
+    void onCreate(android.os.Bundle) -> onCreate
+    int getActivityLayoutId() -> a
+    void initWebView(java.lang.String) -> a
+    void initActionBar() -> b
+    void initActivityProps() -> c
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.appslandia.core.views.LabelEditLayout -> com.appslandia.core.views.LabelEditLayout:
+    java.util.List labelList -> a
+    android.view.LayoutInflater inflater -> b
+    android.widget.AutoCompleteTextView labelEditText -> c
+    android.util.SparseArray labelViewMap -> d
+    com.appslandia.core.views.LayoutSizer layoutSizer -> e
+    int vGapPx -> f
+    int hGapPx -> g
+    void setLabelEditText(android.widget.AutoCompleteTextView) -> setLabelEditText
+    java.util.List getLabelList() -> getLabelList
+    void setLabelList(java.util.List) -> setLabelList
+    void setLayoutSizer(com.appslandia.core.views.LayoutSizer) -> setLayoutSizer
+    com.appslandia.core.views.LeoLabelX createLabelView() -> a
+    void createLabelViews() -> b
+    android.widget.AutoCompleteTextView access$0(com.appslandia.core.views.LabelEditLayout) -> a
+    android.util.SparseArray access$1(com.appslandia.core.views.LabelEditLayout) -> b
+    java.util.List access$2(com.appslandia.core.views.LabelEditLayout) -> c
+com.appslandia.core.views.LabelEditLayout$1 -> com.appslandia.core.views.v:
+    com.appslandia.core.views.LabelEditLayout this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.appslandia.core.views.LabelEditLayout$2 -> com.appslandia.core.views.w:
+    com.appslandia.core.views.LabelEditLayout this$0 -> a
+    void onCloseClicked(android.widget.TextView) -> a
+com.appslandia.core.views.LabelLayout -> com.appslandia.core.views.LabelLayout:
+    java.util.List labelList -> a
+    android.view.LayoutInflater inflater -> b
+    com.appslandia.core.views.LayoutSizer layoutSizer -> c
+    int vGapPx -> d
+    int hGapPx -> e
+    android.view.View$OnClickListener onLabelClickListener -> f
+    void setLabelList(java.util.List) -> setLabelList
+    void setLayoutSizer(com.appslandia.core.views.LayoutSizer) -> setLayoutSizer
+    void setOnLabelClickListener(android.view.View$OnClickListener) -> setOnLabelClickListener
+    android.widget.TextView createLabelView() -> a
+    void createLabelViews() -> b
+com.appslandia.core.views.LayoutSizer -> com.appslandia.core.views.x:
+    int measureWidth(android.content.res.Resources) -> a
+    int doMeasureWidth(android.util.DisplayMetrics,boolean) -> a
+com.appslandia.core.views.LayoutSizerImpl -> com.appslandia.core.views.y:
+    int gapDp -> a
+    int doMeasureWidth(android.util.DisplayMetrics,boolean) -> a
+com.appslandia.core.views.LeoEditTextAction -> com.appslandia.core.views.LeoEditTextAction:
+    android.graphics.drawable.Drawable leftIcon -> a
+    android.graphics.drawable.Drawable rightIcon -> b
+    android.view.View$OnTouchListener onTouchListener -> c
+    com.appslandia.core.views.OnTextViewActionListener onTextViewActionListener -> d
+    void initialize(android.content.res.TypedArray) -> a
+    void setCompoundIcons(android.graphics.drawable.Drawable[]) -> setCompoundIcons
+    void showRightCompound(boolean) -> a
+    void setOnTouchListener(android.view.View$OnTouchListener) -> setOnTouchListener
+    void setOnTextViewActionListener(com.appslandia.core.views.OnTextViewActionListener) -> setOnTextViewActionListener
+    boolean handleRightAction() -> a
+    boolean handleLeftAction() -> b
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.appslandia.core.views.LeoEditTextVal -> com.appslandia.core.views.LeoEditTextVal:
+    android.text.TextWatcher tempTextWatcher -> a
+    java.lang.Runnable attachTextWatcherRunnable -> b
+    void setTempTextWatcher(android.text.TextWatcher) -> setTempTextWatcher
+    java.lang.Runnable getAttachTextWatcherRunnable() -> getAttachTextWatcherRunnable
+    void postAttachTextWatcherRunnable() -> a
+    void removeCallbacks() -> b
+    android.text.TextWatcher access$0(com.appslandia.core.views.LeoEditTextVal) -> a
+com.appslandia.core.views.LeoEditTextVal$1 -> com.appslandia.core.views.z:
+    com.appslandia.core.views.LeoEditTextVal this$0 -> a
+    void run() -> run
+com.appslandia.core.views.LeoEditTextView -> com.appslandia.core.views.aa:
+    void initialize() -> a
+    int getBackgroudResId() -> getBackgroudResId
+com.appslandia.core.views.LeoLabelX -> com.appslandia.core.views.LeoLabelX:
+    android.graphics.drawable.Drawable xIcon -> a
+    android.view.View$OnTouchListener onTouchListener -> b
+    com.appslandia.core.views.LeoLabelX$OnCloseClickedListener onCloseClickedListener -> c
+    void initialize(android.content.res.TypedArray) -> a
+    void setCompoundIcons(android.graphics.drawable.Drawable[]) -> setCompoundIcons
+    void setOnTouchListener(android.view.View$OnTouchListener) -> setOnTouchListener
+    void setOnCloseClickedListener(com.appslandia.core.views.LeoLabelX$OnCloseClickedListener) -> setOnCloseClickedListener
+    boolean handleRightAction() -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.appslandia.core.views.LeoLabelX$OnCloseClickedListener -> com.appslandia.core.views.ab:
+    void onCloseClicked(android.widget.TextView) -> a
+com.appslandia.core.views.LeoListView -> com.appslandia.core.views.LeoListView:
+    android.view.View loadingView -> a
+    boolean loading -> b
+    void setLoadingView(android.view.View) -> setLoadingView
+    void setLoading(boolean) -> setLoading
+com.appslandia.core.views.LeoListView$ScrollListener -> com.appslandia.core.views.ac:
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void loadMoreItems() -> a
+com.appslandia.core.views.LeoSpinner -> com.appslandia.core.views.LeoSpinner:
+    boolean setSelectionItemId(int) -> a
+    boolean checkObjects(java.util.List) -> a
+    boolean setObjects(java.util.List) -> b
+    void notifyDataSetChanged() -> a
+com.appslandia.core.views.LeoTextView -> com.appslandia.core.views.LeoTextView:
+    int UNDERLINE_COLOR -> a
+    android.graphics.Paint paint -> b
+    void initialize(android.content.res.TypedArray) -> a
+    void draw(android.graphics.Canvas) -> draw
+com.appslandia.core.views.LeoTimeEditor -> com.appslandia.core.views.LeoTimeEditor:
+    int hour -> a
+    int minute -> b
+    java.text.DateFormat timeFormat -> c
+    void setHourMinute(int,int) -> a
+    int getHour() -> getHour
+    int getMinute() -> getMinute
+    android.os.Parcelable onSaveInstanceState() -> onSaveInstanceState
+    void onRestoreInstanceState(android.os.Parcelable) -> onRestoreInstanceState
+com.appslandia.core.views.LeoTimeEditor$EditorState -> com.appslandia.core.views.ad:
+    int hour -> a
+    int minute -> b
+    android.os.Parcelable parentState -> c
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    int describeContents() -> describeContents
+    int access$0(com.appslandia.core.views.LeoTimeEditor$EditorState) -> a
+    int access$1(com.appslandia.core.views.LeoTimeEditor$EditorState) -> b
+    android.os.Parcelable access$2(com.appslandia.core.views.LeoTimeEditor$EditorState) -> c
+com.appslandia.core.views.LeoTimeEditor$EditorState$1 -> com.appslandia.core.views.ae:
+    com.appslandia.core.views.LeoTimeEditor$EditorState createFromParcel(android.os.Parcel) -> a
+    com.appslandia.core.views.LeoTimeEditor$EditorState[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+com.appslandia.core.views.LeoTimePicker -> com.appslandia.core.views.af:
+    com.appslandia.core.views.LeoTimePicker setHour(int) -> c
+    com.appslandia.core.views.LeoTimePicker setMinute(int) -> d
+    com.appslandia.core.views.LeoTimePicker$Callbacks getCallbacks() -> a
+    android.app.Dialog onCreateDialog(android.os.Bundle) -> onCreateDialog
+com.appslandia.core.views.LeoTimePicker$1 -> com.appslandia.core.views.ag:
+    com.appslandia.core.views.LeoTimePicker this$0 -> a
+    android.widget.TimePicker val$timePicker -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.appslandia.core.views.LeoTimePicker$Callbacks -> com.appslandia.core.views.ah:
+    void onTimeSet(int,int) -> a
+com.appslandia.core.views.LeoToggleView -> com.appslandia.core.views.LeoToggleView:
+    boolean stateOn -> a
+    com.appslandia.core.views.LeoToggleView$OnToggleListener listener -> b
+    int stateOnSrc -> c
+    int stateOffSrc -> d
+    boolean isStateOn() -> a
+    void setStateOn(boolean) -> setStateOn
+    void setStateOnSrc(int) -> setStateOnSrc
+    void setStateOffSrc(int) -> setStateOffSrc
+    void setOnClickListener(android.view.View$OnClickListener) -> setOnClickListener
+    void setToggleListener(com.appslandia.core.views.LeoToggleView$OnToggleListener) -> setToggleListener
+    boolean access$0(com.appslandia.core.views.LeoToggleView) -> a
+    com.appslandia.core.views.LeoToggleView$OnToggleListener access$1(com.appslandia.core.views.LeoToggleView) -> b
+com.appslandia.core.views.LeoToggleView$1 -> com.appslandia.core.views.ai:
+    com.appslandia.core.views.LeoToggleView this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.core.views.LeoToggleView$OnToggleListener -> com.appslandia.core.views.aj:
+    void onToggle(android.view.View,boolean) -> a
+com.appslandia.core.views.ListViewPos -> com.appslandia.core.views.ak:
+    int position -> a
+    int topY -> b
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    int getPosition() -> a
+    int getTopY() -> b
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    int describeContents() -> describeContents
+com.appslandia.core.views.ListViewPos$1 -> com.appslandia.core.views.al:
+    com.appslandia.core.views.ListViewPos createFromParcel(android.os.Parcel) -> a
+    com.appslandia.core.views.ListViewPos[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+com.appslandia.core.views.Loading -> com.appslandia.core.views.am:
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    android.app.Dialog onCreateDialog(android.os.Bundle) -> onCreateDialog
+com.appslandia.core.views.MessageDialog -> com.appslandia.core.views.an:
+    com.appslandia.core.views.MessageDialog setButtonText(java.lang.String) -> b
+    com.appslandia.core.views.MessageDialog$Callbacks getCallbacks() -> a
+    void initBuilder(android.app.AlertDialog$Builder,android.os.Bundle) -> a
+com.appslandia.core.views.MessageDialog$1 -> com.appslandia.core.views.ao:
+    com.appslandia.core.views.MessageDialog this$0 -> a
+    android.os.Bundle val$args -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.appslandia.core.views.MessageDialog$Callbacks -> com.appslandia.core.views.ap:
+    void onMessageClosed(com.appslandia.core.views.MessageDialog) -> a
+com.appslandia.core.views.OnItemSelectedListenerImpl -> com.appslandia.core.views.aq:
+    boolean firstTime -> a
+    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
+    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
+    void doOnItemSelected(android.widget.AdapterView,android.view.View,int,long) -> a
+com.appslandia.core.views.OnListItemClickListener -> com.appslandia.core.views.ar:
+    long clickDelayedMs -> a
+    int clickCount -> b
+    java.lang.Runnable enableClickRunnable -> c
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+    void removeCallbackOn(android.view.View) -> a
+    void onSingleClick(android.widget.AdapterView,android.view.View,int,long) -> a
+    void access$0(com.appslandia.core.views.OnListItemClickListener,int) -> a
+com.appslandia.core.views.OnListItemClickListener$1 -> com.appslandia.core.views.as:
+    com.appslandia.core.views.OnListItemClickListener this$0 -> a
+    void run() -> run
+com.appslandia.core.views.OnSingleClickListener_PostHandler -> com.appslandia.core.views.at:
+    long clickDelayedMs -> a
+    int clickCount -> b
+    java.lang.Runnable enableClickRunnable -> c
+    void onClick(android.view.View) -> onClick
+    android.os.Handler getPostHandler() -> a
+    void removeCallbacks() -> b
+    void onSingleClick(android.view.View) -> a
+    void access$0(com.appslandia.core.views.OnSingleClickListener_PostHandler,int) -> a
+com.appslandia.core.views.OnSingleClickListener_PostHandler$1 -> com.appslandia.core.views.au:
+    com.appslandia.core.views.OnSingleClickListener_PostHandler this$0 -> a
+    void run() -> run
+com.appslandia.core.views.OnTextViewActionListener -> com.appslandia.core.views.av:
+    void onActionSelected(android.widget.TextView,boolean) -> a
+com.appslandia.core.views.PressAgainActivity -> com.appslandia.core.views.aw:
+    com.appslandia.core.utils.PressAgainHandler pressAgainHandler -> b
+    com.appslandia.core.utils.PressAgainHandler initPressAgainHandler() -> b
+    void onBackPressed() -> onBackPressed
+com.appslandia.core.views.RateUsDialog -> com.appslandia.core.views.ax:
+    com.appslandia.core.views.RateUsDialog setAddNoThanks(boolean) -> a
+    com.appslandia.core.views.RateUsDialog$Callbacks getCallbacks() -> a
+    void initBuilder(android.app.AlertDialog$Builder,android.os.Bundle) -> a
+com.appslandia.core.views.RateUsDialog$1 -> com.appslandia.core.views.ay:
+    com.appslandia.core.views.RateUsDialog this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.appslandia.core.views.RateUsDialog$2 -> com.appslandia.core.views.az:
+    com.appslandia.core.views.RateUsDialog this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.appslandia.core.views.RateUsDialog$3 -> com.appslandia.core.views.ba:
+    com.appslandia.core.views.RateUsDialog this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.appslandia.core.views.RateUsDialog$Callbacks -> com.appslandia.core.views.bb:
+    void onRateUsDialogResult(int) -> a
+com.appslandia.core.views.RetainedFragment -> com.appslandia.core.views.bc:
+    java.lang.String FRAGMENT_TAG -> a
+    android.content.Context context -> b
+    android.os.Bundle getInputArgs() -> a
+    boolean isHostFragment() -> b
+    void setHostFragment(android.app.Fragment,int) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+com.appslandia.core.views.TaskFragment -> com.appslandia.core.views.bd:
+    com.appslandia.core.views.TaskFragment$Callbacks getCallbacks() -> c
+    void execute(int,java.lang.Object[]) -> a
+    void executeLoading(int,java.lang.Object[]) -> b
+com.appslandia.core.views.TaskFragment$AsyncTaskImpl -> com.appslandia.core.views.be:
+    int taskId -> a
+    boolean loading -> b
+    com.appslandia.core.views.TaskFragment this$0 -> c
+    void showLoading() -> a
+    void dismissLoading() -> b
+    void onPreExecute() -> onPreExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    void onPostExecute(java.lang.Object) -> onPostExecute
+com.appslandia.core.views.TaskFragment$Callbacks -> com.appslandia.core.views.bf:
+    java.lang.Object onTaskExecute(int,java.lang.Object[]) -> a
+    void onTaskExecuted(int,java.lang.Object) -> a
+com.appslandia.core.views.TaskFragment2 -> com.appslandia.core.views.bg:
+    com.appslandia.core.views.TaskFragment2$Callbacks getCallbacks() -> c
+com.appslandia.core.views.TaskFragment2$AsyncTaskImpl -> com.appslandia.core.views.bh:
+    int taskId -> a
+    boolean loading -> b
+    com.appslandia.core.views.TaskFragment2 this$0 -> c
+    void showLoading() -> a
+    void dismissLoading() -> b
+    void onPreExecute() -> onPreExecute
+    void onPostExecute(java.lang.Object) -> onPostExecute
+com.appslandia.core.views.TaskFragment2$Callbacks -> com.appslandia.core.views.bi:
+    void onTaskExecuted(int,java.lang.Object) -> a
+com.appslandia.core.views.TextWatcherImpl -> com.appslandia.core.views.bj:
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+com.appslandia.core.views.YesConfirmDialog -> com.appslandia.core.views.bk:
+    com.appslandia.core.views.LeoEditTextVal yesInput -> a
+    android.view.View yesBtn -> b
+    void onDestroyView() -> onDestroyView
+    com.appslandia.core.views.YesConfirmDialog$Callbacks getCallbacks() -> a
+    com.appslandia.core.views.YesConfirmDialog setMessage(java.lang.String) -> a
+    void onViewStateRestored(android.os.Bundle) -> onViewStateRestored
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    android.app.Dialog onCreateDialog(android.os.Bundle) -> onCreateDialog
+com.appslandia.core.views.YesConfirmDialog$1 -> com.appslandia.core.views.bl:
+    com.appslandia.core.views.YesConfirmDialog this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.core.views.YesConfirmDialog$2 -> com.appslandia.core.views.bm:
+    com.appslandia.core.views.YesConfirmDialog this$0 -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.appslandia.core.views.YesConfirmDialog$3 -> com.appslandia.core.views.bn:
+    com.appslandia.core.views.YesConfirmDialog this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.core.views.YesConfirmDialog$Callbacks -> com.appslandia.core.views.bo:
+    void doNoConfirm(com.appslandia.core.views.YesConfirmDialog) -> a
+    void doYesConfirm(com.appslandia.core.views.YesConfirmDialog) -> b
+com.appslandia.phrasebuilder.AboutActivityImpl -> com.appslandia.phrasebuilder.AboutActivityImpl:
+    void onCreate(android.os.Bundle) -> onCreate
+    void initActivityProps() -> g
+    int getActivityLayoutId() -> b
+    int getContainerViewId() -> c
+    int getListItemResourceId() -> d
+    java.util.List getListItems() -> e
+    void onListItemSelected(com.appslandia.core.adapters.AboutItem) -> a
+    void feedback() -> h
+    void openOurProducts() -> i
+com.appslandia.phrasebuilder.AppListActivityImpl -> com.appslandia.phrasebuilder.AppListActivityImpl:
+    void onCreate(android.os.Bundle) -> onCreate
+    void initActivityProps() -> g
+    int getActivityLayoutId() -> b
+    int getContainerViewId() -> c
+    int getListItemResourceId() -> d
+    java.util.List getListItems() -> e
+com.appslandia.phrasebuilder.ApplicationImpl -> com.appslandia.phrasebuilder.ApplicationImpl:
+    void onCreate() -> onCreate
+com.appslandia.phrasebuilder.BackupAgentImpl -> com.appslandia.phrasebuilder.BackupAgentImpl:
+    com.appslandia.phrasebuilder.BackupHelperImpl helper -> a
+    void saveBackupTimestamp(long) -> a
+    void onBackup(android.os.ParcelFileDescriptor,android.app.backup.BackupDataOutput,android.os.ParcelFileDescriptor) -> onBackup
+    void onRestore(android.app.backup.BackupDataInput,int,android.os.ParcelFileDescriptor) -> onRestore
+com.appslandia.phrasebuilder.BackupHelperImpl -> com.appslandia.phrasebuilder.a:
+    byte[] EMPTY_BYTES -> a
+    android.content.Context context -> b
+    void restoreKeyData(android.database.sqlite.SQLiteDatabase,java.lang.String,byte[]) -> a
+    com.appslandia.core.utils.QueryParams initPrefQueryParams() -> a
+    long backupPreferences(com.appslandia.core.io.KeyDataOutput) -> a
+    void restoreLanguages(android.database.sqlite.SQLiteDatabase,byte[]) -> a
+    void restoreLabels(android.database.sqlite.SQLiteDatabase,byte[]) -> b
+    void restorePhrases(android.database.sqlite.SQLiteDatabase,byte[]) -> c
+    void restorePhraseLabels(android.database.sqlite.SQLiteDatabase,byte[]) -> d
+    void restorePreferences(byte[]) -> a
+    void backupLanguages(com.appslandia.core.io.KeyDataOutput,android.database.sqlite.SQLiteDatabase) -> a
+    void backupLabels(com.appslandia.core.io.KeyDataOutput,android.database.sqlite.SQLiteDatabase) -> b
+    void backupPhrases(com.appslandia.core.io.KeyDataOutput,android.database.sqlite.SQLiteDatabase) -> c
+    void backupPhraseLabels(com.appslandia.core.io.KeyDataOutput,android.database.sqlite.SQLiteDatabase) -> d
+com.appslandia.phrasebuilder.BackupLocalImpl -> com.appslandia.phrasebuilder.b:
+    java.lang.Object mutex -> a
+    com.appslandia.phrasebuilder.BackupHelperImpl helper -> b
+    java.io.File getBackupFile() -> a
+    void saveBackupTimestamp(com.appslandia.core.io.KeyDataOutput,long) -> a
+    void onBackup() -> b
+    void onRestore() -> c
+    boolean isBackupFileExists() -> d
+    boolean verifyBackupState() -> e
+    long tryGetBackupTimestamp() -> f
+com.appslandia.phrasebuilder.BackupLocalImpl$1 -> com.appslandia.phrasebuilder.c:
+    com.appslandia.phrasebuilder.BackupLocalImpl this$0 -> a
+    android.database.sqlite.SQLiteDatabase val$db -> b
+    boolean handle(java.lang.String,byte[]) -> a
+com.appslandia.phrasebuilder.BackupLocalImpl$2 -> com.appslandia.phrasebuilder.d:
+    boolean handle(java.lang.String,byte[]) -> a
+com.appslandia.phrasebuilder.BackupLocalImpl$3 -> com.appslandia.phrasebuilder.e:
+    com.appslandia.core.utils.Out val$timestamp -> a
+    boolean handle(java.lang.String,byte[]) -> a
+com.appslandia.phrasebuilder.BackupRequestReceiver -> com.appslandia.phrasebuilder.BackupRequestReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.appslandia.phrasebuilder.BootCompletedListener -> com.appslandia.phrasebuilder.BootCompletedListener:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.appslandia.phrasebuilder.FirstTimeUsersDialogImpl -> com.appslandia.phrasebuilder.f:
+    java.util.ArrayList initItems() -> a
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> a
+com.appslandia.phrasebuilder.HelpActivityImpl -> com.appslandia.phrasebuilder.HelpActivityImpl:
+    android.view.ViewGroup webViewLayout -> a
+    android.webkit.WebView webView -> b
+    void initActivityProps() -> c
+    int getActivityLayoutId() -> a
+    void initWebView(java.lang.String) -> a
+    void onDestroy() -> onDestroy
+com.appslandia.phrasebuilder.LabelEditDialog -> com.appslandia.phrasebuilder.g:
+    com.appslandia.core.views.LeoEditTextVal nameEditText -> a
+    android.view.View saveBtn -> b
+    void onDestroyView() -> onDestroyView
+    com.appslandia.phrasebuilder.entities.Label getUpdateLabel() -> a
+    void onCheckLabelResult(boolean) -> a
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    void initRightAction(android.widget.ImageView) -> a
+    void initTitleView(android.widget.TextView) -> a
+com.appslandia.phrasebuilder.LabelEditDialog$1 -> com.appslandia.phrasebuilder.h:
+    com.appslandia.phrasebuilder.LabelEditDialog this$0 -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.appslandia.phrasebuilder.LabelEditDialog$2 -> com.appslandia.phrasebuilder.i:
+    com.appslandia.phrasebuilder.LabelEditDialog this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LabelEditDialog$3 -> com.appslandia.phrasebuilder.j:
+    com.appslandia.phrasebuilder.LabelEditDialog this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LabelEditDialog$4 -> com.appslandia.phrasebuilder.k:
+    com.appslandia.phrasebuilder.LabelEditDialog this$0 -> a
+    com.appslandia.phrasebuilder.entities.Label val$label -> b
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LabelEditDialog$Callbacks -> com.appslandia.phrasebuilder.l:
+    void onDialogSaveLabel(com.appslandia.phrasebuilder.entities.Label) -> a
+    void onDialogDeleteLabel(com.appslandia.phrasebuilder.entities.Label) -> b
+    void onDialogCheckLabel(java.lang.String,java.lang.Integer) -> a
+com.appslandia.phrasebuilder.LabelEditDialog2 -> com.appslandia.phrasebuilder.m:
+    boolean applyLabelChecked -> d
+    com.appslandia.core.views.LeoEditTextVal nameEditText -> a
+    android.widget.CheckBox applyLabelCheckbox -> b
+    android.view.View saveBtn -> c
+    void onDestroyView() -> onDestroyView
+    void onCheckLabelResult(boolean) -> a
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    void initRightAction(android.widget.ImageView) -> a
+    void initTitleView(android.widget.TextView) -> a
+    void access$1(boolean) -> b
+com.appslandia.phrasebuilder.LabelEditDialog2$1 -> com.appslandia.phrasebuilder.n:
+    com.appslandia.phrasebuilder.LabelEditDialog2 this$0 -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.appslandia.phrasebuilder.LabelEditDialog2$2 -> com.appslandia.phrasebuilder.o:
+    com.appslandia.phrasebuilder.LabelEditDialog2 this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LabelEditDialog2$3 -> com.appslandia.phrasebuilder.p:
+    com.appslandia.phrasebuilder.LabelEditDialog2 this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LabelEditDialog2$Callbacks -> com.appslandia.phrasebuilder.q:
+    void onDialogSaveLabel(com.appslandia.phrasebuilder.entities.Label,boolean) -> a
+    void onDialogCheckLabel(java.lang.String) -> a
+com.appslandia.phrasebuilder.LabelListActivity -> com.appslandia.phrasebuilder.LabelListActivity:
+    java.lang.String PREFERENCE_ID -> b
+    java.lang.String PREFERENCE_LANGUAGE_ID -> c
+    com.appslandia.core.views.TaskFragment taskFragment -> d
+    com.appslandia.core.views.LeoSpinner languageSpinner -> e
+    android.view.View simpleBtn -> f
+    android.view.View detailsBtn -> g
+    void onDestroy() -> onDestroy
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void saveActivityPrefs() -> b
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    int getParamLanguageId() -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void showDetailsFragment() -> d
+    android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
+    void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
+    void onLoaderReset(android.content.Loader) -> onLoaderReset
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onActionNewLabelSelected() -> e
+    void onActionHelp() -> f
+    void doNoConfirm(com.appslandia.core.views.YesConfirmDialog) -> a
+    void doYesConfirm(com.appslandia.core.views.YesConfirmDialog) -> b
+    void confirmDelete(com.appslandia.phrasebuilder.entities.Label,int) -> a
+    void onAdapterClickLabel(com.appslandia.phrasebuilder.entities.Label) -> c
+    void onAdapterDeleteLabel(com.appslandia.phrasebuilder.entities.Label) -> d
+    void onAdapterTestLabel(com.appslandia.phrasebuilder.entities.Label) -> e
+    void onDialogSaveLabel(com.appslandia.phrasebuilder.entities.Label) -> a
+    void onDialogDeleteLabel(com.appslandia.phrasebuilder.entities.Label) -> b
+    void onDialogCheckLabel(java.lang.String,java.lang.Integer) -> a
+    void deleteLabel(int) -> a
+    java.lang.Object onTaskExecute(int,java.lang.Object[]) -> a
+    void onTaskExecuted(int,java.lang.Object) -> a
+    void refreshLabels() -> g
+com.appslandia.phrasebuilder.LabelListActivity$1 -> com.appslandia.phrasebuilder.r:
+    com.appslandia.phrasebuilder.LabelListActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LabelListActivity$2 -> com.appslandia.phrasebuilder.s:
+    com.appslandia.phrasebuilder.LabelListActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LabelListActivity$3 -> com.appslandia.phrasebuilder.t:
+    com.appslandia.phrasebuilder.LabelListActivity this$0 -> a
+    void doOnItemSelected(android.widget.AdapterView,android.view.View,int,long) -> a
+com.appslandia.phrasebuilder.LabelListActivity$4 -> com.appslandia.phrasebuilder.u:
+    com.appslandia.phrasebuilder.LabelListActivity this$0 -> b
+    java.lang.Object loadData() -> a
+com.appslandia.phrasebuilder.LabelListActivity$LabelChangedCallbacks -> com.appslandia.phrasebuilder.v:
+    void loadLabels() -> a_
+com.appslandia.phrasebuilder.LabelListAdapter1 -> com.appslandia.phrasebuilder.w:
+    int resourceId -> a
+    android.view.LayoutInflater inflater -> b
+    android.view.View$OnClickListener onTestClickListener -> o
+    android.view.View$OnClickListener onDeleteClickListener -> p
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.appslandia.phrasebuilder.LabelListAdapter1$1 -> com.appslandia.phrasebuilder.x:
+    com.appslandia.phrasebuilder.LabelListAdapter1 this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LabelListAdapter1$2 -> com.appslandia.phrasebuilder.y:
+    com.appslandia.phrasebuilder.LabelListAdapter1 this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LabelListAdapter1$ViewHolder -> com.appslandia.phrasebuilder.z:
+    android.widget.TextView labelTextView -> a
+    android.widget.ImageView testButton -> b
+    android.widget.ImageView deleteButton -> c
+com.appslandia.phrasebuilder.LabelListAdapter2 -> com.appslandia.phrasebuilder.aa:
+    int resourceId -> a
+    android.view.LayoutInflater inflater -> b
+    android.view.View$OnClickListener onTestClickListener -> o
+    android.view.View$OnClickListener onDeleteClickListener -> p
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.appslandia.phrasebuilder.LabelListAdapter2$1 -> com.appslandia.phrasebuilder.ab:
+    com.appslandia.phrasebuilder.LabelListAdapter2 this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LabelListAdapter2$2 -> com.appslandia.phrasebuilder.ac:
+    com.appslandia.phrasebuilder.LabelListAdapter2 this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LabelListAdapter2$ViewHolder -> com.appslandia.phrasebuilder.ad:
+    android.widget.TextView labelTextView -> a
+    android.widget.TextView phrasesTextView -> b
+    android.widget.TextView masteredTextView -> c
+    android.widget.TextView learningTextView -> d
+    android.widget.TextView phrasesQtyTextView -> e
+    android.widget.TextView masteredQtyTextView -> f
+    android.widget.TextView learningQtyTextView -> g
+    android.widget.ImageView testButton -> h
+    android.widget.ImageView deleteButton -> i
+com.appslandia.phrasebuilder.LabelListFragment1 -> com.appslandia.phrasebuilder.ae:
+    void loadLabels() -> a_
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> a
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onActivityCreated(android.os.Bundle) -> onActivityCreated
+    android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
+    void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
+    void onLoaderReset(android.content.Loader) -> onLoaderReset
+com.appslandia.phrasebuilder.LabelListFragment1$1 -> com.appslandia.phrasebuilder.af:
+    com.appslandia.phrasebuilder.LabelListFragment1 this$0 -> b
+    java.lang.Object loadData() -> a
+com.appslandia.phrasebuilder.LabelListFragment2 -> com.appslandia.phrasebuilder.ag:
+    void loadLabels() -> a_
+    android.os.Bundle getInputArgs() -> c
+    int getLanguageIdParam() -> d
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> a
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onActivityCreated(android.os.Bundle) -> onActivityCreated
+    android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
+    void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
+    void onLoaderReset(android.content.Loader) -> onLoaderReset
+com.appslandia.phrasebuilder.LabelListFragment2$1 -> com.appslandia.phrasebuilder.ah:
+    com.appslandia.phrasebuilder.LabelListFragment2 this$0 -> b
+    android.os.Bundle val$args -> c
+    java.lang.Object loadData() -> a
+com.appslandia.phrasebuilder.LabelListItemCallbacks -> com.appslandia.phrasebuilder.ai:
+    void onAdapterClickLabel(com.appslandia.phrasebuilder.entities.Label) -> c
+    void onAdapterDeleteLabel(com.appslandia.phrasebuilder.entities.Label) -> d
+    void onAdapterTestLabel(com.appslandia.phrasebuilder.entities.Label) -> e
+com.appslandia.phrasebuilder.LabelSelectDialog -> com.appslandia.phrasebuilder.aj:
+    java.util.ArrayList getLabels() -> a
+    com.appslandia.phrasebuilder.LabelSelectDialog$Callbacks getCallbacks() -> g
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    void initRightAction(android.widget.ImageView) -> a
+    void initTitleView(android.widget.TextView) -> a
+    void onResume() -> onResume
+com.appslandia.phrasebuilder.LabelSelectDialog$1 -> com.appslandia.phrasebuilder.ak:
+    com.appslandia.phrasebuilder.LabelSelectDialog this$0 -> a
+    void onSingleClick(android.widget.AdapterView,android.view.View,int,long) -> a
+com.appslandia.phrasebuilder.LabelSelectDialog$Callbacks -> com.appslandia.phrasebuilder.al:
+    void onSelectLabel(com.appslandia.phrasebuilder.entities.Label) -> a
+com.appslandia.phrasebuilder.LanguageEditDialog -> com.appslandia.phrasebuilder.am:
+    com.appslandia.core.views.LeoEditTextVal nameEditText -> a
+    android.view.View saveBtn -> b
+    void onDestroyView() -> onDestroyView
+    com.appslandia.phrasebuilder.entities.Language getUpdateLanguage() -> a
+    void onCheckLanguageResult(boolean) -> a
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    void initRightAction(android.widget.ImageView) -> a
+    void initTitleView(android.widget.TextView) -> a
+com.appslandia.phrasebuilder.LanguageEditDialog$1 -> com.appslandia.phrasebuilder.an:
+    com.appslandia.phrasebuilder.LanguageEditDialog this$0 -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.appslandia.phrasebuilder.LanguageEditDialog$2 -> com.appslandia.phrasebuilder.ao:
+    com.appslandia.phrasebuilder.LanguageEditDialog this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LanguageEditDialog$3 -> com.appslandia.phrasebuilder.ap:
+    com.appslandia.phrasebuilder.LanguageEditDialog this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LanguageEditDialog$4 -> com.appslandia.phrasebuilder.aq:
+    com.appslandia.phrasebuilder.LanguageEditDialog this$0 -> a
+    com.appslandia.phrasebuilder.entities.Language val$language -> b
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LanguageEditDialog$Callbacks -> com.appslandia.phrasebuilder.ar:
+    void onDialogSaveLanguage(com.appslandia.phrasebuilder.entities.Language) -> a
+    void onDialogDeleteLanguage(com.appslandia.phrasebuilder.entities.Language) -> b
+    void onDialogCheckLanguage(java.lang.String,java.lang.Integer) -> a
+com.appslandia.phrasebuilder.LanguageListActivity -> com.appslandia.phrasebuilder.LanguageListActivity:
+    com.appslandia.core.views.TaskFragment taskFragment -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onNewLanguageSelected() -> b
+    void onActionHelp() -> c
+    void onAdapterClickLanguage(com.appslandia.phrasebuilder.entities.Language) -> c
+    void onAdapterDeleteLanguage(com.appslandia.phrasebuilder.entities.Language) -> d
+    void onAdapterTestLanguage(int) -> a
+    void doNoConfirm(com.appslandia.core.views.YesConfirmDialog) -> a
+    void doYesConfirm(com.appslandia.core.views.YesConfirmDialog) -> b
+    void confirmDelete(com.appslandia.phrasebuilder.entities.Language,int) -> a
+    void onDialogSaveLanguage(com.appslandia.phrasebuilder.entities.Language) -> a
+    void onDialogDeleteLanguage(com.appslandia.phrasebuilder.entities.Language) -> b
+    void onDialogCheckLanguage(java.lang.String,java.lang.Integer) -> a
+    void deleteLanguage(int) -> b
+    java.lang.Object onTaskExecute(int,java.lang.Object[]) -> a
+    void onTaskExecuted(int,java.lang.Object) -> a
+    void refreshLanguages() -> d
+com.appslandia.phrasebuilder.LanguageListActivity$PlaceholderFragment -> com.appslandia.phrasebuilder.as:
+    void onDestroyView() -> onDestroyView
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void refreshLanguages() -> c
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> a
+    int getViewResourceId() -> a
+    void initializeView(android.view.View) -> a
+    void onActivityCreated(android.os.Bundle) -> onActivityCreated
+    android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
+    void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
+    void onLoaderReset(android.content.Loader) -> onLoaderReset
+com.appslandia.phrasebuilder.LanguageListActivity$PlaceholderFragment$1 -> com.appslandia.phrasebuilder.at:
+    com.appslandia.phrasebuilder.LanguageListActivity$PlaceholderFragment this$1 -> b
+    java.lang.Object loadData() -> a
+com.appslandia.phrasebuilder.LanguageListAdapter -> com.appslandia.phrasebuilder.au:
+    int resourceId -> a
+    android.view.LayoutInflater inflater -> b
+    android.view.View$OnClickListener onTestClickListener -> o
+    android.view.View$OnClickListener onDeleteClickListener -> p
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.appslandia.phrasebuilder.LanguageListAdapter$1 -> com.appslandia.phrasebuilder.av:
+    com.appslandia.phrasebuilder.LanguageListAdapter this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LanguageListAdapter$2 -> com.appslandia.phrasebuilder.aw:
+    com.appslandia.phrasebuilder.LanguageListAdapter this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.LanguageListAdapter$Callbacks -> com.appslandia.phrasebuilder.ax:
+    void onAdapterDeleteLanguage(com.appslandia.phrasebuilder.entities.Language) -> d
+    void onAdapterTestLanguage(int) -> a
+com.appslandia.phrasebuilder.LanguageListAdapter$ViewHolder -> com.appslandia.phrasebuilder.ay:
+    android.widget.TextView languageTextView -> a
+    android.widget.TextView phrasesTextView -> b
+    android.widget.TextView masteredTextView -> c
+    android.widget.TextView learningTextView -> d
+    android.widget.TextView phrasesQtyTextView -> e
+    android.widget.TextView masteredQtyTextView -> f
+    android.widget.TextView learningQtyTextView -> g
+    android.widget.ImageView testButton -> h
+    android.widget.ImageView deleteButton -> i
+com.appslandia.phrasebuilder.MainActivity -> com.appslandia.phrasebuilder.MainActivity:
+    java.lang.String PREFERENCE_ID -> c
+    java.lang.Runnable showRateUsRunnable -> f
+    long showRateUsTimestamp -> g
+    android.os.Handler handler -> d
+    com.appslandia.core.views.OnSingleClickListener_PostHandler menuClickListener -> e
+    void onDestroy() -> onDestroy
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onActionHelp() -> c
+    java.lang.Runnable getRateUsRunnable() -> d
+    void tryShowRateUs() -> e
+    void onRateUsDialogResult(int) -> a
+    void tryShowLearnWorkflow() -> f
+    void onFirstTimeUsersClosed() -> b_
+com.appslandia.phrasebuilder.MainActivity$1 -> com.appslandia.phrasebuilder.az:
+    com.appslandia.phrasebuilder.MainActivity this$0 -> a
+    void onSingleClick(android.view.View) -> a
+    android.os.Handler getPostHandler() -> a
+com.appslandia.phrasebuilder.MainActivity$2 -> com.appslandia.phrasebuilder.ba:
+    com.appslandia.phrasebuilder.MainActivity this$0 -> a
+    void run() -> run
+com.appslandia.phrasebuilder.ManageBackupActivity -> com.appslandia.phrasebuilder.ManageBackupActivity:
+    java.lang.String PREFERENCE_ID -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void initActionBar() -> b
+    void initActivityProps() -> c
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onActionHelp() -> d
+    void onTimeSet(int,int) -> a
+    com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment getPlaceholderFragment() -> e
+com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment -> com.appslandia.phrasebuilder.bb:
+    java.text.DateFormat timestampFormat -> a
+    com.appslandia.core.views.LeoSpinner backupDaySpinner -> b
+    com.appslandia.core.views.LeoTimeEditor backupTimeEditor -> c
+    android.view.View restoreButton -> d
+    android.widget.TextView localBackupTimestampTextView -> e
+    com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment$BackupService backupService -> f
+    void onDestroyView() -> onDestroyView
+    void onResume() -> onResume
+    void onPause() -> onPause
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    void onStart() -> onStart
+    void onActivityCreated(android.os.Bundle) -> onActivityCreated
+    void onRequestPermissionsResult(int,java.lang.String[],int[]) -> onRequestPermissionsResult
+    void onBackupDayChanged(int) -> a
+    void setInexactRepeatingBackup() -> a
+    void doNoConfirm(com.appslandia.core.views.YesConfirmDialog) -> a
+    void doYesConfirm(com.appslandia.core.views.YesConfirmDialog) -> b
+    void confirmDialog(int,int) -> a
+    boolean tryDisplayLocalBackupTimestamp() -> b
+    void onTaskExecuted(int,java.lang.Object) -> a
+com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment$1 -> com.appslandia.phrasebuilder.bc:
+    com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment$2 -> com.appslandia.phrasebuilder.bd:
+    com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment this$1 -> a
+    void doOnItemSelected(android.widget.AdapterView,android.view.View,int,long) -> a
+com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment$3 -> com.appslandia.phrasebuilder.be:
+    com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment$4 -> com.appslandia.phrasebuilder.bf:
+    com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment$5 -> com.appslandia.phrasebuilder.bg:
+    com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment$6 -> com.appslandia.phrasebuilder.bh:
+    com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment$BackupService -> com.appslandia.phrasebuilder.bi:
+    void backup() -> d
+    void restore() -> e
+    android.content.Context access$0(com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment$BackupService) -> a
+com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment$BackupService$BackupAsync -> com.appslandia.phrasebuilder.bj:
+    com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment$BackupService this$2 -> d
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment$BackupService$RestoreAsync -> com.appslandia.phrasebuilder.bk:
+    com.appslandia.phrasebuilder.ManageBackupActivity$PlaceholderFragment$BackupService this$2 -> d
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.appslandia.phrasebuilder.PhraseEditActivity -> com.appslandia.phrasebuilder.PhraseEditActivity:
+    java.lang.String PREFERENCE_ID -> b
+    java.lang.String PREFERENCE_LANGUAGE_ID -> c
+    com.appslandia.core.views.TaskFragment taskFragment -> d
+    int PHRASE_CHANGE_UNCHANGED -> e
+    int PHRASE_CHANGE_ADDED -> f
+    int PHRASE_CHANGE_DELETED -> g
+    int PHRASE_CHANGE_OTHERS -> h
+    int phraseChanged -> i
+    void initActionBar() -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void onPause() -> onPause
+    void saveActivityPrefs() -> c
+    com.appslandia.phrasebuilder.entities.Phrase getUpdatePhrase() -> d
+    int getParamLanguageId() -> e
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onActionHelp() -> f
+    void onActionNewLabelSelected() -> g
+    void onActionDeletePhraseSelected() -> h
+    void doPositiveClick(com.appslandia.core.views.ActionsDialog) -> a
+    void doNegativeClick(com.appslandia.core.views.ActionsDialog) -> b
+    void onDialogSaveLabel(com.appslandia.phrasebuilder.entities.Label,boolean) -> a
+    void onDialogCheckLabel(java.lang.String) -> a
+    void onFragmentNewPhrase(com.appslandia.phrasebuilder.entities.Phrase) -> a
+    void onFragmentUpdatePhrase(com.appslandia.phrasebuilder.entities.Phrase,com.appslandia.phrasebuilder.entities.Phrase) -> a
+    int insertPhrase(com.appslandia.phrasebuilder.entities.Phrase) -> b
+    int updatePhrase(com.appslandia.phrasebuilder.entities.Phrase,com.appslandia.phrasebuilder.entities.Phrase) -> b
+    java.lang.Object onTaskExecute(int,java.lang.Object[]) -> a
+    void onTaskExecuted(int,java.lang.Object) -> a
+    void onNewLabelCreated(com.appslandia.phrasebuilder.entities.Label,boolean) -> b
+    com.appslandia.phrasebuilder.PhraseEditActivity$PlaceholderFragment getPlaceholderFragment() -> i
+com.appslandia.phrasebuilder.PhraseEditActivity$PlaceholderFragment -> com.appslandia.phrasebuilder.bl:
+    com.appslandia.core.views.LeoEditTextVal phraseTextEditText -> a
+    com.appslandia.core.views.LeoEditTextVal keywordEditText -> b
+    android.widget.AutoCompleteTextView labelEditText -> c
+    com.appslandia.core.views.LabelEditLayout labelEditLayout -> d
+    android.widget.EditText notesEditText -> e
+    android.widget.Spinner languageSpinner -> f
+    android.widget.RadioButton masteredRadioButton -> g
+    android.widget.RadioButton learningRadioButton -> h
+    android.view.View saveButton -> i
+    void onDestroyView() -> onDestroyView
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onNewLabelCreated(com.appslandia.phrasebuilder.entities.Label,boolean) -> a
+    java.lang.String parsePhraseKeyword(java.lang.String,java.lang.String) -> a
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    void onActivityCreated(android.os.Bundle) -> onActivityCreated
+    android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
+    void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
+    void onLoaderReset(android.content.Loader) -> onLoaderReset
+com.appslandia.phrasebuilder.PhraseEditActivity$PlaceholderFragment$1 -> com.appslandia.phrasebuilder.bm:
+    com.appslandia.phrasebuilder.PhraseEditActivity$PlaceholderFragment this$1 -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.appslandia.phrasebuilder.PhraseEditActivity$PlaceholderFragment$2 -> com.appslandia.phrasebuilder.bn:
+    com.appslandia.phrasebuilder.PhraseEditActivity$PlaceholderFragment this$1 -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.appslandia.phrasebuilder.PhraseEditActivity$PlaceholderFragment$3 -> com.appslandia.phrasebuilder.bo:
+    com.appslandia.phrasebuilder.PhraseEditActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseEditActivity$PlaceholderFragment$4 -> com.appslandia.phrasebuilder.bp:
+    com.appslandia.phrasebuilder.PhraseEditActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseEditActivity$PlaceholderFragment$5 -> com.appslandia.phrasebuilder.bq:
+    com.appslandia.phrasebuilder.PhraseEditActivity$PlaceholderFragment this$1 -> b
+    java.lang.Object loadData() -> a
+com.appslandia.phrasebuilder.PhraseEditActivity$PlaceholderFragment$6 -> com.appslandia.phrasebuilder.br:
+    com.appslandia.phrasebuilder.PhraseEditActivity$PlaceholderFragment this$1 -> b
+    java.lang.Object loadData() -> a
+com.appslandia.phrasebuilder.PhraseFillin -> com.appslandia.phrasebuilder.bs:
+    java.lang.String answered -> a
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    int describeContents() -> describeContents
+    java.lang.String toString() -> toString
+com.appslandia.phrasebuilder.PhraseFillin$1 -> com.appslandia.phrasebuilder.bt:
+    com.appslandia.phrasebuilder.PhraseFillin createFromParcel(android.os.Parcel) -> a
+    com.appslandia.phrasebuilder.PhraseFillin[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+com.appslandia.phrasebuilder.PhraseListActivity -> com.appslandia.phrasebuilder.PhraseListActivity:
+    java.lang.String PREFERENCE_ID -> b
+    java.lang.String PREFERENCE_LANGUAGE_ID -> c
+    com.appslandia.core.views.TaskFragment taskFragment -> d
+    com.appslandia.core.views.LeoSpinner languageSpinner -> e
+    int activityInstanceId -> f
+    int lastActivityInstanceId -> g
+    void onPause() -> onPause
+    void onBackPressed() -> onBackPressed
+    void saveActivityPrefs() -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onActionHelp() -> c
+    void saveLastActivityInstanceId() -> d
+    boolean isActivityBeingRecreated() -> e
+    void onActionNewPhraseSelected() -> f
+    void onActionTestPhrasesSelected() -> g
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment getPlaceholderFragment() -> h
+    void doPositiveClick(com.appslandia.core.views.ActionsDialog) -> a
+    void doNegativeClick(com.appslandia.core.views.ActionsDialog) -> b
+    void onAdapterUpdateMastery(com.appslandia.phrasebuilder.entities.Phrase,boolean) -> a
+    void onAdapterClickLabel(com.appslandia.core.adapters.FilterableItem) -> a
+    void onAdapterPhraseEdit(com.appslandia.phrasebuilder.entities.Phrase) -> a
+    void onAdapterDeletePhrase(com.appslandia.phrasebuilder.entities.Phrase) -> b
+    java.lang.Object onTaskExecute(int,java.lang.Object[]) -> a
+    void onTaskExecuted(int,java.lang.Object) -> a
+com.appslandia.phrasebuilder.PhraseListActivity$1 -> com.appslandia.phrasebuilder.bu:
+    com.appslandia.phrasebuilder.PhraseListActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment -> com.appslandia.phrasebuilder.bv:
+    com.appslandia.core.views.LeoSpinner languageSpinner -> i
+    com.appslandia.core.views.LeoEditTextAction searchQueryEditText -> j
+    java.util.ArrayList labels -> k
+    java.lang.Runnable refreshPhrasesRunnable_added -> l
+    java.lang.Runnable refreshPhrasesRunnable_deleted -> m
+    java.lang.Runnable refreshPhrasesRunnable_others -> n
+    void onDestroyView() -> onDestroyView
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void postRefeshPhrases(int) -> a
+    void refreshPhrases(boolean,boolean) -> a
+    java.lang.String getSearchableText() -> c
+    void loadMorePhrases() -> d
+    void loadPhrases(android.os.Bundle) -> a
+    void loadPhrases() -> e
+    void loadPhrasesByLabel(java.lang.String) -> a
+    void loadPhrases(java.lang.String) -> b
+    int getViewResourceId() -> a
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> a
+    void onSelectLabel(com.appslandia.phrasebuilder.entities.Label) -> a
+    void initializeView(android.view.View) -> a
+    void onActivityCreated(android.os.Bundle) -> onActivityCreated
+    android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
+    void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
+    void onLoaderReset(android.content.Loader) -> onLoaderReset
+com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment$1 -> com.appslandia.phrasebuilder.bw:
+    com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment this$1 -> a
+    void run() -> run
+com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment$10 -> com.appslandia.phrasebuilder.bx:
+    com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment this$1 -> b
+    java.lang.Object loadData() -> a
+com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment$11 -> com.appslandia.phrasebuilder.by:
+    com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment this$1 -> b
+    java.lang.Object loadData() -> a
+com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment$12 -> com.appslandia.phrasebuilder.bz:
+    com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment this$1 -> b
+    android.os.Bundle val$args -> c
+    java.lang.Object loadData() -> a
+com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment$2 -> com.appslandia.phrasebuilder.ca:
+    com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment this$1 -> a
+    void run() -> run
+com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment$3 -> com.appslandia.phrasebuilder.cb:
+    com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment this$1 -> a
+    void run() -> run
+com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment$4 -> com.appslandia.phrasebuilder.cc:
+    com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment this$1 -> a
+    void doOnItemSelected(android.widget.AdapterView,android.view.View,int,long) -> a
+com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment$5 -> com.appslandia.phrasebuilder.cd:
+    com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment this$1 -> a
+    void onActionSelected(android.widget.TextView,boolean) -> a
+com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment$6 -> com.appslandia.phrasebuilder.ce:
+    com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment this$1 -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment$7 -> com.appslandia.phrasebuilder.cf:
+    com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment this$1 -> a
+    boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent) -> onEditorAction
+com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment$8 -> com.appslandia.phrasebuilder.cg:
+    com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment$9 -> com.appslandia.phrasebuilder.ch:
+    com.appslandia.phrasebuilder.PhraseListActivity$PlaceholderFragment this$1 -> a
+    void loadMoreItems() -> a
+com.appslandia.phrasebuilder.PhraseListAdapter -> com.appslandia.phrasebuilder.ci:
+    int resourceId -> a
+    android.view.LayoutInflater inflater -> b
+    java.util.List unlabeledList -> o
+    android.view.View$OnClickListener onLabelClickListener -> p
+    android.view.View$OnClickListener deleteButtonClickListener -> q
+    com.appslandia.core.views.LeoToggleView$OnToggleListener masteryToggleListener -> r
+    com.appslandia.phrasebuilder.entities.Phrase EMPTY_PHRASE -> s
+    java.util.List getUnlabeledList() -> b
+    com.appslandia.phrasebuilder.entities.Phrase getItem(int) -> c
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+com.appslandia.phrasebuilder.PhraseListAdapter$1 -> com.appslandia.phrasebuilder.cj:
+    com.appslandia.phrasebuilder.PhraseListAdapter this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseListAdapter$2 -> com.appslandia.phrasebuilder.ck:
+    com.appslandia.phrasebuilder.PhraseListAdapter this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseListAdapter$3 -> com.appslandia.phrasebuilder.cl:
+    com.appslandia.phrasebuilder.PhraseListAdapter this$0 -> a
+    void onToggle(android.view.View,boolean) -> a
+com.appslandia.phrasebuilder.PhraseListAdapter$Callbacks -> com.appslandia.phrasebuilder.cm:
+    void onAdapterDeletePhrase(com.appslandia.phrasebuilder.entities.Phrase) -> b
+    void onAdapterUpdateMastery(com.appslandia.phrasebuilder.entities.Phrase,boolean) -> a
+    void onAdapterClickLabel(com.appslandia.core.adapters.FilterableItem) -> a
+com.appslandia.phrasebuilder.PhraseListAdapter$ViewHolder -> com.appslandia.phrasebuilder.cn:
+    android.widget.TextView phraseTextView -> a
+    com.appslandia.core.views.LabelLayout labelLayout -> b
+    android.widget.TextView notesTextView -> c
+    android.widget.TextView lastUpdatedTextView -> d
+    com.appslandia.core.views.LeoToggleView masteryToggleButton -> e
+    android.view.View deleteButton -> f
+com.appslandia.phrasebuilder.PhraseListModel -> com.appslandia.phrasebuilder.co:
+    int languageId -> a
+    java.lang.String searchText -> b
+    java.util.Set listIds -> c
+    java.util.List phrases -> d
+    boolean setPhrases(com.appslandia.core.utils.DataList) -> a
+    boolean appendPhrases(com.appslandia.core.utils.DataList) -> b
+    void removePhrase(int) -> a
+    void addPhrase(com.appslandia.phrasebuilder.entities.Phrase) -> a
+    void updatePhrase(com.appslandia.phrasebuilder.entities.Phrase) -> b
+    void updateMastered(int,boolean) -> a
+    long getLastMemJustUpdated() -> a
+    void reset() -> b
+com.appslandia.phrasebuilder.PhraseMtc -> com.appslandia.phrasebuilder.cp:
+    java.lang.String[] keywordOptions -> a
+    int selectedIndex -> b
+    int correctIndex -> c
+    int optionEnabledBitMask -> d
+    android.text.Spannable[] phraseSpannables -> k
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    android.text.Spannable getPhraseSpannable(int) -> a
+    boolean isKeywordAvailable(int) -> b
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    int describeContents() -> describeContents
+    java.lang.String toString() -> toString
+com.appslandia.phrasebuilder.PhraseMtc$1 -> com.appslandia.phrasebuilder.cq:
+    com.appslandia.phrasebuilder.PhraseMtc createFromParcel(android.os.Parcel) -> a
+    com.appslandia.phrasebuilder.PhraseMtc[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+com.appslandia.phrasebuilder.PhraseTest -> com.appslandia.phrasebuilder.cr:
+    int _id -> e
+    java.lang.String phrase_text -> f
+    java.lang.String key_word -> g
+    java.lang.String labels -> h
+    java.lang.String notes -> i
+    boolean mastered -> j
+    java.util.List labelList -> a
+    com.appslandia.phrasebuilder.utils.PhraseSegs phraseSegs -> b
+    java.util.List getLabelList() -> a
+    com.appslandia.phrasebuilder.utils.PhraseSegs getPhraseSegs() -> b
+    java.lang.String toString() -> toString
+com.appslandia.phrasebuilder.PhraseTestActivity -> com.appslandia.phrasebuilder.PhraseTestActivity:
+    java.lang.String PREFERENCE_ID -> c
+    com.appslandia.core.views.TaskFragment taskFragment -> d
+    java.util.List paramTestPhrases -> e
+    void onPause() -> onPause
+    void saveActivityPrefs() -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onActionHelp() -> d
+    java.lang.Object onTaskExecute(int,java.lang.Object[]) -> a
+    void onTaskExecuted(int,java.lang.Object) -> a
+    void updateMasteredChange(com.appslandia.phrasebuilder.PhraseTest,boolean) -> a
+    com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment getPlaceholderFragment() -> e
+com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment -> com.appslandia.phrasebuilder.cs:
+    android.view.View mtcOptionLayout -> a
+    android.view.View fillInOptionLayout -> b
+    android.widget.TextView phraseIndexTextView -> c
+    com.appslandia.core.views.LeoToggleView masteryToggleView -> d
+    android.widget.TextView phraseTextTextView -> e
+    com.appslandia.core.views.LabelLayout labelFlowLayout -> f
+    android.widget.TextView notesTextView -> g
+    com.appslandia.core.views.LeoToggleView soundToggleView -> h
+    android.widget.RadioButton[] optionRadioButtons -> i
+    android.widget.ImageView[] optionResultIcons -> j
+    android.widget.ImageView fillInResultIcon -> k
+    android.view.View fillInShowResultButton -> l
+    android.widget.EditText keywordEditText -> m
+    com.appslandia.core.views.TextWatcherImpl keywordWatcher -> n
+    android.view.View prevButton -> o
+    android.view.View nextButton -> p
+    android.media.MediaPlayer mediaPlayer -> q
+    com.appslandia.core.utils.AssetDescManager assetDescManager -> r
+    int phraseIndex -> s
+    java.util.List testPhrases -> t
+    java.util.List unlabeledList -> u
+    boolean isLastQuestShowed -> v
+    java.util.List getUnlabeledList() -> a
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onDestroyView() -> onDestroyView
+    void onResume() -> onResume
+    void onPause() -> onPause
+    com.appslandia.core.utils.AssetDescManager getAssetDescManager() -> b
+    int getTestTypeId() -> c
+    void playResultSound(boolean) -> a
+    void updateMtcSelectedOption(int,com.appslandia.phrasebuilder.PhraseMtc,boolean) -> a
+    void updateMtcNotSelectedOption(int,com.appslandia.phrasebuilder.PhraseMtc) -> a
+    void updateMtcViews(com.appslandia.phrasebuilder.PhraseMtc,boolean) -> a
+    void modelToView_Mtc(com.appslandia.phrasebuilder.PhraseMtc,boolean) -> b
+    void modelToView_FillIn(com.appslandia.phrasebuilder.PhraseFillin,boolean) -> a
+    void updateFillInViews(com.appslandia.phrasebuilder.PhraseFillin,boolean) -> b
+    void updateNavigationViews() -> d
+    void handlePrevNextClicked() -> e
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment$1 -> com.appslandia.phrasebuilder.ct:
+    com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment this$1 -> a
+    void onToggle(android.view.View,boolean) -> a
+com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment$2 -> com.appslandia.phrasebuilder.cu:
+    com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment$3 -> com.appslandia.phrasebuilder.cv:
+    com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment$4 -> com.appslandia.phrasebuilder.cw:
+    com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment this$1 -> a
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment$5 -> com.appslandia.phrasebuilder.cx:
+    com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment$6 -> com.appslandia.phrasebuilder.cy:
+    com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment$7 -> com.appslandia.phrasebuilder.cz:
+    com.appslandia.phrasebuilder.PhraseTestActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseTestInputsActivity -> com.appslandia.phrasebuilder.PhraseTestInputsActivity:
+    java.lang.String PREFERENCE_ID -> b
+    java.lang.String PREFERENCE_LANGUAGE_ID -> c
+    com.appslandia.core.views.TaskFragment taskFragment -> d
+    int getParamLanguageId() -> b
+    void onPause() -> onPause
+    void saveActivityPrefs() -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onActionHelp() -> d
+    java.lang.Object onTaskExecute(int,java.lang.Object[]) -> a
+    void onTaskExecuted(int,java.lang.Object) -> a
+    void prepareTesting(com.appslandia.phrasebuilder.PhraseTestInputsActivity$TestSettingArgs) -> a
+    com.appslandia.phrasebuilder.PhraseTestInputsActivity$PlaceholderFragment getPlaceholderFragment() -> e
+com.appslandia.phrasebuilder.PhraseTestInputsActivity$PlaceholderFragment -> com.appslandia.phrasebuilder.da:
+    android.widget.Spinner languageSpinner -> a
+    android.widget.AutoCompleteTextView labelEditText -> b
+    com.appslandia.core.views.LabelEditLayout labelEditLayout -> c
+    android.widget.Spinner masteryTypeSpinner -> d
+    android.widget.Spinner dateCreatedSpinner -> e
+    android.widget.Spinner testTypeSpinner -> f
+    android.view.View startTestButton -> g
+    void onDestroyView() -> onDestroyView
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    void onActivityCreated(android.os.Bundle) -> onActivityCreated
+    android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
+    void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
+    void onLoaderReset(android.content.Loader) -> onLoaderReset
+com.appslandia.phrasebuilder.PhraseTestInputsActivity$PlaceholderFragment$1 -> com.appslandia.phrasebuilder.db:
+    com.appslandia.phrasebuilder.PhraseTestInputsActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseTestInputsActivity$PlaceholderFragment$2 -> com.appslandia.phrasebuilder.dc:
+    com.appslandia.phrasebuilder.PhraseTestInputsActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseTestInputsActivity$PlaceholderFragment$3 -> com.appslandia.phrasebuilder.dd:
+    com.appslandia.phrasebuilder.PhraseTestInputsActivity$PlaceholderFragment this$1 -> b
+    java.lang.Object loadData() -> a
+com.appslandia.phrasebuilder.PhraseTestInputsActivity$PlaceholderFragment$4 -> com.appslandia.phrasebuilder.de:
+    com.appslandia.phrasebuilder.PhraseTestInputsActivity$PlaceholderFragment this$1 -> b
+    java.lang.Object loadData() -> a
+com.appslandia.phrasebuilder.PhraseTestInputsActivity$TestSettingArgs -> com.appslandia.phrasebuilder.df:
+    int languageId -> a
+    java.util.List labelList -> b
+    int masteryTypeId -> c
+    int daysAgo -> d
+    int testTypeId -> e
+com.appslandia.phrasebuilder.PhraseTrashActivity -> com.appslandia.phrasebuilder.PhraseTrashActivity:
+    java.lang.String PREFERENCE_ID -> b
+    java.lang.String PREFERENCE_LANGUAGE_ID -> c
+    com.appslandia.core.views.TaskFragment taskFragment -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    int getParamLanguageId() -> b
+    void onPause() -> onPause
+    void saveActivityPrefs() -> c
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onActionHelp() -> d
+    void doPositiveClick(com.appslandia.core.views.ActionsDialog) -> a
+    void doNegativeClick(com.appslandia.core.views.ActionsDialog) -> b
+    void confirmDialog(int,int,com.appslandia.phrasebuilder.entities.Phrase) -> a
+    void onAdapterRestorePhrase(com.appslandia.phrasebuilder.entities.Phrase) -> a
+    void onAdapterDeleteForeverPhrase(com.appslandia.phrasebuilder.entities.Phrase) -> b
+    void onEmptyTrashSelected(int) -> a
+    int restorePhrase(int,int) -> a
+    java.lang.Object onTaskExecute(int,java.lang.Object[]) -> a
+    void onTaskExecuted(int,java.lang.Object) -> a
+    void refreshPhrases() -> e
+    com.appslandia.phrasebuilder.PhraseTrashActivity$PlaceholderFragment getPlaceholderFragment() -> f
+com.appslandia.phrasebuilder.PhraseTrashActivity$PlaceholderFragment -> com.appslandia.phrasebuilder.dg:
+    com.appslandia.core.views.LeoSpinner languageSpinner -> i
+    android.view.View emptyTrashBtn -> j
+    void onDestroyView() -> onDestroyView
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void refreshPhrases() -> c
+    int getViewResourceId() -> a
+    void initializeView(android.view.View) -> a
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onActivityCreated(android.os.Bundle) -> onActivityCreated
+    android.content.Loader onCreateLoader(int,android.os.Bundle) -> onCreateLoader
+    void onLoadFinished(android.content.Loader,java.lang.Object) -> onLoadFinished
+    void onLoaderReset(android.content.Loader) -> onLoaderReset
+com.appslandia.phrasebuilder.PhraseTrashActivity$PlaceholderFragment$1 -> com.appslandia.phrasebuilder.dh:
+    com.appslandia.phrasebuilder.PhraseTrashActivity$PlaceholderFragment this$1 -> a
+    void doOnItemSelected(android.widget.AdapterView,android.view.View,int,long) -> a
+com.appslandia.phrasebuilder.PhraseTrashActivity$PlaceholderFragment$2 -> com.appslandia.phrasebuilder.di:
+    com.appslandia.phrasebuilder.PhraseTrashActivity$PlaceholderFragment this$1 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseTrashActivity$PlaceholderFragment$3 -> com.appslandia.phrasebuilder.dj:
+    com.appslandia.phrasebuilder.PhraseTrashActivity$PlaceholderFragment this$1 -> b
+    java.lang.Object loadData() -> a
+com.appslandia.phrasebuilder.PhraseTrashActivity$PlaceholderFragment$4 -> com.appslandia.phrasebuilder.dk:
+    com.appslandia.phrasebuilder.PhraseTrashActivity$PlaceholderFragment this$1 -> b
+    android.os.Bundle val$args -> c
+    java.lang.Object loadData() -> a
+com.appslandia.phrasebuilder.PhraseTrashAdapter -> com.appslandia.phrasebuilder.dl:
+    int resourceId -> a
+    android.view.LayoutInflater inflater -> b
+    java.util.List unlabeledList -> o
+    android.view.View$OnClickListener restoreButtonClickListener -> p
+    android.view.View$OnClickListener deleteButtonClickListener -> q
+    java.util.List getUnlabeledList() -> b
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.appslandia.phrasebuilder.PhraseTrashAdapter$1 -> com.appslandia.phrasebuilder.dm:
+    com.appslandia.phrasebuilder.PhraseTrashAdapter this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseTrashAdapter$2 -> com.appslandia.phrasebuilder.dn:
+    com.appslandia.phrasebuilder.PhraseTrashAdapter this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.appslandia.phrasebuilder.PhraseTrashAdapter$Callbacks -> com.appslandia.phrasebuilder.do:
+    void onAdapterRestorePhrase(com.appslandia.phrasebuilder.entities.Phrase) -> a
+    void onAdapterDeleteForeverPhrase(com.appslandia.phrasebuilder.entities.Phrase) -> b
+com.appslandia.phrasebuilder.PhraseTrashAdapter$ViewHolder -> com.appslandia.phrasebuilder.dp:
+    android.widget.TextView phraseTextView -> a
+    com.appslandia.core.views.LabelLayout labelFlowLayout -> b
+    android.widget.TextView notesTextView -> c
+    android.widget.TextView dateDeletedTextView -> d
+    android.widget.ImageView restoreButton -> e
+    android.widget.ImageView deleteButton -> f
+com.appslandia.phrasebuilder.R -> com.appslandia.phrasebuilder.dq:
+com.appslandia.phrasebuilder.R$styleable -> com.appslandia.phrasebuilder.dr:
+    int[] LeoWidgets -> LeoWidgets
+    int LeoWidgets_hGapDp -> LeoWidgets_hGapDp
+    int LeoWidgets_leftIcon -> LeoWidgets_leftIcon
+    int LeoWidgets_rightIcon -> LeoWidgets_rightIcon
+    int LeoWidgets_stateOffSrc -> LeoWidgets_stateOffSrc
+    int LeoWidgets_stateOnSrc -> LeoWidgets_stateOnSrc
+    int LeoWidgets_underlineColor -> LeoWidgets_underlineColor
+    int LeoWidgets_vGapDp -> LeoWidgets_vGapDp
+    int LeoWidgets_xIcon -> LeoWidgets_xIcon
+com.appslandia.phrasebuilder.entities.Label -> com.appslandia.phrasebuilder.a.a:
+    int _id -> a
+    java.lang.String name -> b
+    java.lang.String s_name -> c
+    int phrase_count -> d
+    int mastered_count -> e
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    int getId() -> b
+    java.lang.String getName() -> c
+    java.lang.String getFilterName() -> a
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    int describeContents() -> describeContents
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.appslandia.phrasebuilder.entities.Label$1 -> com.appslandia.phrasebuilder.a.b:
+    com.appslandia.phrasebuilder.entities.Label createFromParcel(android.os.Parcel) -> a
+    com.appslandia.phrasebuilder.entities.Label[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+com.appslandia.phrasebuilder.entities.Language -> com.appslandia.phrasebuilder.a.c:
+    int _id -> a
+    java.lang.String name -> b
+    int lang_pos -> c
+    int phrase_count -> d
+    int mastered_count -> e
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    int getId() -> b
+    java.lang.String getName() -> c
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    int describeContents() -> describeContents
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.appslandia.phrasebuilder.entities.Language$1 -> com.appslandia.phrasebuilder.a.d:
+    com.appslandia.phrasebuilder.entities.Language createFromParcel(android.os.Parcel) -> a
+    com.appslandia.phrasebuilder.entities.Language[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+com.appslandia.phrasebuilder.entities.Phrase -> com.appslandia.phrasebuilder.a.e:
+    int _id -> a
+    java.lang.String phrase_text -> b
+    java.lang.String key_word -> c
+    java.lang.String s_keyword -> d
+    java.lang.String notes -> e
+    int language_id -> f
+    boolean mastered -> g
+    long last_updated -> h
+    long deleted -> i
+    int bundle_id -> j
+    long mem_just_updated -> k
+    java.lang.String labels -> l
+    java.util.List labelList -> m
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    java.util.List getLabelList() -> a
+    void setLabelList(java.util.List) -> a
+    int describeContents() -> describeContents
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    java.lang.String toString() -> toString
+com.appslandia.phrasebuilder.entities.Phrase$1 -> com.appslandia.phrasebuilder.a.f:
+    com.appslandia.phrasebuilder.entities.Phrase createFromParcel(android.os.Parcel) -> a
+    com.appslandia.phrasebuilder.entities.Phrase[] newArray(int) -> a
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+com.appslandia.phrasebuilder.sqlite.DbInitializer -> com.appslandia.phrasebuilder.b.a:
+    void initialize(android.database.sqlite.SQLiteDatabase) -> a
+    int insertLanguage(android.database.sqlite.SQLiteDatabase,java.lang.String,int) -> a
+    void insertLabel(android.database.sqlite.SQLiteDatabase,java.lang.String,java.util.Map) -> a
+    void insertPhrase(android.database.sqlite.SQLiteDatabase,java.lang.String,int,boolean,java.util.Map) -> a
+    void insertPhrase(android.database.sqlite.SQLiteDatabase,java.lang.String,int,boolean,java.util.Map,long) -> a
+com.appslandia.phrasebuilder.sqlite.DbManager -> com.appslandia.phrasebuilder.b.b:
+    com.appslandia.phrasebuilder.sqlite.DbManager instance -> c
+    java.lang.Object MUTEX -> a
+    boolean initialize -> b
+    int CURRENT_DB_VERSION() -> a
+    com.appslandia.phrasebuilder.sqlite.DbManager getInstance(android.content.Context) -> a
+    android.database.sqlite.SQLiteDatabase openRead(android.content.Context) -> b
+    android.database.sqlite.SQLiteDatabase openWrite(android.content.Context) -> c
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void initSampleData(android.database.sqlite.SQLiteDatabase) -> a
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.appslandia.phrasebuilder.sqlite.LabelDao -> com.appslandia.phrasebuilder.b.c:
+    void insert(android.database.sqlite.SQLiteDatabase,com.appslandia.phrasebuilder.entities.Label) -> a
+    void insertRestore(android.database.sqlite.SQLiteDatabase,com.appslandia.phrasebuilder.entities.Label) -> b
+    int update(android.database.sqlite.SQLiteDatabase,com.appslandia.phrasebuilder.entities.Label) -> c
+    int delete(android.database.sqlite.SQLiteDatabase,int) -> a
+    java.util.List queryLabels(android.database.sqlite.SQLiteDatabase) -> a
+    java.util.List queryStat(android.database.sqlite.SQLiteDatabase,int) -> b
+    boolean checkLabel(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.Integer) -> a
+com.appslandia.phrasebuilder.sqlite.LanguageDao -> com.appslandia.phrasebuilder.b.d:
+    void insert(android.database.sqlite.SQLiteDatabase,com.appslandia.phrasebuilder.entities.Language) -> a
+    void insertRestore(android.database.sqlite.SQLiteDatabase,com.appslandia.phrasebuilder.entities.Language) -> b
+    int update(android.database.sqlite.SQLiteDatabase,com.appslandia.phrasebuilder.entities.Language) -> c
+    int delete(android.database.sqlite.SQLiteDatabase,int) -> a
+    java.util.List queryLanguages(android.database.sqlite.SQLiteDatabase) -> a
+    java.util.List queryStat(android.database.sqlite.SQLiteDatabase) -> b
+    boolean checkLanguage(android.database.sqlite.SQLiteDatabase,java.lang.String,java.lang.Integer) -> a
+com.appslandia.phrasebuilder.sqlite.PhraseDao -> com.appslandia.phrasebuilder.b.e:
+    void insert(android.database.sqlite.SQLiteDatabase,com.appslandia.phrasebuilder.entities.Phrase) -> a
+    int update(android.database.sqlite.SQLiteDatabase,com.appslandia.phrasebuilder.entities.Phrase) -> b
+    int delete(android.database.sqlite.SQLiteDatabase,int) -> a
+    int restore(android.database.sqlite.SQLiteDatabase,int,long) -> a
+    int deleteForever(android.database.sqlite.SQLiteDatabase,int) -> b
+    int deleteTrash(android.database.sqlite.SQLiteDatabase,int) -> c
+    java.util.List search(android.database.sqlite.SQLiteDatabase,int,long,java.lang.String) -> a
+    int updateMasteredTag(android.database.sqlite.SQLiteDatabase,int,boolean) -> a
+    int deleteByLanguage(android.database.sqlite.SQLiteDatabase,int) -> d
+    java.util.List loadDeletedPhrases(android.database.sqlite.SQLiteDatabase,int) -> e
+    java.util.List loadTestPhrases(android.database.sqlite.SQLiteDatabase,int,int,int,java.util.List) -> a
+    java.util.List loadKeywords(android.database.sqlite.SQLiteDatabase,int) -> f
+com.appslandia.phrasebuilder.sqlite.PhraseLabelDao -> com.appslandia.phrasebuilder.b.f:
+    long insert(android.database.sqlite.SQLiteDatabase,int,int) -> a
+    int delete(android.database.sqlite.SQLiteDatabase,int,int) -> b
+    int deleteByLabel(android.database.sqlite.SQLiteDatabase,int) -> a
+com.appslandia.phrasebuilder.sqlite.SQLiteUpgrader_v1_v2 -> com.appslandia.phrasebuilder.b.g:
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> a
+com.appslandia.phrasebuilder.utils.AppBackupUtils -> com.appslandia.phrasebuilder.c.a:
+    void tryCreateInexactRepeatingBackup(android.content.Context) -> a
+com.appslandia.phrasebuilder.utils.LabelUtils -> com.appslandia.phrasebuilder.c.b:
+    java.util.List EMPTY_LABELS -> a
+    java.util.Comparator LABEL_COMPARATOR -> b
+    java.util.List createLabelList() -> b
+    java.util.List toLabelList(java.lang.String) -> a
+    void sortLabelList(java.util.List) -> a
+    com.appslandia.core.adapters.FilterableItem parseLabel(java.lang.String) -> b
+    java.lang.String toLabels(java.util.List) -> b
+    java.util.List copyLabelList(java.util.List) -> c
+    java.util.List getUnlabeledList() -> a
+com.appslandia.phrasebuilder.utils.LabelUtils$1 -> com.appslandia.phrasebuilder.c.c:
+    int compare(com.appslandia.core.adapters.FilterableItem,com.appslandia.core.adapters.FilterableItem) -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.appslandia.phrasebuilder.utils.PhraseBuilderUtils -> com.appslandia.phrasebuilder.c.d:
+    void shareUs(android.app.Activity) -> a
+com.appslandia.phrasebuilder.utils.PhraseSegs -> com.appslandia.phrasebuilder.c.e:
+    java.lang.String text1 -> a
+    java.lang.String text3 -> b
+com.appslandia.phrasebuilder.utils.PhraseTestUtils -> com.appslandia.phrasebuilder.c.f:
+    java.util.List getMasteryList(android.content.res.Resources) -> a
+    java.util.List getTestTypeList(android.content.res.Resources) -> b
+    java.util.List getDateCreatedList(android.content.res.Resources) -> c
+    java.util.List generateUnspecifiedTest(java.util.List,java.util.List,android.content.res.Resources) -> a
+    java.util.List generateMtcTest(java.util.List,java.util.List,android.content.res.Resources) -> b
+    com.appslandia.phrasebuilder.PhraseMtc buildPhraseMtc(com.appslandia.phrasebuilder.entities.Phrase,java.util.List,com.appslandia.phrasebuilder.utils.PhraseTestUtils$OptIndexes,android.content.res.Resources) -> a
+    java.util.List generateFillInTest(java.util.List) -> a
+    com.appslandia.phrasebuilder.PhraseFillin buildPhraseFillIn(com.appslandia.phrasebuilder.entities.Phrase) -> a
+    void randomOptIndexes(int,com.appslandia.phrasebuilder.utils.PhraseTestUtils$OptIndexes) -> a
+com.appslandia.phrasebuilder.utils.PhraseTestUtils$OptIndexes -> com.appslandia.phrasebuilder.c.g:
+    int index0 -> a
+    int index1 -> b
+    int index2 -> c
+    int index3 -> d
+com.appslandia.phrasebuilder.utils.PhraseUtils -> com.appslandia.phrasebuilder.c.h:
+    java.lang.String KEYWORD_BLANK1 -> a
+    java.lang.String KEYWORD_BLANK2 -> b
+    com.appslandia.phrasebuilder.entities.Language getNoLanguage(android.content.res.Resources) -> a
+    java.lang.String truncatePhrase(java.lang.String) -> a
+    android.text.Spannable createPhraseTextSpan(java.lang.String,java.lang.String) -> a
+    com.appslandia.phrasebuilder.utils.PhraseSegs parsePhraseSegs(java.lang.String,java.lang.String) -> b
+    android.text.Spannable createPhraseTextSpan(com.appslandia.phrasebuilder.utils.PhraseSegs) -> a
+    android.text.Spannable createPhraseTextSpan(com.appslandia.phrasebuilder.utils.PhraseSegs,java.lang.String,boolean) -> a

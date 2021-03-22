@@ -4,4 +4,4 @@
  - Able to search vocabularies by words or tag
  - Able to generate flash cards
  - Able to generate vocabulary tests
- 
+ - Able to backup/restore vocabularies
